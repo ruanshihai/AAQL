@@ -1,0 +1,20 @@
+# AQL语义规则
+
+## 说明
+pattern不支持对repeat或者alt内部的捕获
+pattern中的<Token>不能处于括号的内边界，也就是左右必须有<column>或者正则
+pattern_alt两侧的元素不能是pattern_opt，否则optinal语义失效
+
+## 非法示例
+<Token> ?
+<Token> {m, n} ?
+(<Token> ?) {m, n}
+(<column> ?) {m, n}
+(/reg_expr/ ?) {m, n}
+
+## 合法示例
+/hello/ | /HELLO/ | <column>
+<column> {m, n} ?
+(<column> {m, n}) ?
+(<column> {m, n} ?)
+(<column> <column>) {m, n} ?

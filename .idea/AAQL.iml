@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aql_func.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/aql_func.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/extractor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/extractor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lexer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/lexer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/nodes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/nodes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_apply_func.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_apply_func.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_block.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_block.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_create.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_create.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_create_dict.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_create_dict.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_dictionary.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_dictionary.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_filter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_filter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_join.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_join.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_output.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_output.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_project.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_project.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_regex.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_regex.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_scan.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_scan.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_union.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/op_union.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/operator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/operator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/parser.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/parser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/plan_nodes.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/plan_nodes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/query_plan.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/query_plan.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/storage.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/storage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/tokenizer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/tokenizer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/util.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/util.h" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/gcc-4.9.3/include" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include-fixed" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include/cilk" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include/sanitizer" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include/ssp" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/gcc-4.9.3/include" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include-fixed" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include/cilk" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include/sanitizer" />
+          <root url="file:///usr/local/gcc-4.9.3/lib/gcc/x86_64-unknown-linux-gnu/4.9.3/include/ssp" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

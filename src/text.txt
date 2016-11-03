@@ -1,0 +1,1144 @@
+All tokens:
+[1]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 1,	colno: 0,	content: "create"
+[2]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 1,	colno: 7,	content: "view"
+[3]	Tag: 258,	type: ID,	length: 3,	lineno: 1,	colno: 12,	content: "Cap"
+[4]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 1,	colno: 16,	content: "as"
+[5]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 2,	colno: 2,	content: "extract"
+[6]	Tag: 1007,	type: KEYWORD,	length: 5,	lineno: 2,	colno: 10,	content: "regex"
+[7]	Tag: 259,	type: REG_EXPR,	length: 13,	lineno: 2,	colno: 16,	content: "[A-Z][a-z]*"
+[8]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 3,	colno: 4,	content: "on"
+[9]	Tag: 258,	type: ID,	length: 1,	lineno: 3,	colno: 7,	content: "D"
+[10]	Tag: 46,	type: CHAR,	length: 1,	lineno: 3,	colno: 8,	content: "."
+[11]	Tag: 258,	type: ID,	length: 4,	lineno: 3,	colno: 9,	content: "text"
+[12]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 3,	colno: 14,	content: "as"
+[13]	Tag: 258,	type: ID,	length: 3,	lineno: 3,	colno: 17,	content: "Cap"
+[14]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 4,	colno: 2,	content: "from"
+[15]	Tag: 258,	type: ID,	length: 8,	lineno: 4,	colno: 7,	content: "Document"
+[16]	Tag: 258,	type: ID,	length: 1,	lineno: 4,	colno: 16,	content: "D"
+[17]	Tag: 59,	type: CHAR,	length: 1,	lineno: 4,	colno: 17,	content: ";"
+[18]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 5,	colno: 0,	content: "output"
+[19]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 5,	colno: 7,	content: "view"
+[20]	Tag: 258,	type: ID,	length: 3,	lineno: 5,	colno: 12,	content: "Cap"
+[21]	Tag: 59,	type: CHAR,	length: 1,	lineno: 5,	colno: 15,	content: ";"
+[22]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 7,	colno: 0,	content: "create"
+[23]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 7,	colno: 7,	content: "view"
+[24]	Tag: 258,	type: ID,	length: 3,	lineno: 7,	colno: 12,	content: "Stt"
+[25]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 7,	colno: 16,	content: "as"
+[26]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 8,	colno: 2,	content: "extract"
+[27]	Tag: 1007,	type: KEYWORD,	length: 5,	lineno: 8,	colno: 10,	content: "regex"
+[28]	Tag: 259,	type: REG_EXPR,	length: 29,	lineno: 8,	colno: 16,	content: "Washington|Georgia|Virginia"
+[29]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 9,	colno: 4,	content: "on"
+[30]	Tag: 258,	type: ID,	length: 1,	lineno: 9,	colno: 7,	content: "D"
+[31]	Tag: 46,	type: CHAR,	length: 1,	lineno: 9,	colno: 8,	content: "."
+[32]	Tag: 258,	type: ID,	length: 4,	lineno: 9,	colno: 9,	content: "text"
+[33]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 10,	colno: 4,	content: "return"
+[34]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 10,	colno: 11,	content: "group"
+[35]	Tag: 256,	type: NUM,	length: 1,	lineno: 10,	colno: 17,	content: "0"
+[36]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 10,	colno: 19,	content: "as"
+[37]	Tag: 258,	type: ID,	length: 3,	lineno: 10,	colno: 22,	content: "Stt"
+[38]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 11,	colno: 2,	content: "from"
+[39]	Tag: 258,	type: ID,	length: 8,	lineno: 11,	colno: 7,	content: "Document"
+[40]	Tag: 258,	type: ID,	length: 1,	lineno: 11,	colno: 16,	content: "D"
+[41]	Tag: 59,	type: CHAR,	length: 1,	lineno: 11,	colno: 17,	content: ";"
+[42]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 12,	colno: 0,	content: "output"
+[43]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 12,	colno: 7,	content: "view"
+[44]	Tag: 258,	type: ID,	length: 3,	lineno: 12,	colno: 12,	content: "Stt"
+[45]	Tag: 59,	type: CHAR,	length: 1,	lineno: 12,	colno: 15,	content: ";"
+[46]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 14,	colno: 0,	content: "create"
+[47]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 14,	colno: 7,	content: "view"
+[48]	Tag: 258,	type: ID,	length: 3,	lineno: 14,	colno: 12,	content: "Loc"
+[49]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 14,	colno: 16,	content: "as"
+[50]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 15,	colno: 2,	content: "extract"
+[51]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 15,	colno: 10,	content: "pattern"
+[52]	Tag: 40,	type: CHAR,	length: 1,	lineno: 15,	colno: 18,	content: "("
+[53]	Tag: 60,	type: CHAR,	length: 1,	lineno: 15,	colno: 19,	content: "<"
+[54]	Tag: 258,	type: ID,	length: 1,	lineno: 15,	colno: 20,	content: "C"
+[55]	Tag: 46,	type: CHAR,	length: 1,	lineno: 15,	colno: 21,	content: "."
+[56]	Tag: 258,	type: ID,	length: 3,	lineno: 15,	colno: 22,	content: "Cap"
+[57]	Tag: 62,	type: CHAR,	length: 1,	lineno: 15,	colno: 25,	content: ">"
+[58]	Tag: 41,	type: CHAR,	length: 1,	lineno: 15,	colno: 26,	content: ")"
+[59]	Tag: 259,	type: REG_EXPR,	length: 3,	lineno: 15,	colno: 28,	content: ","
+[60]	Tag: 40,	type: CHAR,	length: 1,	lineno: 15,	colno: 32,	content: "("
+[61]	Tag: 60,	type: CHAR,	length: 1,	lineno: 15,	colno: 33,	content: "<"
+[62]	Tag: 258,	type: ID,	length: 1,	lineno: 15,	colno: 34,	content: "S"
+[63]	Tag: 46,	type: CHAR,	length: 1,	lineno: 15,	colno: 35,	content: "."
+[64]	Tag: 258,	type: ID,	length: 3,	lineno: 15,	colno: 36,	content: "Stt"
+[65]	Tag: 62,	type: CHAR,	length: 1,	lineno: 15,	colno: 39,	content: ">"
+[66]	Tag: 41,	type: CHAR,	length: 1,	lineno: 15,	colno: 40,	content: ")"
+[67]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 16,	colno: 2,	content: "return"
+[68]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 16,	colno: 9,	content: "group"
+[69]	Tag: 256,	type: NUM,	length: 1,	lineno: 16,	colno: 15,	content: "0"
+[70]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 16,	colno: 17,	content: "as"
+[71]	Tag: 258,	type: ID,	length: 3,	lineno: 16,	colno: 20,	content: "Loc"
+[72]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 17,	colno: 4,	content: "and"
+[73]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 17,	colno: 8,	content: "group"
+[74]	Tag: 256,	type: NUM,	length: 1,	lineno: 17,	colno: 14,	content: "1"
+[75]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 17,	colno: 16,	content: "as"
+[76]	Tag: 258,	type: ID,	length: 3,	lineno: 17,	colno: 19,	content: "Cap"
+[77]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 18,	colno: 4,	content: "and"
+[78]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 18,	colno: 8,	content: "group"
+[79]	Tag: 256,	type: NUM,	length: 1,	lineno: 18,	colno: 14,	content: "2"
+[80]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 18,	colno: 16,	content: "as"
+[81]	Tag: 258,	type: ID,	length: 3,	lineno: 18,	colno: 19,	content: "Stt"
+[82]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 19,	colno: 2,	content: "from"
+[83]	Tag: 258,	type: ID,	length: 3,	lineno: 19,	colno: 7,	content: "Cap"
+[84]	Tag: 258,	type: ID,	length: 1,	lineno: 19,	colno: 11,	content: "C"
+[85]	Tag: 44,	type: CHAR,	length: 1,	lineno: 19,	colno: 12,	content: ","
+[86]	Tag: 258,	type: ID,	length: 3,	lineno: 19,	colno: 14,	content: "Stt"
+[87]	Tag: 258,	type: ID,	length: 1,	lineno: 19,	colno: 18,	content: "S"
+[88]	Tag: 59,	type: CHAR,	length: 1,	lineno: 19,	colno: 19,	content: ";"
+[89]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 21,	colno: 0,	content: "create"
+[90]	Tag: 1018,	type: CHAR,	length: 4,	lineno: 21,	colno: 7,	content: "ú"
+[91]	Tag: 258,	type: ID,	length: 7,	lineno: 21,	colno: 12,	content: "locrule"
+[92]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 21,	colno: 20,	content: "as"
+[93]	Tag: 1019,	type: CHAR,	length: 5,	lineno: 22,	colno: 2,	content: "û"
+[94]	Tag: 258,	type: ID,	length: 7,	lineno: 22,	colno: 8,	content: "Earlier"
+[95]	Tag: 40,	type: CHAR,	length: 1,	lineno: 22,	colno: 15,	content: "("
+[96]	Tag: 258,	type: ID,	length: 2,	lineno: 22,	colno: 16,	content: "r1"
+[97]	Tag: 46,	type: CHAR,	length: 1,	lineno: 22,	colno: 18,	content: "."
+[98]	Tag: 258,	type: ID,	length: 3,	lineno: 22,	colno: 19,	content: "Loc"
+[99]	Tag: 44,	type: CHAR,	length: 1,	lineno: 22,	colno: 22,	content: ","
+[100]	Tag: 258,	type: ID,	length: 2,	lineno: 22,	colno: 24,	content: "r2"
+[101]	Tag: 46,	type: CHAR,	length: 1,	lineno: 22,	colno: 26,	content: "."
+[102]	Tag: 258,	type: ID,	length: 3,	lineno: 22,	colno: 27,	content: "Loc"
+[103]	Tag: 41,	type: CHAR,	length: 1,	lineno: 22,	colno: 30,	content: ")"
+[104]	Tag: 1025,	type: CHAR,	length: 2,	lineno: 22,	colno: 32,	content: ""
+[105]	Tag: 258,	type: ID,	length: 2,	lineno: 22,	colno: 35,	content: "r1"
+[106]	Tag: 62,	type: CHAR,	length: 1,	lineno: 22,	colno: 38,	content: ">"
+[107]	Tag: 258,	type: ID,	length: 2,	lineno: 22,	colno: 40,	content: "r2"
+[108]	Tag: 1020,	type: CHAR,	length: 4,	lineno: 23,	colno: 8,	content: "ü"
+[109]	Tag: 258,	type: ID,	length: 2,	lineno: 23,	colno: 13,	content: "r1"
+[110]	Tag: 1024,	type: CHAR,	length: 2,	lineno: 23,	colno: 16,	content: " "
+[111]	Tag: 258,	type: ID,	length: 3,	lineno: 23,	colno: 19,	content: "Loc"
+[112]	Tag: 44,	type: CHAR,	length: 1,	lineno: 23,	colno: 22,	content: ","
+[113]	Tag: 258,	type: ID,	length: 2,	lineno: 23,	colno: 24,	content: "r2"
+[114]	Tag: 1024,	type: CHAR,	length: 2,	lineno: 23,	colno: 27,	content: " "
+[115]	Tag: 258,	type: ID,	length: 3,	lineno: 23,	colno: 30,	content: "Loc"
+[116]	Tag: 1023,	type: CHAR,	length: 4,	lineno: 24,	colno: 2,	content: "ÿ"
+[117]	Tag: 258,	type: ID,	length: 7,	lineno: 24,	colno: 7,	content: "overlap"
+[118]	Tag: 40,	type: CHAR,	length: 1,	lineno: 24,	colno: 14,	content: "("
+[119]	Tag: 258,	type: ID,	length: 2,	lineno: 24,	colno: 15,	content: "r1"
+[120]	Tag: 46,	type: CHAR,	length: 1,	lineno: 24,	colno: 17,	content: "."
+[121]	Tag: 258,	type: ID,	length: 3,	lineno: 24,	colno: 18,	content: "Loc"
+[122]	Tag: 44,	type: CHAR,	length: 1,	lineno: 24,	colno: 21,	content: ","
+[123]	Tag: 258,	type: ID,	length: 2,	lineno: 24,	colno: 23,	content: "r2"
+[124]	Tag: 46,	type: CHAR,	length: 1,	lineno: 24,	colno: 25,	content: "."
+[125]	Tag: 258,	type: ID,	length: 3,	lineno: 24,	colno: 26,	content: "Loc"
+[126]	Tag: 41,	type: CHAR,	length: 1,	lineno: 24,	colno: 29,	content: ")"
+[127]	Tag: 59,	type: CHAR,	length: 1,	lineno: 24,	colno: 30,	content: ";"
+[128]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 27,	colno: 0,	content: "create"
+[129]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 27,	colno: 7,	content: "view"
+[130]	Tag: 258,	type: ID,	length: 3,	lineno: 27,	colno: 12,	content: "Per"
+[131]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 27,	colno: 16,	content: "as"
+[132]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 28,	colno: 2,	content: "extract"
+[133]	Tag: 1007,	type: KEYWORD,	length: 5,	lineno: 28,	colno: 10,	content: "regex"
+[134]	Tag: 259,	type: REG_EXPR,	length: 13,	lineno: 28,	colno: 16,	content: "[A-Z][a-z]*"
+[135]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 29,	colno: 4,	content: "on"
+[136]	Tag: 258,	type: ID,	length: 1,	lineno: 29,	colno: 7,	content: "D"
+[137]	Tag: 46,	type: CHAR,	length: 1,	lineno: 29,	colno: 8,	content: "."
+[138]	Tag: 258,	type: ID,	length: 4,	lineno: 29,	colno: 9,	content: "text"
+[139]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 30,	colno: 4,	content: "return"
+[140]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 30,	colno: 11,	content: "group"
+[141]	Tag: 256,	type: NUM,	length: 1,	lineno: 30,	colno: 17,	content: "0"
+[142]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 30,	colno: 19,	content: "as"
+[143]	Tag: 258,	type: ID,	length: 3,	lineno: 30,	colno: 22,	content: "Per"
+[144]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 31,	colno: 2,	content: "from"
+[145]	Tag: 258,	type: ID,	length: 8,	lineno: 31,	colno: 7,	content: "Document"
+[146]	Tag: 258,	type: ID,	length: 1,	lineno: 31,	colno: 16,	content: "D"
+[147]	Tag: 59,	type: CHAR,	length: 1,	lineno: 31,	colno: 17,	content: ";"
+[148]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 33,	colno: 0,	content: "create"
+[149]	Tag: 1018,	type: CHAR,	length: 4,	lineno: 33,	colno: 7,	content: "ú"
+[150]	Tag: 258,	type: ID,	length: 6,	lineno: 33,	colno: 12,	content: "plrule"
+[151]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 33,	colno: 19,	content: "as"
+[152]	Tag: 1019,	type: CHAR,	length: 5,	lineno: 34,	colno: 2,	content: "û"
+[153]	Tag: 258,	type: ID,	length: 4,	lineno: 34,	colno: 8,	content: "True"
+[154]	Tag: 40,	type: CHAR,	length: 1,	lineno: 34,	colno: 12,	content: "("
+[155]	Tag: 41,	type: CHAR,	length: 1,	lineno: 34,	colno: 13,	content: ")"
+[156]	Tag: 1025,	type: CHAR,	length: 2,	lineno: 34,	colno: 15,	content: ""
+[157]	Tag: 258,	type: ID,	length: 2,	lineno: 34,	colno: 18,	content: "r1"
+[158]	Tag: 62,	type: CHAR,	length: 1,	lineno: 34,	colno: 21,	content: ">"
+[159]	Tag: 258,	type: ID,	length: 2,	lineno: 34,	colno: 23,	content: "r2"
+[160]	Tag: 1020,	type: CHAR,	length: 4,	lineno: 35,	colno: 8,	content: "ü"
+[161]	Tag: 258,	type: ID,	length: 2,	lineno: 35,	colno: 13,	content: "r1"
+[162]	Tag: 1024,	type: CHAR,	length: 2,	lineno: 35,	colno: 16,	content: " "
+[163]	Tag: 258,	type: ID,	length: 3,	lineno: 35,	colno: 19,	content: "Loc"
+[164]	Tag: 44,	type: CHAR,	length: 1,	lineno: 35,	colno: 22,	content: ","
+[165]	Tag: 258,	type: ID,	length: 2,	lineno: 35,	colno: 24,	content: "r2"
+[166]	Tag: 1024,	type: CHAR,	length: 2,	lineno: 35,	colno: 27,	content: " "
+[167]	Tag: 258,	type: ID,	length: 3,	lineno: 35,	colno: 30,	content: "Per"
+[168]	Tag: 1023,	type: CHAR,	length: 4,	lineno: 36,	colno: 2,	content: "ÿ"
+[169]	Tag: 258,	type: ID,	length: 7,	lineno: 36,	colno: 7,	content: "overlap"
+[170]	Tag: 40,	type: CHAR,	length: 1,	lineno: 36,	colno: 14,	content: "("
+[171]	Tag: 258,	type: ID,	length: 2,	lineno: 36,	colno: 15,	content: "r1"
+[172]	Tag: 46,	type: CHAR,	length: 1,	lineno: 36,	colno: 17,	content: "."
+[173]	Tag: 258,	type: ID,	length: 3,	lineno: 36,	colno: 18,	content: "Loc"
+[174]	Tag: 44,	type: CHAR,	length: 1,	lineno: 36,	colno: 21,	content: ","
+[175]	Tag: 258,	type: ID,	length: 2,	lineno: 36,	colno: 23,	content: "r2"
+[176]	Tag: 46,	type: CHAR,	length: 1,	lineno: 36,	colno: 25,	content: "."
+[177]	Tag: 258,	type: ID,	length: 3,	lineno: 36,	colno: 26,	content: "Per"
+[178]	Tag: 41,	type: CHAR,	length: 1,	lineno: 36,	colno: 29,	content: ")"
+[179]	Tag: 59,	type: CHAR,	length: 1,	lineno: 36,	colno: 30,	content: ";"
+[180]	Tag: 1022,	type: CHAR,	length: 5,	lineno: 38,	colno: 0,	content: "þ"
+[181]	Tag: 258,	type: ID,	length: 7,	lineno: 38,	colno: 6,	content: "locrule"
+[182]	Tag: 44,	type: CHAR,	length: 1,	lineno: 38,	colno: 13,	content: ","
+[183]	Tag: 258,	type: ID,	length: 6,	lineno: 38,	colno: 15,	content: "plrule"
+[184]	Tag: 59,	type: CHAR,	length: 1,	lineno: 38,	colno: 21,	content: ";"
+[185]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 40,	colno: 0,	content: "output"
+[186]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 40,	colno: 7,	content: "view"
+[187]	Tag: 258,	type: ID,	length: 3,	lineno: 40,	colno: 12,	content: "Loc"
+[188]	Tag: 59,	type: CHAR,	length: 1,	lineno: 40,	colno: 15,	content: ";"
+[189]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 41,	colno: 0,	content: "output"
+[190]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 41,	colno: 7,	content: "view"
+[191]	Tag: 258,	type: ID,	length: 3,	lineno: 41,	colno: 12,	content: "Per"
+[192]	Tag: 59,	type: CHAR,	length: 1,	lineno: 41,	colno: 15,	content: ";"
+[193]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 43,	colno: 0,	content: "create"
+[194]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 43,	colno: 7,	content: "view"
+[195]	Tag: 258,	type: ID,	length: 6,	lineno: 43,	colno: 12,	content: "PerLoc"
+[196]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 43,	colno: 19,	content: "as"
+[197]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 44,	colno: 2,	content: "extract"
+[198]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 44,	colno: 10,	content: "pattern"
+[199]	Tag: 40,	type: CHAR,	length: 1,	lineno: 44,	colno: 18,	content: "("
+[200]	Tag: 60,	type: CHAR,	length: 1,	lineno: 44,	colno: 19,	content: "<"
+[201]	Tag: 258,	type: ID,	length: 1,	lineno: 44,	colno: 20,	content: "P"
+[202]	Tag: 46,	type: CHAR,	length: 1,	lineno: 44,	colno: 21,	content: "."
+[203]	Tag: 258,	type: ID,	length: 3,	lineno: 44,	colno: 22,	content: "Per"
+[204]	Tag: 62,	type: CHAR,	length: 1,	lineno: 44,	colno: 25,	content: ">"
+[205]	Tag: 41,	type: CHAR,	length: 1,	lineno: 44,	colno: 26,	content: ")"
+[206]	Tag: 60,	type: CHAR,	length: 1,	lineno: 44,	colno: 28,	content: "<"
+[207]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 44,	colno: 29,	content: "Token"
+[208]	Tag: 62,	type: CHAR,	length: 1,	lineno: 44,	colno: 34,	content: ">"
+[209]	Tag: 123,	type: CHAR,	length: 1,	lineno: 44,	colno: 35,	content: "{"
+[210]	Tag: 256,	type: NUM,	length: 1,	lineno: 44,	colno: 36,	content: "1"
+[211]	Tag: 44,	type: CHAR,	length: 1,	lineno: 44,	colno: 37,	content: ","
+[212]	Tag: 256,	type: NUM,	length: 1,	lineno: 44,	colno: 38,	content: "2"
+[213]	Tag: 125,	type: CHAR,	length: 1,	lineno: 44,	colno: 39,	content: "}"
+[214]	Tag: 40,	type: CHAR,	length: 1,	lineno: 44,	colno: 41,	content: "("
+[215]	Tag: 60,	type: CHAR,	length: 1,	lineno: 44,	colno: 42,	content: "<"
+[216]	Tag: 258,	type: ID,	length: 1,	lineno: 44,	colno: 43,	content: "L"
+[217]	Tag: 46,	type: CHAR,	length: 1,	lineno: 44,	colno: 44,	content: "."
+[218]	Tag: 258,	type: ID,	length: 3,	lineno: 44,	colno: 45,	content: "Loc"
+[219]	Tag: 62,	type: CHAR,	length: 1,	lineno: 44,	colno: 48,	content: ">"
+[220]	Tag: 41,	type: CHAR,	length: 1,	lineno: 44,	colno: 49,	content: ")"
+[221]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 45,	colno: 2,	content: "return"
+[222]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 45,	colno: 9,	content: "group"
+[223]	Tag: 256,	type: NUM,	length: 1,	lineno: 45,	colno: 15,	content: "0"
+[224]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 45,	colno: 17,	content: "as"
+[225]	Tag: 258,	type: ID,	length: 6,	lineno: 45,	colno: 20,	content: "PerLoc"
+[226]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 46,	colno: 4,	content: "and"
+[227]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 46,	colno: 8,	content: "group"
+[228]	Tag: 256,	type: NUM,	length: 1,	lineno: 46,	colno: 14,	content: "1"
+[229]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 46,	colno: 16,	content: "as"
+[230]	Tag: 258,	type: ID,	length: 3,	lineno: 46,	colno: 19,	content: "Per"
+[231]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 47,	colno: 4,	content: "and"
+[232]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 47,	colno: 8,	content: "group"
+[233]	Tag: 256,	type: NUM,	length: 1,	lineno: 47,	colno: 14,	content: "2"
+[234]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 47,	colno: 16,	content: "as"
+[235]	Tag: 258,	type: ID,	length: 3,	lineno: 47,	colno: 19,	content: "Loc"
+[236]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 48,	colno: 2,	content: "from"
+[237]	Tag: 258,	type: ID,	length: 3,	lineno: 48,	colno: 7,	content: "Per"
+[238]	Tag: 258,	type: ID,	length: 1,	lineno: 48,	colno: 11,	content: "P"
+[239]	Tag: 44,	type: CHAR,	length: 1,	lineno: 48,	colno: 12,	content: ","
+[240]	Tag: 258,	type: ID,	length: 3,	lineno: 48,	colno: 14,	content: "Loc"
+[241]	Tag: 258,	type: ID,	length: 1,	lineno: 48,	colno: 18,	content: "L"
+[242]	Tag: 59,	type: CHAR,	length: 1,	lineno: 48,	colno: 19,	content: ";"
+[243]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 49,	colno: 0,	content: "output"
+[244]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 49,	colno: 7,	content: "view"
+[245]	Tag: 258,	type: ID,	length: 6,	lineno: 49,	colno: 12,	content: "PerLoc"
+[246]	Tag: 59,	type: CHAR,	length: 1,	lineno: 49,	colno: 18,	content: ";"
+[247]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 51,	colno: 0,	content: "create"
+[248]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 51,	colno: 7,	content: "view"
+[249]	Tag: 258,	type: ID,	length: 10,	lineno: 51,	colno: 12,	content: "PerLocOnly"
+[250]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 51,	colno: 23,	content: "as"
+[251]	Tag: 1002,	type: KEYWORD,	length: 6,	lineno: 52,	colno: 2,	content: "select"
+[252]	Tag: 258,	type: ID,	length: 2,	lineno: 52,	colno: 9,	content: "PL"
+[253]	Tag: 46,	type: CHAR,	length: 1,	lineno: 52,	colno: 11,	content: "."
+[254]	Tag: 258,	type: ID,	length: 6,	lineno: 52,	colno: 12,	content: "PerLoc"
+[255]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 52,	colno: 19,	content: "as"
+[256]	Tag: 258,	type: ID,	length: 6,	lineno: 52,	colno: 22,	content: "PerLoc"
+[257]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 53,	colno: 2,	content: "from"
+[258]	Tag: 258,	type: ID,	length: 6,	lineno: 53,	colno: 7,	content: "PerLoc"
+[259]	Tag: 258,	type: ID,	length: 2,	lineno: 53,	colno: 14,	content: "PL"
+[260]	Tag: 59,	type: CHAR,	length: 1,	lineno: 53,	colno: 16,	content: ";"
+[261]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 54,	colno: 0,	content: "output"
+[262]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 54,	colno: 7,	content: "view"
+[263]	Tag: 258,	type: ID,	length: 10,	lineno: 54,	colno: 12,	content: "PerLocOnly"
+[264]	Tag: 59,	type: CHAR,	length: 1,	lineno: 54,	colno: 22,	content: ";"
+[265]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 56,	colno: 0,	content: "create"
+[266]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 56,	colno: 7,	content: "view"
+[267]	Tag: 258,	type: ID,	length: 2,	lineno: 56,	colno: 12,	content: "Zh"
+[268]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 56,	colno: 15,	content: "as"
+[269]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 57,	colno: 2,	content: "extract"
+[270]	Tag: 1007,	type: KEYWORD,	length: 5,	lineno: 57,	colno: 10,	content: "regex"
+[271]	Tag: 259,	type: REG_EXPR,	length: 14,	lineno: 57,	colno: 16,	content: "ä»Šå¤©[a-z]*"
+[272]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 58,	colno: 4,	content: "on"
+[273]	Tag: 258,	type: ID,	length: 1,	lineno: 58,	colno: 7,	content: "D"
+[274]	Tag: 46,	type: CHAR,	length: 1,	lineno: 58,	colno: 8,	content: "."
+[275]	Tag: 258,	type: ID,	length: 4,	lineno: 58,	colno: 9,	content: "text"
+[276]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 58,	colno: 14,	content: "as"
+[277]	Tag: 258,	type: ID,	length: 2,	lineno: 58,	colno: 17,	content: "Zh"
+[278]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 59,	colno: 2,	content: "from"
+[279]	Tag: 258,	type: ID,	length: 8,	lineno: 59,	colno: 7,	content: "Document"
+[280]	Tag: 258,	type: ID,	length: 1,	lineno: 59,	colno: 16,	content: "D"
+[281]	Tag: 59,	type: CHAR,	length: 1,	lineno: 59,	colno: 17,	content: ";"
+[282]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 60,	colno: 0,	content: "output"
+[283]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 60,	colno: 7,	content: "view"
+[284]	Tag: 258,	type: ID,	length: 2,	lineno: 60,	colno: 12,	content: "Zh"
+[285]	Tag: 59,	type: CHAR,	length: 1,	lineno: 60,	colno: 14,	content: ";"
+[286]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 62,	colno: 0,	content: "create"
+[287]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 62,	colno: 7,	content: "dictionary"
+[288]	Tag: 258,	type: ID,	length: 7,	lineno: 62,	colno: 18,	content: "AdjDict"
+[289]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 63,	colno: 2,	content: "from"
+[290]	Tag: 1015,	type: KEYWORD,	length: 4,	lineno: 63,	colno: 7,	content: "file"
+[291]	Tag: 257,	type: STRING,	length: 18,	lineno: 63,	colno: 12,	content: "../dict/Adj.dict"
+[292]	Tag: 59,	type: CHAR,	length: 1,	lineno: 63,	colno: 30,	content: ";"
+[293]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 65,	colno: 0,	content: "create"
+[294]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 65,	colno: 7,	content: "view"
+[295]	Tag: 258,	type: ID,	length: 3,	lineno: 65,	colno: 12,	content: "Adj"
+[296]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 65,	colno: 16,	content: "as"
+[297]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 66,	colno: 2,	content: "extract"
+[298]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 66,	colno: 10,	content: "dictionary"
+[299]	Tag: 258,	type: ID,	length: 7,	lineno: 66,	colno: 21,	content: "AdjDict"
+[300]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 67,	colno: 4,	content: "on"
+[301]	Tag: 258,	type: ID,	length: 1,	lineno: 67,	colno: 7,	content: "D"
+[302]	Tag: 46,	type: CHAR,	length: 1,	lineno: 67,	colno: 8,	content: "."
+[303]	Tag: 258,	type: ID,	length: 4,	lineno: 67,	colno: 9,	content: "text"
+[304]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 67,	colno: 14,	content: "as"
+[305]	Tag: 258,	type: ID,	length: 3,	lineno: 67,	colno: 17,	content: "adj"
+[306]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 68,	colno: 2,	content: "from"
+[307]	Tag: 258,	type: ID,	length: 8,	lineno: 68,	colno: 7,	content: "Document"
+[308]	Tag: 258,	type: ID,	length: 1,	lineno: 68,	colno: 16,	content: "D"
+[309]	Tag: 59,	type: CHAR,	length: 1,	lineno: 68,	colno: 17,	content: ";"
+[310]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 70,	colno: 0,	content: "output"
+[311]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 70,	colno: 7,	content: "view"
+[312]	Tag: 258,	type: ID,	length: 3,	lineno: 70,	colno: 12,	content: "Adj"
+[313]	Tag: 59,	type: CHAR,	length: 1,	lineno: 70,	colno: 15,	content: ";"
+[314]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 71,	colno: 0,	content: "output"
+[315]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 71,	colno: 7,	content: "view"
+[316]	Tag: 258,	type: ID,	length: 6,	lineno: 71,	colno: 12,	content: "Person"
+[317]	Tag: 59,	type: CHAR,	length: 1,	lineno: 71,	colno: 18,	content: ";"
+[318]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 72,	colno: 0,	content: "output"
+[319]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 72,	colno: 7,	content: "view"
+[320]	Tag: 258,	type: ID,	length: 8,	lineno: 72,	colno: 12,	content: "Location"
+[321]	Tag: 59,	type: CHAR,	length: 1,	lineno: 72,	colno: 20,	content: ";"
+[322]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 73,	colno: 0,	content: "output"
+[323]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 73,	colno: 7,	content: "view"
+[324]	Tag: 258,	type: ID,	length: 12,	lineno: 73,	colno: 12,	content: "Organization"
+[325]	Tag: 59,	type: CHAR,	length: 1,	lineno: 73,	colno: 24,	content: ";"
+[326]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 74,	colno: 0,	content: "output"
+[327]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 74,	colno: 7,	content: "view"
+[328]	Tag: 258,	type: ID,	length: 4,	lineno: 74,	colno: 12,	content: "Time"
+[329]	Tag: 59,	type: CHAR,	length: 1,	lineno: 74,	colno: 16,	content: ";"
+[330]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 76,	colno: 0,	content: "create"
+[331]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 76,	colno: 7,	content: "view"
+[332]	Tag: 258,	type: ID,	length: 11,	lineno: 76,	colno: 12,	content: "NamedEntity"
+[333]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 76,	colno: 24,	content: "as"
+[334]	Tag: 1002,	type: KEYWORD,	length: 6,	lineno: 77,	colno: 2,	content: "select"
+[335]	Tag: 258,	type: ID,	length: 1,	lineno: 77,	colno: 9,	content: "P"
+[336]	Tag: 46,	type: CHAR,	length: 1,	lineno: 77,	colno: 10,	content: "."
+[337]	Tag: 258,	type: ID,	length: 4,	lineno: 77,	colno: 11,	content: "text"
+[338]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 77,	colno: 16,	content: "from"
+[339]	Tag: 258,	type: ID,	length: 6,	lineno: 77,	colno: 21,	content: "Person"
+[340]	Tag: 258,	type: ID,	length: 1,	lineno: 77,	colno: 28,	content: "P"
+[341]	Tag: 1016,	type: KEYWORD,	length: 5,	lineno: 78,	colno: 0,	content: "union"
+[342]	Tag: 1002,	type: KEYWORD,	length: 6,	lineno: 79,	colno: 2,	content: "select"
+[343]	Tag: 258,	type: ID,	length: 1,	lineno: 79,	colno: 9,	content: "L"
+[344]	Tag: 46,	type: CHAR,	length: 1,	lineno: 79,	colno: 10,	content: "."
+[345]	Tag: 258,	type: ID,	length: 4,	lineno: 79,	colno: 11,	content: "text"
+[346]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 79,	colno: 16,	content: "from"
+[347]	Tag: 258,	type: ID,	length: 8,	lineno: 79,	colno: 21,	content: "Location"
+[348]	Tag: 258,	type: ID,	length: 1,	lineno: 79,	colno: 30,	content: "L"
+[349]	Tag: 1016,	type: KEYWORD,	length: 5,	lineno: 80,	colno: 0,	content: "union"
+[350]	Tag: 1002,	type: KEYWORD,	length: 6,	lineno: 81,	colno: 2,	content: "select"
+[351]	Tag: 258,	type: ID,	length: 1,	lineno: 81,	colno: 9,	content: "O"
+[352]	Tag: 46,	type: CHAR,	length: 1,	lineno: 81,	colno: 10,	content: "."
+[353]	Tag: 258,	type: ID,	length: 4,	lineno: 81,	colno: 11,	content: "text"
+[354]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 81,	colno: 16,	content: "from"
+[355]	Tag: 258,	type: ID,	length: 12,	lineno: 81,	colno: 21,	content: "Organization"
+[356]	Tag: 258,	type: ID,	length: 1,	lineno: 81,	colno: 34,	content: "O"
+[357]	Tag: 1016,	type: KEYWORD,	length: 5,	lineno: 82,	colno: 0,	content: "union"
+[358]	Tag: 1002,	type: KEYWORD,	length: 6,	lineno: 83,	colno: 2,	content: "select"
+[359]	Tag: 258,	type: ID,	length: 1,	lineno: 83,	colno: 9,	content: "T"
+[360]	Tag: 46,	type: CHAR,	length: 1,	lineno: 83,	colno: 10,	content: "."
+[361]	Tag: 258,	type: ID,	length: 4,	lineno: 83,	colno: 11,	content: "text"
+[362]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 83,	colno: 16,	content: "from"
+[363]	Tag: 258,	type: ID,	length: 4,	lineno: 83,	colno: 21,	content: "Time"
+[364]	Tag: 258,	type: ID,	length: 1,	lineno: 83,	colno: 26,	content: "T"
+[365]	Tag: 59,	type: CHAR,	length: 1,	lineno: 83,	colno: 27,	content: ";"
+[366]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 84,	colno: 0,	content: "output"
+[367]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 84,	colno: 7,	content: "view"
+[368]	Tag: 258,	type: ID,	length: 11,	lineno: 84,	colno: 12,	content: "NamedEntity"
+[369]	Tag: 59,	type: CHAR,	length: 1,	lineno: 84,	colno: 23,	content: ";"
+[370]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 86,	colno: 0,	content: "output"
+[371]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 86,	colno: 7,	content: "view"
+[372]	Tag: 258,	type: ID,	length: 8,	lineno: 86,	colno: 12,	content: "Document"
+[373]	Tag: 59,	type: CHAR,	length: 1,	lineno: 86,	colno: 20,	content: ";"
+[374]	Tag: -1,	type: EOF,	length: 0,	lineno: 87,	colno: 0,	content: "ÿ"
+
+Parser tree:
++Program
+    +[1] Stmt
+        +CreateView
+            +ViewName
+                Cap
+            +ExtractStmt
+                +ExtractSpec
+                    +RegexSpec
+                        +RegExpr
+                            [A-Z][a-z]*
+                        +On
+                            +Column
+                                D.text
+                        +GroupList
+                            Group 0 => Cap
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[2] Stmt
+        +Output
+            +ViewName
+                Cap
+    +[3] Stmt
+        +CreateView
+            +ViewName
+                Stt
+            +ExtractStmt
+                +ExtractSpec
+                    +RegexSpec
+                        +RegExpr
+                            Washington|Georgia|Virginia
+                        +On
+                            +Column
+                                D.text
+                        +GroupList
+                            Group 0 => Stt
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[4] Stmt
+        +Output
+            +ViewName
+                Stt
+    +[5] Stmt
+        +CreateView
+            +ViewName
+                Loc
+            +ExtractStmt
+                +ExtractSpec
+                    +PatternSpec
+                        +PatternExpr
+                            +PatternSeq
+                                +PatternSeq
+                                    +PatternGroup: 1
+                                        +Column
+                                            C.Cap
+                                    +Regex
+                                        ,
+                                +PatternGroup: 2
+                                    +Column
+                                        S.Stt
+                        +GroupList
+                            Group 0 => Loc
+                            Group 1 => Cap
+                            Group 2 => Stt
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Cap
+                        +Alias
+                            C
+                    +FromItem
+                        +ViewName
+                            Stt
+                        +Alias
+                            S
+    +[6] Stmt
++With
+    +Alias, size=2
+          r1 in Loc
+          r2 in Loc
+    +[7] Stmt
+        +CreateView
+            +ViewName
+                Per
+            +ExtractStmt
+                +ExtractSpec
+                    +RegexSpec
+                        +RegExpr
+                            [A-Z][a-z]*
+                        +On
+                            +Column
+                                D.text
+                        +GroupList
+                            Group 0 => Per
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[8] Stmt
++With
+    +Alias, size=2
+          r1 in Loc
+          r2 in Per
+    +[9] Stmt
+        +Clean
+            +CleanList, size=2
+                locrule
+,                 plrule
+
+    +[10] Stmt
+        +Output
+            +ViewName
+                Loc
+    +[11] Stmt
+        +Output
+            +ViewName
+                Per
+    +[12] Stmt
+        +CreateView
+            +ViewName
+                PerLoc
+            +ExtractStmt
+                +ExtractSpec
+                    +PatternSpec
+                        +PatternExpr
+                            +PatternSeq
+                                +PatternSeq
+                                    +PatternGroup: 1
+                                        +Column
+                                            P.Per
+                                    +PatternRepeat: {1, 2}
+                                        Token
+                                +PatternGroup: 2
+                                    +Column
+                                        L.Loc
+                        +GroupList
+                            Group 0 => PerLoc
+                            Group 1 => Per
+                            Group 2 => Loc
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Per
+                        +Alias
+                            P
+                    +FromItem
+                        +ViewName
+                            Loc
+                        +Alias
+                            L
+    +[13] Stmt
+        +Output
+            +ViewName
+                PerLoc
+    +[14] Stmt
+        +CreateView
+            +ViewName
+                PerLocOnly
+            +SelectStmt
+                +SelectList
+                    +SelectItem
+                        +Column
+                            PL.PerLoc
+                        +Alias
+                            PerLoc
+                +FromList
+                    +FromItem
+                        +ViewName
+                            PerLoc
+                        +Alias
+                            PL
+    +[15] Stmt
+        +Output
+            +ViewName
+                PerLocOnly
+    +[16] Stmt
+        +CreateView
+            +ViewName
+                Zh
+            +ExtractStmt
+                +ExtractSpec
+                    +RegexSpec
+                        +RegExpr
+                            ä»Šå¤©[a-z]*
+                        +On
+                            +Column
+                                D.text
+                        +GroupList
+                            Group 0 => Zh
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[17] Stmt
+        +Output
+            +ViewName
+                Zh
+    +[18] Stmt
+        +CreateDict
+            +DictName
+                AdjDict
+            +DictFile
+                '../dict/Adj.dict'
+    +[19] Stmt
+        +CreateView
+            +ViewName
+                Adj
+            +ExtractStmt
+                +ExtractSpec
+                    +DictSpec
+                        +DictName
+                            AdjDict
+                        +On
+                            +Column
+                                D.text
+                        +As
+                            adj
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[20] Stmt
+        +Output
+            +ViewName
+                Adj
+    +[21] Stmt
+        +Output
+            +ViewName
+                Person
+    +[22] Stmt
+        +Output
+            +ViewName
+                Location
+    +[23] Stmt
+        +Output
+            +ViewName
+                Organization
+    +[24] Stmt
+        +Output
+            +ViewName
+                Time
+    +[25] Stmt
+        +CreateView
+            +ViewName
+                NamedEntity
+            +NodeUnion
+                +NodeUnion
+                    +NodeUnion
+                        +SelectStmt
+                            +SelectList
+                                +SelectItem
+                                    +Column
+                                        P.text
+                            +FromList
+                                +FromItem
+                                    +ViewName
+                                        Person
+                                    +Alias
+                                        P
+                        +SelectStmt
+                            +SelectList
+                                +SelectItem
+                                    +Column
+                                        L.text
+                            +FromList
+                                +FromItem
+                                    +ViewName
+                                        Location
+                                    +Alias
+                                        L
+                    +SelectStmt
+                        +SelectList
+                            +SelectItem
+                                +Column
+                                    O.text
+                        +FromList
+                            +FromItem
+                                +ViewName
+                                    Organization
+                                +Alias
+                                    O
+                +SelectStmt
+                    +SelectList
+                        +SelectItem
+                            +Column
+                                T.text
+                    +FromList
+                        +FromItem
+                            +ViewName
+                                Time
+                            +Alias
+                                T
+    +[26] Stmt
+        +Output
+            +ViewName
+                NamedEntity
+    +[27] Stmt
+        +Output
+            +ViewName
+                Document
+
+Query plan tree:
++QueryPlanTree
+    +[1] Stmt
+        +CreateView
+            +ViewName
+                Cap
+            +Project
+                +SelectCols
+                    "Cap"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "Cap"
+                    +Regex
+                        +RegExpr
+                            [A-Z][a-z]*
+    +[2] Stmt
+        +Output
+            +ViewName
+                Cap
+    +[3] Stmt
+        +CreateView
+            +ViewName
+                Stt
+            +Project
+                +SelectCols
+                    "Stt"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "Stt"
+                    +Regex
+                        +RegExpr
+                            Washington|Georgia|Virginia
+    +[4] Stmt
+        +Output
+            +ViewName
+                Stt
+    +[5] Stmt
+        +CreateView
+            +ViewName
+                Loc
+            +Project
+                +SelectCols
+                    "Loc"
+                    "Cap"
+                    "Stt"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "Loc"
+                        "__AQL_GROUP_1" => "Cap"
+                        "__AQL_GROUP_2" => "Stt"
+                    +Project
+                        +RenameCols
+                            "__AQL_TMP_COL_3" => "__AQL_GROUP_0"
+                        +ApplyFunc
+                            +FuncName
+                                CombineSpans
+                            +Args
+                                +Column
+                                    '__AQL_TMP_COL_2'
+                                +Column
+                                    '__AQL_GROUP_2'
+                            +NewColName
+                                __AQL_TMP_COL_3
+                            +Join
+                                +Conditions
+                                    +[1]
+                                        +FuncName
+                                            FollowTok
+                                        +Args
+                                            +Column
+                                                '__AQL_TMP_COL_2'
+                                            +Column
+                                                '__AQL_GROUP_2'
+                                            +NUM
+                                                0
+                                            +NUM
+                                                0
+                                +ApplyFunc
+                                    +FuncName
+                                        CombineSpans
+                                    +Args
+                                        +Column
+                                            '__AQL_GROUP_1'
+                                        +Column
+                                            '__AQL_TMP_COL_1'
+                                    +NewColName
+                                        __AQL_TMP_COL_2
+                                    +Join
+                                        +Conditions
+                                            +[1]
+                                                +FuncName
+                                                    FollowTok
+                                                +Args
+                                                    +Column
+                                                        '__AQL_GROUP_1'
+                                                    +Column
+                                                        '__AQL_TMP_COL_1'
+                                                    +NUM
+                                                        0
+                                                    +NUM
+                                                        0
+                                        +Project
+                                            +CopyCols
+                                                "C.Cap" => "__AQL_GROUP_1"
+                                            +Project
+                                                +AddPrefix
+                                                    "C"
+                                                +Scan
+                                                    +ViewName
+                                                        Cap
+                                        +Project
+                                            +RenameCols
+                                                "__AQL_GROUP_0" => "__AQL_TMP_COL_1"
+                                            +Project
+                                                +SelectCols
+                                                    "__AQL_GROUP_0"
+                                                +Regex
+                                                    +RegExpr
+                                                        ,
+                                +Project
+                                    +CopyCols
+                                        "S.Stt" => "__AQL_GROUP_2"
+                                    +Project
+                                        +AddPrefix
+                                            "S"
+                                        +Scan
+                                            +ViewName
+                                                Stt
+    +[6] Stmt
+        +CreateView
+            +ViewName
+                Per
+            +Project
+                +SelectCols
+                    "Per"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "Per"
+                    +Regex
+                        +RegExpr
+                            [A-Z][a-z]*
+    +[7] Stmt
+    +[8] Stmt
+        +Output
+            +ViewName
+                Loc
+    +[9] Stmt
+        +Output
+            +ViewName
+                Per
+    +[10] Stmt
+        +CreateView
+            +ViewName
+                PerLoc
+            +Project
+                +SelectCols
+                    "PerLoc"
+                    "Per"
+                    "Loc"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "PerLoc"
+                        "__AQL_GROUP_1" => "Per"
+                        "__AQL_GROUP_2" => "Loc"
+                    +Project
+                        +RenameCols
+                            "__AQL_TMP_COL_4" => "__AQL_GROUP_0"
+                        +ApplyFunc
+                            +FuncName
+                                CombineSpans
+                            +Args
+                                +Column
+                                    '__AQL_GROUP_1'
+                                +Column
+                                    '__AQL_GROUP_2'
+                            +NewColName
+                                __AQL_TMP_COL_4
+                            +Join
+                                +Conditions
+                                    +[1]
+                                        +FuncName
+                                            FollowTok
+                                        +Args
+                                            +Column
+                                                '__AQL_GROUP_1'
+                                            +Column
+                                                '__AQL_GROUP_2'
+                                            +NUM
+                                                1
+                                            +NUM
+                                                2
+                                +Project
+                                    +CopyCols
+                                        "P.Per" => "__AQL_GROUP_1"
+                                    +Project
+                                        +AddPrefix
+                                            "P"
+                                        +Scan
+                                            +ViewName
+                                                Per
+                                +Project
+                                    +CopyCols
+                                        "L.Loc" => "__AQL_GROUP_2"
+                                    +Project
+                                        +AddPrefix
+                                            "L"
+                                        +Scan
+                                            +ViewName
+                                                Loc
+    +[11] Stmt
+        +Output
+            +ViewName
+                PerLoc
+    +[12] Stmt
+        +CreateView
+            +ViewName
+                PerLocOnly
+            +Project
+                +SelectCols
+                    "PerLoc"
+                +Project
+                    +RenameCols
+                        "PL.PerLoc" => "PerLoc"
+                    +Project
+                        +AddPrefix
+                            "PL"
+                        +Scan
+                            +ViewName
+                                PerLoc
+    +[13] Stmt
+        +Output
+            +ViewName
+                PerLocOnly
+    +[14] Stmt
+        +CreateView
+            +ViewName
+                Zh
+            +Project
+                +SelectCols
+                    "Zh"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "Zh"
+                    +Regex
+                        +RegExpr
+                            ä»Šå¤©[a-z]*
+    +[15] Stmt
+        +Output
+            +ViewName
+                Zh
+    +[16] Stmt
+        +CreateDict
+            +DictName
+                AdjDict
+            +DictFile
+                '../dict/Adj.dict'
+    +[17] Stmt
+        +CreateView
+            +ViewName
+                Adj
+            +Project
+                +SelectCols
+                    "adj"
+                +Dictionary
+                    +DictName
+                        AdjDict
+                    +As
+                        adj
+    +[18] Stmt
+        +Output
+            +ViewName
+                Adj
+    +[19] Stmt
+        +Output
+            +ViewName
+                Person
+    +[20] Stmt
+        +Output
+            +ViewName
+                Location
+    +[21] Stmt
+        +Output
+            +ViewName
+                Organization
+    +[22] Stmt
+        +Output
+            +ViewName
+                Time
+    +[23] Stmt
+        +CreateView
+            +ViewName
+                NamedEntity
+            +Union
+                +Union
+                    +Union
+                        +Project
+                            +SelectCols
+                                "text"
+                            +Project
+                                +RenameCols
+                                    "P.text" => "text"
+                                +Project
+                                    +AddPrefix
+                                        "P"
+                                    +Scan
+                                        +ViewName
+                                            Person
+                        +Project
+                            +SelectCols
+                                "text"
+                            +Project
+                                +RenameCols
+                                    "L.text" => "text"
+                                +Project
+                                    +AddPrefix
+                                        "L"
+                                    +Scan
+                                        +ViewName
+                                            Location
+                    +Project
+                        +SelectCols
+                            "text"
+                        +Project
+                            +RenameCols
+                                "O.text" => "text"
+                            +Project
+                                +AddPrefix
+                                    "O"
+                                +Scan
+                                    +ViewName
+                                        Organization
+                +Project
+                    +SelectCols
+                        "text"
+                    +Project
+                        +RenameCols
+                            "T.text" => "text"
+                        +Project
+                            +AddPrefix
+                                "T"
+                            +Scan
+                                +ViewName
+                                    Time
+    +[24] Stmt
+        +Output
+            +ViewName
+                NamedEntity
+    +[25] Stmt
+        +Output
+            +ViewName
+                Document
+
+Processing ../input/PerLoc_1.txt
+View: Cap
++----------------------+
+| Cap                  |
++----------------------+
+| Carter:(0,6)         |
+| Plains:(12,18)       |
+| Georgia:(20,27)      |
+| Washington:(29,39)   |
+| Westmoreland:(45,57) |
+| Virginia:(59,67)     |
++----------------------+
+6 rows in set
+
+View: Stt
++--------------------+
+| Stt                |
++--------------------+
+| Georgia:(20,27)    |
+| Washington:(29,39) |
+| Virginia:(59,67)   |
++--------------------+
+3 rows in set
+
+View: Loc
++----------------------+--------------------------------+------------------+
+| Cap                  | Loc                            | Stt              |
++----------------------+--------------------------------+------------------+
+| Plains:(12,18)       | Plains, Georgia:(12,27)        | Georgia:(20,27)  |
+| Westmoreland:(45,57) | Westmoreland, Virginia:(45,67) | Virginia:(59,67) |
++----------------------+--------------------------------+------------------+
+2 rows in set
+
+View: Per
++--------------------+
+| Per                |
++--------------------+
+| Carter:(0,6)       |
+| Washington:(29,39) |
++--------------------+
+2 rows in set
+
+View: PerLoc
++--------------------------------+--------------------+------------------------------------------------+
+| Loc                            | Per                | PerLoc                                         |
++--------------------------------+--------------------+------------------------------------------------+
+| Plains, Georgia:(12,27)        | Carter:(0,6)       | Carter from Plains, Georgia:(0,27)             |
+| Westmoreland, Virginia:(45,67) | Washington:(29,39) | Washington from Westmoreland, Virginia:(29,67) |
++--------------------------------+--------------------+------------------------------------------------+
+2 rows in set
+
+View: PerLocOnly
++------------------------------------------------+
+| PerLoc                                         |
++------------------------------------------------+
+| Carter from Plains, Georgia:(0,27)             |
+| Washington from Westmoreland, Virginia:(29,67) |
++------------------------------------------------+
+2 rows in set
+
+View: Zh
+Empty set
+
+View: Adj
+Empty set
+
+View: Person
+Empty set
+
+View: Location
++-----------------+
+| text            |
++-----------------+
+| Plains:(12,18)  |
+| Georgia:(20,27) |
++-----------------+
+2 rows in set
+
+View: Organization
+Empty set
+
+View: Time
+Empty set
+
+View: NamedEntity
++-----------------+
+| text            |
++-----------------+
+| Plains:(12,18)  |
+| Georgia:(20,27) |
++-----------------+
+2 rows in set
+
+View: Document
++----------------------------------------------------------------------------+
+| text                                                                       |
++----------------------------------------------------------------------------+
+| Carter from Plains, Georgia, Washington from Westmoreland, Virginia:(0,67) |
++----------------------------------------------------------------------------+
+1 rows in set
+

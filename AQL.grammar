@@ -1,0 +1,58 @@
+# AQL Grammar
+program			→	aql_stmts
+aql_stmts		→	aql_stmt | aql_stmts aql_stmt
+aql_stmt		→	create_stmt | output_stmt | empty_stmt
+empty_stmt		→	;
+
+output_stmt		→	OUTPUT VIEW ID alias ;
+alias			→	AS ID | ε
+
+create_stmt		→	create_view | create_dict
+create_view		→	CREATE VIEW ID AS view_stmt ;
+create_dict		→	CREATE DICTIONARY ID FROM TFILE STRING ;
+				|	CREATE DICTIONARY ID AS ( word_list ) ;
+word_list		→	STRING | word_list , STRING
+view_stmt		→	sub_stmt | view_stmt UNION sub_stmt
+sub_stmt		→	select_stmt | extract_stmt
+
+select_stmt		→	SELECT select_list FROM from_list where_clause
+select_list		→	select_item | select_list , select_item
+select_item		→	arg alias
+arg				→	* | column | NUM | STRING | func
+func			→	ID ( args )
+args			→	arg | ε | args , arg
+from_list		→	from_item | from_list , from_item
+from_item		→	ID ID | ( view_stmt ) ID
+where_clause	→	WHERE condition_list | ε
+condition_list	→	func | condition_list AND func
+
+extract_stmt	→	EXTRACT select_list , extract_spec FROM from_list
+extract_spec	→	dict_spec | regex_spec | pattern_spec
+
+dict_spec		→	DICTIONARY ID on column AS ID
+
+regex_spec		→	REGEX REG_EXPR ON column name_spec
+column			→	ID . ID
+name_spec		→	AS ID | RETURN group_spec
+group_spec		→	single_group | group_spec AND single_group
+single_group	→	GROUP NUM AS ID
+
+pattern_spec	→	PATTERN pattern_expr name_spec
+pattern_expr	→	pattern_alt
+pattern_alt		→	pattern_seq | pattern_alt '|' pattern_seq
+pattern_seq		→	pattern_opt | pattern_seq pattern_opt
+pattern_opt		→	pattern_repeat | pattern_repeat ?
+pattern_repeat	→	pattern_atom | pattern_atom { NUM , NUM }
+pattern_atom	→	< column > | < TOKEN > | REG_EXPR | pattern_group
+pattern_group	→	( pattern_alt )
+
+
+## built-in functions
+FollowTok(View1.col1, View2.col2, min, max)
+CombineSpans(View1.col1, View2.col2)
+
+
+## unused yet
+regex_spec		→	REGEX REG_EXPR ON token_spec column name_spec
+token_spec		→	between_spec NUM TOKEN IN | ε
+between_spec	→	BETWEEN NUM AND

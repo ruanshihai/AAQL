@@ -1,0 +1,2454 @@
+All tokens:
+[1]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 3,	colno: 0,	content: "create"
+[2]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 3,	colno: 7,	content: "view"
+[3]	Tag: 258,	type: ID,	length: 6,	lineno: 3,	colno: 12,	content: "Number"
+[4]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 3,	colno: 19,	content: "as"
+[5]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 4,	colno: 2,	content: "extract"
+[6]	Tag: 1007,	type: KEYWORD,	length: 5,	lineno: 4,	colno: 10,	content: "regex"
+[7]	Tag: 259,	type: REG_EXPR,	length: 18,	lineno: 4,	colno: 16,	content: "[0-9]+(\.[0-9])?"
+[8]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 5,	colno: 4,	content: "on"
+[9]	Tag: 258,	type: ID,	length: 1,	lineno: 5,	colno: 7,	content: "D"
+[10]	Tag: 46,	type: CHAR,	length: 1,	lineno: 5,	colno: 8,	content: "."
+[11]	Tag: 258,	type: ID,	length: 4,	lineno: 5,	colno: 9,	content: "text"
+[12]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 5,	colno: 14,	content: "as"
+[13]	Tag: 258,	type: ID,	length: 6,	lineno: 5,	colno: 17,	content: "number"
+[14]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 6,	colno: 2,	content: "from"
+[15]	Tag: 258,	type: ID,	length: 8,	lineno: 6,	colno: 7,	content: "Document"
+[16]	Tag: 258,	type: ID,	length: 1,	lineno: 6,	colno: 16,	content: "D"
+[17]	Tag: 59,	type: CHAR,	length: 1,	lineno: 6,	colno: 17,	content: ";"
+[18]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 8,	colno: 0,	content: "create"
+[19]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 8,	colno: 7,	content: "view"
+[20]	Tag: 258,	type: ID,	length: 4,	lineno: 8,	colno: 12,	content: "Unit"
+[21]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 8,	colno: 17,	content: "as"
+[22]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 9,	colno: 2,	content: "extract"
+[23]	Tag: 1007,	type: KEYWORD,	length: 5,	lineno: 9,	colno: 10,	content: "regex"
+[24]	Tag: 259,	type: REG_EXPR,	length: 34,	lineno: 9,	colno: 16,	content: "percent|billion|million|trillion"
+[25]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 10,	colno: 4,	content: "on"
+[26]	Tag: 258,	type: ID,	length: 1,	lineno: 10,	colno: 7,	content: "D"
+[27]	Tag: 46,	type: CHAR,	length: 1,	lineno: 10,	colno: 8,	content: "."
+[28]	Tag: 258,	type: ID,	length: 4,	lineno: 10,	colno: 9,	content: "text"
+[29]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 10,	colno: 14,	content: "as"
+[30]	Tag: 258,	type: ID,	length: 4,	lineno: 10,	colno: 17,	content: "unit"
+[31]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 11,	colno: 2,	content: "from"
+[32]	Tag: 258,	type: ID,	length: 8,	lineno: 11,	colno: 7,	content: "Document"
+[33]	Tag: 258,	type: ID,	length: 1,	lineno: 11,	colno: 16,	content: "D"
+[34]	Tag: 59,	type: CHAR,	length: 1,	lineno: 11,	colno: 17,	content: ";"
+[35]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 13,	colno: 0,	content: "create"
+[36]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 13,	colno: 7,	content: "view"
+[37]	Tag: 258,	type: ID,	length: 5,	lineno: 13,	colno: 12,	content: "Money"
+[38]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 13,	colno: 18,	content: "as"
+[39]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 14,	colno: 2,	content: "extract"
+[40]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 14,	colno: 10,	content: "pattern"
+[41]	Tag: 40,	type: CHAR,	length: 1,	lineno: 14,	colno: 18,	content: "("
+[42]	Tag: 259,	type: REG_EXPR,	length: 5,	lineno: 14,	colno: 19,	content: "\$?"
+[43]	Tag: 41,	type: CHAR,	length: 1,	lineno: 14,	colno: 24,	content: ")"
+[44]	Tag: 40,	type: CHAR,	length: 1,	lineno: 14,	colno: 26,	content: "("
+[45]	Tag: 60,	type: CHAR,	length: 1,	lineno: 14,	colno: 27,	content: "<"
+[46]	Tag: 258,	type: ID,	length: 1,	lineno: 14,	colno: 28,	content: "N"
+[47]	Tag: 46,	type: CHAR,	length: 1,	lineno: 14,	colno: 29,	content: "."
+[48]	Tag: 258,	type: ID,	length: 6,	lineno: 14,	colno: 30,	content: "number"
+[49]	Tag: 62,	type: CHAR,	length: 1,	lineno: 14,	colno: 36,	content: ">"
+[50]	Tag: 41,	type: CHAR,	length: 1,	lineno: 14,	colno: 37,	content: ")"
+[51]	Tag: 40,	type: CHAR,	length: 1,	lineno: 14,	colno: 39,	content: "("
+[52]	Tag: 60,	type: CHAR,	length: 1,	lineno: 14,	colno: 40,	content: "<"
+[53]	Tag: 258,	type: ID,	length: 1,	lineno: 14,	colno: 41,	content: "U"
+[54]	Tag: 46,	type: CHAR,	length: 1,	lineno: 14,	colno: 42,	content: "."
+[55]	Tag: 258,	type: ID,	length: 4,	lineno: 14,	colno: 43,	content: "unit"
+[56]	Tag: 62,	type: CHAR,	length: 1,	lineno: 14,	colno: 47,	content: ">"
+[57]	Tag: 41,	type: CHAR,	length: 1,	lineno: 14,	colno: 48,	content: ")"
+[58]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 15,	colno: 4,	content: "return"
+[59]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 15,	colno: 11,	content: "group"
+[60]	Tag: 256,	type: NUM,	length: 1,	lineno: 15,	colno: 17,	content: "0"
+[61]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 15,	colno: 19,	content: "as"
+[62]	Tag: 258,	type: ID,	length: 5,	lineno: 15,	colno: 22,	content: "money"
+[63]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 16,	colno: 6,	content: "and"
+[64]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 16,	colno: 10,	content: "group"
+[65]	Tag: 256,	type: NUM,	length: 1,	lineno: 16,	colno: 16,	content: "1"
+[66]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 16,	colno: 18,	content: "as"
+[67]	Tag: 258,	type: ID,	length: 6,	lineno: 16,	colno: 21,	content: "dollar"
+[68]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 17,	colno: 6,	content: "and"
+[69]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 17,	colno: 10,	content: "group"
+[70]	Tag: 256,	type: NUM,	length: 1,	lineno: 17,	colno: 16,	content: "2"
+[71]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 17,	colno: 18,	content: "as"
+[72]	Tag: 258,	type: ID,	length: 6,	lineno: 17,	colno: 21,	content: "number"
+[73]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 18,	colno: 6,	content: "and"
+[74]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 18,	colno: 10,	content: "group"
+[75]	Tag: 256,	type: NUM,	length: 1,	lineno: 18,	colno: 16,	content: "3"
+[76]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 18,	colno: 18,	content: "as"
+[77]	Tag: 258,	type: ID,	length: 4,	lineno: 18,	colno: 21,	content: "unit"
+[78]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 19,	colno: 2,	content: "from"
+[79]	Tag: 258,	type: ID,	length: 6,	lineno: 19,	colno: 7,	content: "Number"
+[80]	Tag: 258,	type: ID,	length: 1,	lineno: 19,	colno: 14,	content: "N"
+[81]	Tag: 44,	type: CHAR,	length: 1,	lineno: 19,	colno: 15,	content: ","
+[82]	Tag: 258,	type: ID,	length: 4,	lineno: 19,	colno: 17,	content: "Unit"
+[83]	Tag: 258,	type: ID,	length: 1,	lineno: 19,	colno: 22,	content: "U"
+[84]	Tag: 59,	type: CHAR,	length: 1,	lineno: 19,	colno: 23,	content: ";"
+[85]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 22,	colno: 0,	content: "create"
+[86]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 22,	colno: 7,	content: "view"
+[87]	Tag: 258,	type: ID,	length: 7,	lineno: 22,	colno: 12,	content: "Revenue"
+[88]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 22,	colno: 20,	content: "as"
+[89]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 23,	colno: 2,	content: "extract"
+[90]	Tag: 1007,	type: KEYWORD,	length: 5,	lineno: 23,	colno: 10,	content: "regex"
+[91]	Tag: 259,	type: REG_EXPR,	length: 18,	lineno: 23,	colno: 16,	content: "revenues|revenue"
+[92]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 24,	colno: 4,	content: "on"
+[93]	Tag: 258,	type: ID,	length: 1,	lineno: 24,	colno: 7,	content: "D"
+[94]	Tag: 46,	type: CHAR,	length: 1,	lineno: 24,	colno: 8,	content: "."
+[95]	Tag: 258,	type: ID,	length: 4,	lineno: 24,	colno: 9,	content: "text"
+[96]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 24,	colno: 14,	content: "as"
+[97]	Tag: 258,	type: ID,	length: 7,	lineno: 24,	colno: 17,	content: "revenue"
+[98]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 25,	colno: 2,	content: "from"
+[99]	Tag: 258,	type: ID,	length: 8,	lineno: 25,	colno: 7,	content: "Document"
+[100]	Tag: 258,	type: ID,	length: 1,	lineno: 25,	colno: 16,	content: "D"
+[101]	Tag: 59,	type: CHAR,	length: 1,	lineno: 25,	colno: 17,	content: ";"
+[102]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 31,	colno: 0,	content: "create"
+[103]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 31,	colno: 7,	content: "dictionary"
+[104]	Tag: 258,	type: ID,	length: 14,	lineno: 31,	colno: 18,	content: "DepartmentDict"
+[105]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 31,	colno: 33,	content: "as"
+[106]	Tag: 40,	type: CHAR,	length: 1,	lineno: 31,	colno: 36,	content: "("
+[107]	Tag: 257,	type: STRING,	length: 28,	lineno: 32,	colno: 2,	content: "Global Technology Services"
+[108]	Tag: 44,	type: CHAR,	length: 1,	lineno: 32,	colno: 30,	content: ","
+[109]	Tag: 257,	type: STRING,	length: 24,	lineno: 33,	colno: 2,	content: "Systems and Technology"
+[110]	Tag: 44,	type: CHAR,	length: 1,	lineno: 33,	colno: 26,	content: ","
+[111]	Tag: 257,	type: STRING,	length: 6,	lineno: 34,	colno: 2,	content: "S&TG"
+[112]	Tag: 44,	type: CHAR,	length: 1,	lineno: 34,	colno: 8,	content: ","
+[113]	Tag: 257,	type: STRING,	length: 10,	lineno: 35,	colno: 2,	content: "Software"
+[114]	Tag: 44,	type: CHAR,	length: 1,	lineno: 35,	colno: 12,	content: ","
+[115]	Tag: 257,	type: STRING,	length: 18,	lineno: 36,	colno: 2,	content: "Global Financing"
+[116]	Tag: 44,	type: CHAR,	length: 1,	lineno: 36,	colno: 20,	content: ","
+[117]	Tag: 257,	type: STRING,	length: 26,	lineno: 37,	colno: 2,	content: "Global Business Services"
+[118]	Tag: 41,	type: CHAR,	length: 1,	lineno: 37,	colno: 28,	content: ")"
+[119]	Tag: 59,	type: CHAR,	length: 1,	lineno: 37,	colno: 29,	content: ";"
+[120]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 39,	colno: 0,	content: "create"
+[121]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 39,	colno: 7,	content: "view"
+[122]	Tag: 258,	type: ID,	length: 8,	lineno: 39,	colno: 12,	content: "Division"
+[123]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 39,	colno: 21,	content: "as"
+[124]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 40,	colno: 2,	content: "extract"
+[125]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 40,	colno: 10,	content: "dictionary"
+[126]	Tag: 258,	type: ID,	length: 14,	lineno: 40,	colno: 21,	content: "DepartmentDict"
+[127]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 41,	colno: 4,	content: "on"
+[128]	Tag: 258,	type: ID,	length: 1,	lineno: 41,	colno: 7,	content: "D"
+[129]	Tag: 46,	type: CHAR,	length: 1,	lineno: 41,	colno: 8,	content: "."
+[130]	Tag: 258,	type: ID,	length: 4,	lineno: 41,	colno: 9,	content: "text"
+[131]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 41,	colno: 14,	content: "as"
+[132]	Tag: 258,	type: ID,	length: 8,	lineno: 41,	colno: 17,	content: "division"
+[133]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 42,	colno: 2,	content: "from"
+[134]	Tag: 258,	type: ID,	length: 8,	lineno: 42,	colno: 7,	content: "Document"
+[135]	Tag: 258,	type: ID,	length: 1,	lineno: 42,	colno: 16,	content: "D"
+[136]	Tag: 59,	type: CHAR,	length: 1,	lineno: 42,	colno: 17,	content: ";"
+[137]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 45,	colno: 0,	content: "create"
+[138]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 45,	colno: 7,	content: "view"
+[139]	Tag: 258,	type: ID,	length: 18,	lineno: 45,	colno: 12,	content: "RevenueAndDivision"
+[140]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 45,	colno: 31,	content: "as"
+[141]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 46,	colno: 2,	content: "extract"
+[142]	Tag: 256,	type: NUM,	length: 1,	lineno: 47,	colno: 4,	content: "1"
+[143]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 47,	colno: 6,	content: "as"
+[144]	Tag: 258,	type: ID,	length: 7,	lineno: 47,	colno: 9,	content: "rule_no"
+[145]	Tag: 44,	type: CHAR,	length: 1,	lineno: 47,	colno: 16,	content: ","
+[146]	Tag: 257,	type: STRING,	length: 5,	lineno: 47,	colno: 18,	content: "RDM"
+[147]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 47,	colno: 24,	content: "as"
+[148]	Tag: 258,	type: ID,	length: 9,	lineno: 47,	colno: 27,	content: "rule_name"
+[149]	Tag: 44,	type: CHAR,	length: 1,	lineno: 47,	colno: 36,	content: ","
+[150]	Tag: 258,	type: ID,	length: 1,	lineno: 47,	colno: 38,	content: "R"
+[151]	Tag: 46,	type: CHAR,	length: 1,	lineno: 47,	colno: 39,	content: "."
+[152]	Tag: 258,	type: ID,	length: 7,	lineno: 47,	colno: 40,	content: "revenue"
+[153]	Tag: 44,	type: CHAR,	length: 1,	lineno: 47,	colno: 47,	content: ","
+[154]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 48,	colno: 4,	content: "pattern"
+[155]	Tag: 60,	type: CHAR,	length: 1,	lineno: 48,	colno: 12,	content: "<"
+[156]	Tag: 258,	type: ID,	length: 1,	lineno: 48,	colno: 13,	content: "R"
+[157]	Tag: 46,	type: CHAR,	length: 1,	lineno: 48,	colno: 14,	content: "."
+[158]	Tag: 258,	type: ID,	length: 7,	lineno: 48,	colno: 15,	content: "revenue"
+[159]	Tag: 62,	type: CHAR,	length: 1,	lineno: 48,	colno: 22,	content: ">"
+[160]	Tag: 60,	type: CHAR,	length: 1,	lineno: 48,	colno: 24,	content: "<"
+[161]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 48,	colno: 25,	content: "Token"
+[162]	Tag: 62,	type: CHAR,	length: 1,	lineno: 48,	colno: 30,	content: ">"
+[163]	Tag: 123,	type: CHAR,	length: 1,	lineno: 48,	colno: 31,	content: "{"
+[164]	Tag: 256,	type: NUM,	length: 1,	lineno: 48,	colno: 32,	content: "1"
+[165]	Tag: 44,	type: CHAR,	length: 1,	lineno: 48,	colno: 33,	content: ","
+[166]	Tag: 256,	type: NUM,	length: 1,	lineno: 48,	colno: 34,	content: "3"
+[167]	Tag: 125,	type: CHAR,	length: 1,	lineno: 48,	colno: 35,	content: "}"
+[168]	Tag: 40,	type: CHAR,	length: 1,	lineno: 48,	colno: 37,	content: "("
+[169]	Tag: 60,	type: CHAR,	length: 1,	lineno: 48,	colno: 38,	content: "<"
+[170]	Tag: 258,	type: ID,	length: 1,	lineno: 48,	colno: 39,	content: "D"
+[171]	Tag: 46,	type: CHAR,	length: 1,	lineno: 48,	colno: 40,	content: "."
+[172]	Tag: 258,	type: ID,	length: 8,	lineno: 48,	colno: 41,	content: "division"
+[173]	Tag: 62,	type: CHAR,	length: 1,	lineno: 48,	colno: 49,	content: ">"
+[174]	Tag: 41,	type: CHAR,	length: 1,	lineno: 48,	colno: 50,	content: ")"
+[175]	Tag: 60,	type: CHAR,	length: 1,	lineno: 48,	colno: 52,	content: "<"
+[176]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 48,	colno: 53,	content: "Token"
+[177]	Tag: 62,	type: CHAR,	length: 1,	lineno: 48,	colno: 58,	content: ">"
+[178]	Tag: 123,	type: CHAR,	length: 1,	lineno: 48,	colno: 59,	content: "{"
+[179]	Tag: 256,	type: NUM,	length: 1,	lineno: 48,	colno: 60,	content: "1"
+[180]	Tag: 44,	type: CHAR,	length: 1,	lineno: 48,	colno: 61,	content: ","
+[181]	Tag: 256,	type: NUM,	length: 2,	lineno: 48,	colno: 62,	content: "20"
+[182]	Tag: 125,	type: CHAR,	length: 1,	lineno: 48,	colno: 64,	content: "}"
+[183]	Tag: 40,	type: CHAR,	length: 1,	lineno: 48,	colno: 66,	content: "("
+[184]	Tag: 60,	type: CHAR,	length: 1,	lineno: 48,	colno: 67,	content: "<"
+[185]	Tag: 258,	type: ID,	length: 1,	lineno: 48,	colno: 68,	content: "M"
+[186]	Tag: 46,	type: CHAR,	length: 1,	lineno: 48,	colno: 69,	content: "."
+[187]	Tag: 258,	type: ID,	length: 5,	lineno: 48,	colno: 70,	content: "money"
+[188]	Tag: 62,	type: CHAR,	length: 1,	lineno: 48,	colno: 75,	content: ">"
+[189]	Tag: 41,	type: CHAR,	length: 1,	lineno: 48,	colno: 76,	content: ")"
+[190]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 49,	colno: 6,	content: "return"
+[191]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 49,	colno: 13,	content: "group"
+[192]	Tag: 256,	type: NUM,	length: 1,	lineno: 49,	colno: 19,	content: "0"
+[193]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 49,	colno: 21,	content: "as"
+[194]	Tag: 258,	type: ID,	length: 18,	lineno: 49,	colno: 24,	content: "RevenueAndDivision"
+[195]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 50,	colno: 8,	content: "and"
+[196]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 50,	colno: 12,	content: "group"
+[197]	Tag: 256,	type: NUM,	length: 1,	lineno: 50,	colno: 18,	content: "1"
+[198]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 50,	colno: 20,	content: "as"
+[199]	Tag: 258,	type: ID,	length: 8,	lineno: 50,	colno: 23,	content: "Division"
+[200]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 51,	colno: 8,	content: "and"
+[201]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 51,	colno: 12,	content: "group"
+[202]	Tag: 256,	type: NUM,	length: 1,	lineno: 51,	colno: 18,	content: "2"
+[203]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 51,	colno: 20,	content: "as"
+[204]	Tag: 258,	type: ID,	length: 6,	lineno: 51,	colno: 23,	content: "Amount"
+[205]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 52,	colno: 2,	content: "from"
+[206]	Tag: 258,	type: ID,	length: 7,	lineno: 52,	colno: 7,	content: "Revenue"
+[207]	Tag: 258,	type: ID,	length: 1,	lineno: 52,	colno: 15,	content: "R"
+[208]	Tag: 44,	type: CHAR,	length: 1,	lineno: 52,	colno: 16,	content: ","
+[209]	Tag: 258,	type: ID,	length: 8,	lineno: 52,	colno: 18,	content: "Division"
+[210]	Tag: 258,	type: ID,	length: 1,	lineno: 52,	colno: 27,	content: "D"
+[211]	Tag: 44,	type: CHAR,	length: 1,	lineno: 52,	colno: 28,	content: ","
+[212]	Tag: 258,	type: ID,	length: 5,	lineno: 52,	colno: 30,	content: "Money"
+[213]	Tag: 258,	type: ID,	length: 1,	lineno: 52,	colno: 36,	content: "M"
+[214]	Tag: 1016,	type: KEYWORD,	length: 5,	lineno: 53,	colno: 0,	content: "union"
+[215]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 54,	colno: 2,	content: "extract"
+[216]	Tag: 256,	type: NUM,	length: 1,	lineno: 55,	colno: 4,	content: "2"
+[217]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 55,	colno: 6,	content: "as"
+[218]	Tag: 258,	type: ID,	length: 7,	lineno: 55,	colno: 9,	content: "rule_no"
+[219]	Tag: 44,	type: CHAR,	length: 1,	lineno: 55,	colno: 16,	content: ","
+[220]	Tag: 257,	type: STRING,	length: 5,	lineno: 55,	colno: 18,	content: "DRM"
+[221]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 55,	colno: 24,	content: "as"
+[222]	Tag: 258,	type: ID,	length: 9,	lineno: 55,	colno: 27,	content: "rule_name"
+[223]	Tag: 44,	type: CHAR,	length: 1,	lineno: 55,	colno: 36,	content: ","
+[224]	Tag: 258,	type: ID,	length: 1,	lineno: 55,	colno: 38,	content: "R"
+[225]	Tag: 46,	type: CHAR,	length: 1,	lineno: 55,	colno: 39,	content: "."
+[226]	Tag: 258,	type: ID,	length: 7,	lineno: 55,	colno: 40,	content: "revenue"
+[227]	Tag: 44,	type: CHAR,	length: 1,	lineno: 55,	colno: 47,	content: ","
+[228]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 56,	colno: 4,	content: "pattern"
+[229]	Tag: 40,	type: CHAR,	length: 1,	lineno: 56,	colno: 12,	content: "("
+[230]	Tag: 60,	type: CHAR,	length: 1,	lineno: 56,	colno: 13,	content: "<"
+[231]	Tag: 258,	type: ID,	length: 1,	lineno: 56,	colno: 14,	content: "D"
+[232]	Tag: 46,	type: CHAR,	length: 1,	lineno: 56,	colno: 15,	content: "."
+[233]	Tag: 258,	type: ID,	length: 8,	lineno: 56,	colno: 16,	content: "division"
+[234]	Tag: 62,	type: CHAR,	length: 1,	lineno: 56,	colno: 24,	content: ">"
+[235]	Tag: 41,	type: CHAR,	length: 1,	lineno: 56,	colno: 25,	content: ")"
+[236]	Tag: 60,	type: CHAR,	length: 1,	lineno: 56,	colno: 27,	content: "<"
+[237]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 56,	colno: 28,	content: "Token"
+[238]	Tag: 62,	type: CHAR,	length: 1,	lineno: 56,	colno: 33,	content: ">"
+[239]	Tag: 123,	type: CHAR,	length: 1,	lineno: 56,	colno: 34,	content: "{"
+[240]	Tag: 256,	type: NUM,	length: 1,	lineno: 56,	colno: 35,	content: "1"
+[241]	Tag: 44,	type: CHAR,	length: 1,	lineno: 56,	colno: 36,	content: ","
+[242]	Tag: 256,	type: NUM,	length: 1,	lineno: 56,	colno: 37,	content: "3"
+[243]	Tag: 125,	type: CHAR,	length: 1,	lineno: 56,	colno: 38,	content: "}"
+[244]	Tag: 60,	type: CHAR,	length: 1,	lineno: 56,	colno: 40,	content: "<"
+[245]	Tag: 258,	type: ID,	length: 1,	lineno: 56,	colno: 41,	content: "R"
+[246]	Tag: 46,	type: CHAR,	length: 1,	lineno: 56,	colno: 42,	content: "."
+[247]	Tag: 258,	type: ID,	length: 7,	lineno: 56,	colno: 43,	content: "revenue"
+[248]	Tag: 62,	type: CHAR,	length: 1,	lineno: 56,	colno: 50,	content: ">"
+[249]	Tag: 60,	type: CHAR,	length: 1,	lineno: 56,	colno: 52,	content: "<"
+[250]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 56,	colno: 53,	content: "Token"
+[251]	Tag: 62,	type: CHAR,	length: 1,	lineno: 56,	colno: 58,	content: ">"
+[252]	Tag: 123,	type: CHAR,	length: 1,	lineno: 56,	colno: 59,	content: "{"
+[253]	Tag: 256,	type: NUM,	length: 1,	lineno: 56,	colno: 60,	content: "1"
+[254]	Tag: 44,	type: CHAR,	length: 1,	lineno: 56,	colno: 61,	content: ","
+[255]	Tag: 256,	type: NUM,	length: 2,	lineno: 56,	colno: 62,	content: "20"
+[256]	Tag: 125,	type: CHAR,	length: 1,	lineno: 56,	colno: 64,	content: "}"
+[257]	Tag: 40,	type: CHAR,	length: 1,	lineno: 56,	colno: 66,	content: "("
+[258]	Tag: 60,	type: CHAR,	length: 1,	lineno: 56,	colno: 67,	content: "<"
+[259]	Tag: 258,	type: ID,	length: 1,	lineno: 56,	colno: 68,	content: "M"
+[260]	Tag: 46,	type: CHAR,	length: 1,	lineno: 56,	colno: 69,	content: "."
+[261]	Tag: 258,	type: ID,	length: 5,	lineno: 56,	colno: 70,	content: "money"
+[262]	Tag: 62,	type: CHAR,	length: 1,	lineno: 56,	colno: 75,	content: ">"
+[263]	Tag: 41,	type: CHAR,	length: 1,	lineno: 56,	colno: 76,	content: ")"
+[264]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 57,	colno: 6,	content: "return"
+[265]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 57,	colno: 13,	content: "group"
+[266]	Tag: 256,	type: NUM,	length: 1,	lineno: 57,	colno: 19,	content: "0"
+[267]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 57,	colno: 21,	content: "as"
+[268]	Tag: 258,	type: ID,	length: 18,	lineno: 57,	colno: 24,	content: "RevenueAndDivision"
+[269]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 58,	colno: 8,	content: "and"
+[270]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 58,	colno: 12,	content: "group"
+[271]	Tag: 256,	type: NUM,	length: 1,	lineno: 58,	colno: 18,	content: "1"
+[272]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 58,	colno: 20,	content: "as"
+[273]	Tag: 258,	type: ID,	length: 8,	lineno: 58,	colno: 23,	content: "Division"
+[274]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 59,	colno: 8,	content: "and"
+[275]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 59,	colno: 12,	content: "group"
+[276]	Tag: 256,	type: NUM,	length: 1,	lineno: 59,	colno: 18,	content: "2"
+[277]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 59,	colno: 20,	content: "as"
+[278]	Tag: 258,	type: ID,	length: 6,	lineno: 59,	colno: 23,	content: "Amount"
+[279]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 60,	colno: 2,	content: "from"
+[280]	Tag: 258,	type: ID,	length: 7,	lineno: 60,	colno: 7,	content: "Revenue"
+[281]	Tag: 258,	type: ID,	length: 1,	lineno: 60,	colno: 15,	content: "R"
+[282]	Tag: 44,	type: CHAR,	length: 1,	lineno: 60,	colno: 16,	content: ","
+[283]	Tag: 258,	type: ID,	length: 8,	lineno: 60,	colno: 18,	content: "Division"
+[284]	Tag: 258,	type: ID,	length: 1,	lineno: 60,	colno: 27,	content: "D"
+[285]	Tag: 44,	type: CHAR,	length: 1,	lineno: 60,	colno: 28,	content: ","
+[286]	Tag: 258,	type: ID,	length: 5,	lineno: 60,	colno: 30,	content: "Money"
+[287]	Tag: 258,	type: ID,	length: 1,	lineno: 60,	colno: 36,	content: "M"
+[288]	Tag: 59,	type: CHAR,	length: 1,	lineno: 60,	colno: 37,	content: ";"
+[289]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 63,	colno: 0,	content: "output"
+[290]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 63,	colno: 7,	content: "view"
+[291]	Tag: 258,	type: ID,	length: 6,	lineno: 63,	colno: 12,	content: "Number"
+[292]	Tag: 59,	type: CHAR,	length: 1,	lineno: 63,	colno: 18,	content: ";"
+[293]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 64,	colno: 0,	content: "output"
+[294]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 64,	colno: 7,	content: "view"
+[295]	Tag: 258,	type: ID,	length: 4,	lineno: 64,	colno: 12,	content: "Unit"
+[296]	Tag: 59,	type: CHAR,	length: 1,	lineno: 64,	colno: 16,	content: ";"
+[297]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 65,	colno: 0,	content: "output"
+[298]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 65,	colno: 7,	content: "view"
+[299]	Tag: 258,	type: ID,	length: 5,	lineno: 65,	colno: 12,	content: "Money"
+[300]	Tag: 59,	type: CHAR,	length: 1,	lineno: 65,	colno: 17,	content: ";"
+[301]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 66,	colno: 0,	content: "output"
+[302]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 66,	colno: 7,	content: "view"
+[303]	Tag: 258,	type: ID,	length: 7,	lineno: 66,	colno: 12,	content: "Revenue"
+[304]	Tag: 59,	type: CHAR,	length: 1,	lineno: 66,	colno: 19,	content: ";"
+[305]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 67,	colno: 0,	content: "output"
+[306]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 67,	colno: 7,	content: "view"
+[307]	Tag: 258,	type: ID,	length: 8,	lineno: 67,	colno: 12,	content: "Division"
+[308]	Tag: 59,	type: CHAR,	length: 1,	lineno: 67,	colno: 20,	content: ";"
+[309]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 68,	colno: 0,	content: "output"
+[310]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 68,	colno: 7,	content: "view"
+[311]	Tag: 258,	type: ID,	length: 18,	lineno: 68,	colno: 12,	content: "RevenueAndDivision"
+[312]	Tag: 59,	type: CHAR,	length: 1,	lineno: 68,	colno: 30,	content: ";"
+[313]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 72,	colno: 0,	content: "create"
+[314]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 72,	colno: 7,	content: "view"
+[315]	Tag: 258,	type: ID,	length: 5,	lineno: 72,	colno: 12,	content: "Test1"
+[316]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 72,	colno: 18,	content: "as"
+[317]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 73,	colno: 2,	content: "extract"
+[318]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 74,	colno: 4,	content: "pattern"
+[319]	Tag: 259,	type: REG_EXPR,	length: 16,	lineno: 74,	colno: 12,	content: "Total revenues"
+[320]	Tag: 124,	type: CHAR,	length: 1,	lineno: 74,	colno: 29,	content: "|"
+[321]	Tag: 259,	type: REG_EXPR,	length: 16,	lineno: 74,	colno: 31,	content: "Fourth-quarter"
+[322]	Tag: 124,	type: CHAR,	length: 1,	lineno: 74,	colno: 48,	content: "|"
+[323]	Tag: 259,	type: REG_EXPR,	length: 26,	lineno: 74,	colno: 50,	content: "Global Services business"
+[324]	Tag: 124,	type: CHAR,	length: 1,	lineno: 75,	colno: 6,	content: "|"
+[325]	Tag: 40,	type: CHAR,	length: 1,	lineno: 75,	colno: 8,	content: "("
+[326]	Tag: 60,	type: CHAR,	length: 1,	lineno: 75,	colno: 9,	content: "<"
+[327]	Tag: 258,	type: ID,	length: 1,	lineno: 75,	colno: 10,	content: "D"
+[328]	Tag: 46,	type: CHAR,	length: 1,	lineno: 75,	colno: 11,	content: "."
+[329]	Tag: 258,	type: ID,	length: 8,	lineno: 75,	colno: 12,	content: "division"
+[330]	Tag: 62,	type: CHAR,	length: 1,	lineno: 75,	colno: 20,	content: ">"
+[331]	Tag: 41,	type: CHAR,	length: 1,	lineno: 75,	colno: 21,	content: ")"
+[332]	Tag: 60,	type: CHAR,	length: 1,	lineno: 75,	colno: 23,	content: "<"
+[333]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 75,	colno: 24,	content: "Token"
+[334]	Tag: 62,	type: CHAR,	length: 1,	lineno: 75,	colno: 29,	content: ">"
+[335]	Tag: 123,	type: CHAR,	length: 1,	lineno: 75,	colno: 30,	content: "{"
+[336]	Tag: 256,	type: NUM,	length: 1,	lineno: 75,	colno: 31,	content: "1"
+[337]	Tag: 44,	type: CHAR,	length: 1,	lineno: 75,	colno: 32,	content: ","
+[338]	Tag: 256,	type: NUM,	length: 1,	lineno: 75,	colno: 33,	content: "3"
+[339]	Tag: 125,	type: CHAR,	length: 1,	lineno: 75,	colno: 34,	content: "}"
+[340]	Tag: 60,	type: CHAR,	length: 1,	lineno: 75,	colno: 36,	content: "<"
+[341]	Tag: 258,	type: ID,	length: 1,	lineno: 75,	colno: 37,	content: "R"
+[342]	Tag: 46,	type: CHAR,	length: 1,	lineno: 75,	colno: 38,	content: "."
+[343]	Tag: 258,	type: ID,	length: 7,	lineno: 75,	colno: 39,	content: "revenue"
+[344]	Tag: 62,	type: CHAR,	length: 1,	lineno: 75,	colno: 46,	content: ">"
+[345]	Tag: 60,	type: CHAR,	length: 1,	lineno: 75,	colno: 48,	content: "<"
+[346]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 75,	colno: 49,	content: "Token"
+[347]	Tag: 62,	type: CHAR,	length: 1,	lineno: 75,	colno: 54,	content: ">"
+[348]	Tag: 123,	type: CHAR,	length: 1,	lineno: 75,	colno: 55,	content: "{"
+[349]	Tag: 256,	type: NUM,	length: 1,	lineno: 75,	colno: 56,	content: "1"
+[350]	Tag: 44,	type: CHAR,	length: 1,	lineno: 75,	colno: 57,	content: ","
+[351]	Tag: 256,	type: NUM,	length: 2,	lineno: 75,	colno: 58,	content: "20"
+[352]	Tag: 125,	type: CHAR,	length: 1,	lineno: 75,	colno: 60,	content: "}"
+[353]	Tag: 40,	type: CHAR,	length: 1,	lineno: 75,	colno: 62,	content: "("
+[354]	Tag: 60,	type: CHAR,	length: 1,	lineno: 75,	colno: 63,	content: "<"
+[355]	Tag: 258,	type: ID,	length: 1,	lineno: 75,	colno: 64,	content: "M"
+[356]	Tag: 46,	type: CHAR,	length: 1,	lineno: 75,	colno: 65,	content: "."
+[357]	Tag: 258,	type: ID,	length: 5,	lineno: 75,	colno: 66,	content: "money"
+[358]	Tag: 62,	type: CHAR,	length: 1,	lineno: 75,	colno: 71,	content: ">"
+[359]	Tag: 41,	type: CHAR,	length: 1,	lineno: 75,	colno: 72,	content: ")"
+[360]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 76,	colno: 4,	content: "as"
+[361]	Tag: 258,	type: ID,	length: 4,	lineno: 76,	colno: 7,	content: "text"
+[362]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 77,	colno: 2,	content: "from"
+[363]	Tag: 258,	type: ID,	length: 7,	lineno: 77,	colno: 7,	content: "Revenue"
+[364]	Tag: 258,	type: ID,	length: 1,	lineno: 77,	colno: 15,	content: "R"
+[365]	Tag: 44,	type: CHAR,	length: 1,	lineno: 77,	colno: 16,	content: ","
+[366]	Tag: 258,	type: ID,	length: 8,	lineno: 77,	colno: 18,	content: "Division"
+[367]	Tag: 258,	type: ID,	length: 1,	lineno: 77,	colno: 27,	content: "D"
+[368]	Tag: 44,	type: CHAR,	length: 1,	lineno: 77,	colno: 28,	content: ","
+[369]	Tag: 258,	type: ID,	length: 5,	lineno: 77,	colno: 30,	content: "Money"
+[370]	Tag: 258,	type: ID,	length: 1,	lineno: 77,	colno: 36,	content: "M"
+[371]	Tag: 59,	type: CHAR,	length: 1,	lineno: 77,	colno: 37,	content: ";"
+[372]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 78,	colno: 0,	content: "output"
+[373]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 78,	colno: 7,	content: "view"
+[374]	Tag: 258,	type: ID,	length: 5,	lineno: 78,	colno: 12,	content: "Test1"
+[375]	Tag: 59,	type: CHAR,	length: 1,	lineno: 78,	colno: 17,	content: ";"
+[376]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 80,	colno: 0,	content: "create"
+[377]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 80,	colno: 7,	content: "view"
+[378]	Tag: 258,	type: ID,	length: 5,	lineno: 80,	colno: 12,	content: "Test2"
+[379]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 80,	colno: 18,	content: "as"
+[380]	Tag: 1002,	type: KEYWORD,	length: 6,	lineno: 81,	colno: 2,	content: "select"
+[381]	Tag: 258,	type: ID,	length: 1,	lineno: 81,	colno: 9,	content: "N"
+[382]	Tag: 46,	type: CHAR,	length: 1,	lineno: 81,	colno: 10,	content: "."
+[383]	Tag: 258,	type: ID,	length: 6,	lineno: 81,	colno: 11,	content: "number"
+[384]	Tag: 44,	type: CHAR,	length: 1,	lineno: 81,	colno: 17,	content: ","
+[385]	Tag: 258,	type: ID,	length: 1,	lineno: 81,	colno: 19,	content: "U"
+[386]	Tag: 46,	type: CHAR,	length: 1,	lineno: 81,	colno: 20,	content: "."
+[387]	Tag: 258,	type: ID,	length: 4,	lineno: 81,	colno: 21,	content: "unit"
+[388]	Tag: 44,	type: CHAR,	length: 1,	lineno: 81,	colno: 25,	content: ","
+[389]	Tag: 258,	type: ID,	length: 12,	lineno: 81,	colno: 27,	content: "CombineSpans"
+[390]	Tag: 40,	type: CHAR,	length: 1,	lineno: 81,	colno: 39,	content: "("
+[391]	Tag: 258,	type: ID,	length: 1,	lineno: 81,	colno: 40,	content: "N"
+[392]	Tag: 46,	type: CHAR,	length: 1,	lineno: 81,	colno: 41,	content: "."
+[393]	Tag: 258,	type: ID,	length: 6,	lineno: 81,	colno: 42,	content: "number"
+[394]	Tag: 44,	type: CHAR,	length: 1,	lineno: 81,	colno: 48,	content: ","
+[395]	Tag: 258,	type: ID,	length: 1,	lineno: 81,	colno: 50,	content: "U"
+[396]	Tag: 46,	type: CHAR,	length: 1,	lineno: 81,	colno: 51,	content: "."
+[397]	Tag: 258,	type: ID,	length: 4,	lineno: 81,	colno: 52,	content: "unit"
+[398]	Tag: 41,	type: CHAR,	length: 1,	lineno: 81,	colno: 56,	content: ")"
+[399]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 81,	colno: 58,	content: "as"
+[400]	Tag: 258,	type: ID,	length: 5,	lineno: 81,	colno: 61,	content: "money"
+[401]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 82,	colno: 2,	content: "from"
+[402]	Tag: 258,	type: ID,	length: 6,	lineno: 82,	colno: 7,	content: "Number"
+[403]	Tag: 258,	type: ID,	length: 1,	lineno: 82,	colno: 14,	content: "N"
+[404]	Tag: 44,	type: CHAR,	length: 1,	lineno: 82,	colno: 15,	content: ","
+[405]	Tag: 258,	type: ID,	length: 4,	lineno: 82,	colno: 17,	content: "Unit"
+[406]	Tag: 258,	type: ID,	length: 1,	lineno: 82,	colno: 22,	content: "U"
+[407]	Tag: 1017,	type: KEYWORD,	length: 5,	lineno: 83,	colno: 2,	content: "where"
+[408]	Tag: 258,	type: ID,	length: 9,	lineno: 83,	colno: 8,	content: "FollowTok"
+[409]	Tag: 40,	type: CHAR,	length: 1,	lineno: 83,	colno: 17,	content: "("
+[410]	Tag: 258,	type: ID,	length: 1,	lineno: 83,	colno: 18,	content: "N"
+[411]	Tag: 46,	type: CHAR,	length: 1,	lineno: 83,	colno: 19,	content: "."
+[412]	Tag: 258,	type: ID,	length: 6,	lineno: 83,	colno: 20,	content: "number"
+[413]	Tag: 44,	type: CHAR,	length: 1,	lineno: 83,	colno: 26,	content: ","
+[414]	Tag: 258,	type: ID,	length: 1,	lineno: 83,	colno: 28,	content: "U"
+[415]	Tag: 46,	type: CHAR,	length: 1,	lineno: 83,	colno: 29,	content: "."
+[416]	Tag: 258,	type: ID,	length: 4,	lineno: 83,	colno: 30,	content: "unit"
+[417]	Tag: 44,	type: CHAR,	length: 1,	lineno: 83,	colno: 34,	content: ","
+[418]	Tag: 256,	type: NUM,	length: 1,	lineno: 83,	colno: 36,	content: "0"
+[419]	Tag: 44,	type: CHAR,	length: 1,	lineno: 83,	colno: 37,	content: ","
+[420]	Tag: 256,	type: NUM,	length: 1,	lineno: 83,	colno: 39,	content: "0"
+[421]	Tag: 41,	type: CHAR,	length: 1,	lineno: 83,	colno: 40,	content: ")"
+[422]	Tag: 59,	type: CHAR,	length: 1,	lineno: 83,	colno: 41,	content: ";"
+[423]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 84,	colno: 0,	content: "output"
+[424]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 84,	colno: 7,	content: "view"
+[425]	Tag: 258,	type: ID,	length: 5,	lineno: 84,	colno: 12,	content: "Test2"
+[426]	Tag: 59,	type: CHAR,	length: 1,	lineno: 84,	colno: 17,	content: ";"
+[427]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 86,	colno: 0,	content: "create"
+[428]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 86,	colno: 7,	content: "view"
+[429]	Tag: 258,	type: ID,	length: 5,	lineno: 86,	colno: 12,	content: "Test3"
+[430]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 86,	colno: 18,	content: "as"
+[431]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 87,	colno: 2,	content: "extract"
+[432]	Tag: 258,	type: ID,	length: 1,	lineno: 88,	colno: 4,	content: "N"
+[433]	Tag: 46,	type: CHAR,	length: 1,	lineno: 88,	colno: 5,	content: "."
+[434]	Tag: 258,	type: ID,	length: 6,	lineno: 88,	colno: 6,	content: "number"
+[435]	Tag: 44,	type: CHAR,	length: 1,	lineno: 88,	colno: 12,	content: ","
+[436]	Tag: 258,	type: ID,	length: 1,	lineno: 88,	colno: 14,	content: "U"
+[437]	Tag: 46,	type: CHAR,	length: 1,	lineno: 88,	colno: 15,	content: "."
+[438]	Tag: 258,	type: ID,	length: 4,	lineno: 88,	colno: 16,	content: "unit"
+[439]	Tag: 44,	type: CHAR,	length: 1,	lineno: 88,	colno: 20,	content: ","
+[440]	Tag: 258,	type: ID,	length: 12,	lineno: 88,	colno: 22,	content: "CombineSpans"
+[441]	Tag: 40,	type: CHAR,	length: 1,	lineno: 88,	colno: 34,	content: "("
+[442]	Tag: 258,	type: ID,	length: 1,	lineno: 88,	colno: 35,	content: "N"
+[443]	Tag: 46,	type: CHAR,	length: 1,	lineno: 88,	colno: 36,	content: "."
+[444]	Tag: 258,	type: ID,	length: 6,	lineno: 88,	colno: 37,	content: "number"
+[445]	Tag: 44,	type: CHAR,	length: 1,	lineno: 88,	colno: 43,	content: ","
+[446]	Tag: 258,	type: ID,	length: 1,	lineno: 88,	colno: 45,	content: "U"
+[447]	Tag: 46,	type: CHAR,	length: 1,	lineno: 88,	colno: 46,	content: "."
+[448]	Tag: 258,	type: ID,	length: 4,	lineno: 88,	colno: 47,	content: "unit"
+[449]	Tag: 41,	type: CHAR,	length: 1,	lineno: 88,	colno: 51,	content: ")"
+[450]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 88,	colno: 53,	content: "as"
+[451]	Tag: 258,	type: ID,	length: 11,	lineno: 88,	colno: 56,	content: "number_unit"
+[452]	Tag: 44,	type: CHAR,	length: 1,	lineno: 88,	colno: 67,	content: ","
+[453]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 89,	colno: 4,	content: "pattern"
+[454]	Tag: 40,	type: CHAR,	length: 1,	lineno: 89,	colno: 12,	content: "("
+[455]	Tag: 259,	type: REG_EXPR,	length: 5,	lineno: 89,	colno: 13,	content: "\$?"
+[456]	Tag: 41,	type: CHAR,	length: 1,	lineno: 89,	colno: 18,	content: ")"
+[457]	Tag: 40,	type: CHAR,	length: 1,	lineno: 89,	colno: 20,	content: "("
+[458]	Tag: 60,	type: CHAR,	length: 1,	lineno: 89,	colno: 21,	content: "<"
+[459]	Tag: 258,	type: ID,	length: 1,	lineno: 89,	colno: 22,	content: "N"
+[460]	Tag: 46,	type: CHAR,	length: 1,	lineno: 89,	colno: 23,	content: "."
+[461]	Tag: 258,	type: ID,	length: 6,	lineno: 89,	colno: 24,	content: "number"
+[462]	Tag: 62,	type: CHAR,	length: 1,	lineno: 89,	colno: 30,	content: ">"
+[463]	Tag: 41,	type: CHAR,	length: 1,	lineno: 89,	colno: 31,	content: ")"
+[464]	Tag: 40,	type: CHAR,	length: 1,	lineno: 89,	colno: 33,	content: "("
+[465]	Tag: 60,	type: CHAR,	length: 1,	lineno: 89,	colno: 34,	content: "<"
+[466]	Tag: 258,	type: ID,	length: 1,	lineno: 89,	colno: 35,	content: "U"
+[467]	Tag: 46,	type: CHAR,	length: 1,	lineno: 89,	colno: 36,	content: "."
+[468]	Tag: 258,	type: ID,	length: 4,	lineno: 89,	colno: 37,	content: "unit"
+[469]	Tag: 62,	type: CHAR,	length: 1,	lineno: 89,	colno: 41,	content: ">"
+[470]	Tag: 41,	type: CHAR,	length: 1,	lineno: 89,	colno: 42,	content: ")"
+[471]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 90,	colno: 6,	content: "return"
+[472]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 90,	colno: 13,	content: "group"
+[473]	Tag: 256,	type: NUM,	length: 1,	lineno: 90,	colno: 19,	content: "0"
+[474]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 90,	colno: 21,	content: "as"
+[475]	Tag: 258,	type: ID,	length: 5,	lineno: 90,	colno: 24,	content: "money"
+[476]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 91,	colno: 2,	content: "from"
+[477]	Tag: 258,	type: ID,	length: 6,	lineno: 91,	colno: 7,	content: "Number"
+[478]	Tag: 258,	type: ID,	length: 1,	lineno: 91,	colno: 14,	content: "N"
+[479]	Tag: 44,	type: CHAR,	length: 1,	lineno: 91,	colno: 15,	content: ","
+[480]	Tag: 258,	type: ID,	length: 4,	lineno: 91,	colno: 17,	content: "Unit"
+[481]	Tag: 258,	type: ID,	length: 1,	lineno: 91,	colno: 22,	content: "U"
+[482]	Tag: 59,	type: CHAR,	length: 1,	lineno: 91,	colno: 23,	content: ";"
+[483]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 92,	colno: 0,	content: "output"
+[484]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 92,	colno: 7,	content: "view"
+[485]	Tag: 258,	type: ID,	length: 5,	lineno: 92,	colno: 12,	content: "Test3"
+[486]	Tag: 59,	type: CHAR,	length: 1,	lineno: 92,	colno: 17,	content: ";"
+[487]	Tag: -1,	type: EOF,	length: 0,	lineno: 93,	colno: 0,	content: "ÿ"
+
+Parser tree:
++Program
+    +[1] Stmt
+        +CreateView
+            +ViewName
+                Number
+            +ExtractStmt
+                +ExtractSpec
+                    +RegexSpec
+                        +RegExpr
+                            [0-9]+(\.[0-9])?
+                        +On
+                            +Column
+                                D.text
+                        +GroupList
+                            Group 0 => number
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[2] Stmt
+        +CreateView
+            +ViewName
+                Unit
+            +ExtractStmt
+                +ExtractSpec
+                    +RegexSpec
+                        +RegExpr
+                            percent|billion|million|trillion
+                        +On
+                            +Column
+                                D.text
+                        +GroupList
+                            Group 0 => unit
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[3] Stmt
+        +CreateView
+            +ViewName
+                Money
+            +ExtractStmt
+                +ExtractSpec
+                    +PatternSpec
+                        +PatternExpr
+                            +PatternSeq
+                                +PatternSeq
+                                    +PatternGroup: 1
+                                        +Regex
+                                            \$?
+                                    +PatternGroup: 2
+                                        +Column
+                                            N.number
+                                +PatternGroup: 3
+                                    +Column
+                                        U.unit
+                        +GroupList
+                            Group 0 => money
+                            Group 1 => dollar
+                            Group 2 => number
+                            Group 3 => unit
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Number
+                        +Alias
+                            N
+                    +FromItem
+                        +ViewName
+                            Unit
+                        +Alias
+                            U
+    +[4] Stmt
+        +CreateView
+            +ViewName
+                Revenue
+            +ExtractStmt
+                +ExtractSpec
+                    +RegexSpec
+                        +RegExpr
+                            revenues|revenue
+                        +On
+                            +Column
+                                D.text
+                        +GroupList
+                            Group 0 => revenue
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[5] Stmt
+        +CreateDict
+            +DictName
+                DepartmentDict
+            +Words
+                Global Technology Services
+,                 Systems and Technology
+,                 S&TG
+,                 Software
+,                 Global Financing
+,                 Global Business Services
+
+    +[6] Stmt
+        +CreateView
+            +ViewName
+                Division
+            +ExtractStmt
+                +ExtractSpec
+                    +DictSpec
+                        +DictName
+                            DepartmentDict
+                        +On
+                            +Column
+                                D.text
+                        +As
+                            division
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[7] Stmt
+        +CreateView
+            +ViewName
+                RevenueAndDivision
+            +NodeUnion
+                +ExtractStmt
+                    +SelectList
+                        +SelectItem
+                            +NUM
+                                1
+                            +Alias
+                                rule_no
+                        +SelectItem
+                            +STRING
+                                'RDM'
+                            +Alias
+                                rule_name
+                        +SelectItem
+                            +Column
+                                R.revenue
+                    +ExtractSpec
+                        +PatternSpec
+                            +PatternExpr
+                                +PatternSeq
+                                    +PatternSeq
+                                        +PatternSeq
+                                            +PatternSeq
+                                                +Column
+                                                    R.revenue
+                                                +PatternRepeat: {1, 3}
+                                                    Token
+                                            +PatternGroup: 1
+                                                +Column
+                                                    D.division
+                                        +PatternRepeat: {1, 20}
+                                            Token
+                                    +PatternGroup: 2
+                                        +Column
+                                            M.money
+                            +GroupList
+                                Group 0 => RevenueAndDivision
+                                Group 1 => Division
+                                Group 2 => Amount
+                    +FromList
+                        +FromItem
+                            +ViewName
+                                Revenue
+                            +Alias
+                                R
+                        +FromItem
+                            +ViewName
+                                Division
+                            +Alias
+                                D
+                        +FromItem
+                            +ViewName
+                                Money
+                            +Alias
+                                M
+                +ExtractStmt
+                    +SelectList
+                        +SelectItem
+                            +NUM
+                                2
+                            +Alias
+                                rule_no
+                        +SelectItem
+                            +STRING
+                                'DRM'
+                            +Alias
+                                rule_name
+                        +SelectItem
+                            +Column
+                                R.revenue
+                    +ExtractSpec
+                        +PatternSpec
+                            +PatternExpr
+                                +PatternSeq
+                                    +PatternSeq
+                                        +PatternSeq
+                                            +PatternSeq
+                                                +PatternGroup: 1
+                                                    +Column
+                                                        D.division
+                                                +PatternRepeat: {1, 3}
+                                                    Token
+                                            +Column
+                                                R.revenue
+                                        +PatternRepeat: {1, 20}
+                                            Token
+                                    +PatternGroup: 2
+                                        +Column
+                                            M.money
+                            +GroupList
+                                Group 0 => RevenueAndDivision
+                                Group 1 => Division
+                                Group 2 => Amount
+                    +FromList
+                        +FromItem
+                            +ViewName
+                                Revenue
+                            +Alias
+                                R
+                        +FromItem
+                            +ViewName
+                                Division
+                            +Alias
+                                D
+                        +FromItem
+                            +ViewName
+                                Money
+                            +Alias
+                                M
+    +[8] Stmt
+        +Output
+            +ViewName
+                Number
+    +[9] Stmt
+        +Output
+            +ViewName
+                Unit
+    +[10] Stmt
+        +Output
+            +ViewName
+                Money
+    +[11] Stmt
+        +Output
+            +ViewName
+                Revenue
+    +[12] Stmt
+        +Output
+            +ViewName
+                Division
+    +[13] Stmt
+        +Output
+            +ViewName
+                RevenueAndDivision
+    +[14] Stmt
+        +CreateView
+            +ViewName
+                Test1
+            +ExtractStmt
+                +ExtractSpec
+                    +PatternSpec
+                        +PatternExpr
+                            +PatternAlt
+                                +PatternAlt
+                                    +PatternAlt
+                                        +Regex
+                                            Total revenues
+                                        +Regex
+                                            Fourth-quarter
+                                    +Regex
+                                        Global Services business
+                                +PatternSeq
+                                    +PatternSeq
+                                        +PatternSeq
+                                            +PatternSeq
+                                                +PatternGroup: 1
+                                                    +Column
+                                                        D.division
+                                                +PatternRepeat: {1, 3}
+                                                    Token
+                                            +Column
+                                                R.revenue
+                                        +PatternRepeat: {1, 20}
+                                            Token
+                                    +PatternGroup: 2
+                                        +Column
+                                            M.money
+                        +GroupList
+                            Group 0 => text
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Revenue
+                        +Alias
+                            R
+                    +FromItem
+                        +ViewName
+                            Division
+                        +Alias
+                            D
+                    +FromItem
+                        +ViewName
+                            Money
+                        +Alias
+                            M
+    +[15] Stmt
+        +Output
+            +ViewName
+                Test1
+    +[16] Stmt
+        +CreateView
+            +ViewName
+                Test2
+            +SelectStmt
+                +SelectList
+                    +SelectItem
+                        +Column
+                            N.number
+                    +SelectItem
+                        +Column
+                            U.unit
+                    +SelectItem
+                        +Func
+                            +FuncName
+                                CombineSpans
+                            +Args
+                                +Column
+                                    N.number
+                                +Column
+                                    U.unit
+                        +Alias
+                            money
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Number
+                        +Alias
+                            N
+                    +FromItem
+                        +ViewName
+                            Unit
+                        +Alias
+                            U
+                +WhereClause
+                    +Func
+                        +FuncName
+                            FollowTok
+                        +Args
+                            +Column
+                                N.number
+                            +Column
+                                U.unit
+                            +NUM
+                                0
+                            +NUM
+                                0
+    +[17] Stmt
+        +Output
+            +ViewName
+                Test2
+    +[18] Stmt
+        +CreateView
+            +ViewName
+                Test3
+            +ExtractStmt
+                +SelectList
+                    +SelectItem
+                        +Column
+                            N.number
+                    +SelectItem
+                        +Column
+                            U.unit
+                    +SelectItem
+                        +Func
+                            +FuncName
+                                CombineSpans
+                            +Args
+                                +Column
+                                    N.number
+                                +Column
+                                    U.unit
+                        +Alias
+                            number_unit
+                +ExtractSpec
+                    +PatternSpec
+                        +PatternExpr
+                            +PatternSeq
+                                +PatternSeq
+                                    +PatternGroup: 1
+                                        +Regex
+                                            \$?
+                                    +PatternGroup: 2
+                                        +Column
+                                            N.number
+                                +PatternGroup: 3
+                                    +Column
+                                        U.unit
+                        +GroupList
+                            Group 0 => money
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Number
+                        +Alias
+                            N
+                    +FromItem
+                        +ViewName
+                            Unit
+                        +Alias
+                            U
+    +[19] Stmt
+        +Output
+            +ViewName
+                Test3
+
+Query plan tree:
++QueryPlanTree
+    +[1] Stmt
+        +CreateView
+            +ViewName
+                Number
+            +Project
+                +SelectCols
+                    "number"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "number"
+                    +Regex
+                        +RegExpr
+                            [0-9]+(\.[0-9])?
+    +[2] Stmt
+        +CreateView
+            +ViewName
+                Unit
+            +Project
+                +SelectCols
+                    "unit"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "unit"
+                    +Regex
+                        +RegExpr
+                            percent|billion|million|trillion
+    +[3] Stmt
+        +CreateView
+            +ViewName
+                Money
+            +Project
+                +SelectCols
+                    "money"
+                    "dollar"
+                    "number"
+                    "unit"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "money"
+                        "__AQL_GROUP_1" => "dollar"
+                        "__AQL_GROUP_2" => "number"
+                        "__AQL_GROUP_3" => "unit"
+                    +Project
+                        +RenameCols
+                            "__AQL_TMP_COL_3" => "__AQL_GROUP_0"
+                        +ApplyFunc
+                            +FuncName
+                                CombineSpans
+                            +Args
+                                +Column
+                                    '__AQL_TMP_COL_2'
+                                +Column
+                                    '__AQL_GROUP_3'
+                            +NewColName
+                                __AQL_TMP_COL_3
+                            +Join
+                                +Conditions
+                                    +[1]
+                                        +FuncName
+                                            FollowTok
+                                        +Args
+                                            +Column
+                                                '__AQL_TMP_COL_2'
+                                            +Column
+                                                '__AQL_GROUP_3'
+                                            +NUM
+                                                0
+                                            +NUM
+                                                0
+                                +ApplyFunc
+                                    +FuncName
+                                        CombineSpans
+                                    +Args
+                                        +Column
+                                            '__AQL_GROUP_1'
+                                        +Column
+                                            '__AQL_GROUP_2'
+                                    +NewColName
+                                        __AQL_TMP_COL_2
+                                    +Join
+                                        +Conditions
+                                            +[1]
+                                                +FuncName
+                                                    FollowTok
+                                                +Args
+                                                    +Column
+                                                        '__AQL_GROUP_1'
+                                                    +Column
+                                                        '__AQL_GROUP_2'
+                                                    +NUM
+                                                        0
+                                                    +NUM
+                                                        0
+                                        +Project
+                                            +CopyCols
+                                                "__AQL_TMP_COL_1" => "__AQL_GROUP_1"
+                                            +Project
+                                                +RenameCols
+                                                    "__AQL_GROUP_0" => "__AQL_TMP_COL_1"
+                                                +Project
+                                                    +SelectCols
+                                                        "__AQL_GROUP_0"
+                                                    +Regex
+                                                        +RegExpr
+                                                            \$?
+                                        +Project
+                                            +CopyCols
+                                                "N.number" => "__AQL_GROUP_2"
+                                            +Project
+                                                +AddPrefix
+                                                    "N"
+                                                +Scan
+                                                    +ViewName
+                                                        Number
+                                +Project
+                                    +CopyCols
+                                        "U.unit" => "__AQL_GROUP_3"
+                                    +Project
+                                        +AddPrefix
+                                            "U"
+                                        +Scan
+                                            +ViewName
+                                                Unit
+    +[4] Stmt
+        +CreateView
+            +ViewName
+                Revenue
+            +Project
+                +SelectCols
+                    "revenue"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "revenue"
+                    +Regex
+                        +RegExpr
+                            revenues|revenue
+    +[5] Stmt
+        +CreateDict
+            +DictName
+                DepartmentDict
+            +Words
+                Global Technology Services
+,                 Systems and Technology
+,                 S&TG
+,                 Software
+,                 Global Financing
+,                 Global Business Services
+
+    +[6] Stmt
+        +CreateView
+            +ViewName
+                Division
+            +Project
+                +SelectCols
+                    "division"
+                +Dictionary
+                    +DictName
+                        DepartmentDict
+                    +As
+                        division
+    +[7] Stmt
+        +CreateView
+            +ViewName
+                RevenueAndDivision
+            +Union
+                +Project
+                    +SelectCols
+                        "RevenueAndDivision"
+                        "Division"
+                        "Amount"
+                        "rule_no"
+                        "rule_name"
+                        "revenue"
+                    +Project
+                        +RenameCols
+                            "R.revenue" => "revenue"
+                        +Project
+                            +NewStringColumn
+                                STRING(RDM) => "rule_name"
+                            +Project
+                                +NewNumColumn
+                                    NUM(1) => "rule_no"
+                                +Project
+                                    +RenameCols
+                                        "__AQL_GROUP_0" => "RevenueAndDivision"
+                                        "__AQL_GROUP_1" => "Division"
+                                        "__AQL_GROUP_2" => "Amount"
+                                    +Project
+                                        +RenameCols
+                                            "__AQL_TMP_COL_5" => "__AQL_GROUP_0"
+                                        +ApplyFunc
+                                            +FuncName
+                                                CombineSpans
+                                            +Args
+                                                +Column
+                                                    '__AQL_TMP_COL_4'
+                                                +Column
+                                                    '__AQL_GROUP_2'
+                                            +NewColName
+                                                __AQL_TMP_COL_5
+                                            +Join
+                                                +Conditions
+                                                    +[1]
+                                                        +FuncName
+                                                            FollowTok
+                                                        +Args
+                                                            +Column
+                                                                '__AQL_TMP_COL_4'
+                                                            +Column
+                                                                '__AQL_GROUP_2'
+                                                            +NUM
+                                                                1
+                                                            +NUM
+                                                                20
+                                                +ApplyFunc
+                                                    +FuncName
+                                                        CombineSpans
+                                                    +Args
+                                                        +Column
+                                                            'R.revenue'
+                                                        +Column
+                                                            '__AQL_GROUP_1'
+                                                    +NewColName
+                                                        __AQL_TMP_COL_4
+                                                    +Join
+                                                        +Conditions
+                                                            +[1]
+                                                                +FuncName
+                                                                    FollowTok
+                                                                +Args
+                                                                    +Column
+                                                                        'R.revenue'
+                                                                    +Column
+                                                                        '__AQL_GROUP_1'
+                                                                    +NUM
+                                                                        1
+                                                                    +NUM
+                                                                        3
+                                                        +Project
+                                                            +AddPrefix
+                                                                "R"
+                                                            +Scan
+                                                                +ViewName
+                                                                    Revenue
+                                                        +Project
+                                                            +CopyCols
+                                                                "D.division" => "__AQL_GROUP_1"
+                                                            +Project
+                                                                +AddPrefix
+                                                                    "D"
+                                                                +Scan
+                                                                    +ViewName
+                                                                        Division
+                                                +Project
+                                                    +CopyCols
+                                                        "M.money" => "__AQL_GROUP_2"
+                                                    +Project
+                                                        +AddPrefix
+                                                            "M"
+                                                        +Scan
+                                                            +ViewName
+                                                                Money
+                +Project
+                    +SelectCols
+                        "RevenueAndDivision"
+                        "Division"
+                        "Amount"
+                        "rule_no"
+                        "rule_name"
+                        "revenue"
+                    +Project
+                        +RenameCols
+                            "R.revenue" => "revenue"
+                        +Project
+                            +NewStringColumn
+                                STRING(DRM) => "rule_name"
+                            +Project
+                                +NewNumColumn
+                                    NUM(2) => "rule_no"
+                                +Project
+                                    +RenameCols
+                                        "__AQL_GROUP_0" => "RevenueAndDivision"
+                                        "__AQL_GROUP_1" => "Division"
+                                        "__AQL_GROUP_2" => "Amount"
+                                    +Project
+                                        +RenameCols
+                                            "__AQL_TMP_COL_7" => "__AQL_GROUP_0"
+                                        +ApplyFunc
+                                            +FuncName
+                                                CombineSpans
+                                            +Args
+                                                +Column
+                                                    '__AQL_TMP_COL_6'
+                                                +Column
+                                                    '__AQL_GROUP_2'
+                                            +NewColName
+                                                __AQL_TMP_COL_7
+                                            +Join
+                                                +Conditions
+                                                    +[1]
+                                                        +FuncName
+                                                            FollowTok
+                                                        +Args
+                                                            +Column
+                                                                '__AQL_TMP_COL_6'
+                                                            +Column
+                                                                '__AQL_GROUP_2'
+                                                            +NUM
+                                                                1
+                                                            +NUM
+                                                                20
+                                                +ApplyFunc
+                                                    +FuncName
+                                                        CombineSpans
+                                                    +Args
+                                                        +Column
+                                                            '__AQL_GROUP_1'
+                                                        +Column
+                                                            'R.revenue'
+                                                    +NewColName
+                                                        __AQL_TMP_COL_6
+                                                    +Join
+                                                        +Conditions
+                                                            +[1]
+                                                                +FuncName
+                                                                    FollowTok
+                                                                +Args
+                                                                    +Column
+                                                                        '__AQL_GROUP_1'
+                                                                    +Column
+                                                                        'R.revenue'
+                                                                    +NUM
+                                                                        1
+                                                                    +NUM
+                                                                        3
+                                                        +Project
+                                                            +CopyCols
+                                                                "D.division" => "__AQL_GROUP_1"
+                                                            +Project
+                                                                +AddPrefix
+                                                                    "D"
+                                                                +Scan
+                                                                    +ViewName
+                                                                        Division
+                                                        +Project
+                                                            +AddPrefix
+                                                                "R"
+                                                            +Scan
+                                                                +ViewName
+                                                                    Revenue
+                                                +Project
+                                                    +CopyCols
+                                                        "M.money" => "__AQL_GROUP_2"
+                                                    +Project
+                                                        +AddPrefix
+                                                            "M"
+                                                        +Scan
+                                                            +ViewName
+                                                                Money
+    +[8] Stmt
+        +Output
+            +ViewName
+                Number
+    +[9] Stmt
+        +Output
+            +ViewName
+                Unit
+    +[10] Stmt
+        +Output
+            +ViewName
+                Money
+    +[11] Stmt
+        +Output
+            +ViewName
+                Revenue
+    +[12] Stmt
+        +Output
+            +ViewName
+                Division
+    +[13] Stmt
+        +Output
+            +ViewName
+                RevenueAndDivision
+    +[14] Stmt
+        +CreateView
+            +ViewName
+                Test1
+            +Project
+                +SelectCols
+                    "text"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "text"
+                    +Project
+                        +RenameCols
+                            "__AQL_TMP_COL_15" => "__AQL_GROUP_0"
+                        +Union
+                            +Project
+                                +RenameCols
+                                    "__AQL_TMP_COL_12" => "__AQL_TMP_COL_15"
+                                +Project
+                                    +SelectCols
+                                        "__AQL_TMP_COL_12"
+                                    +Union
+                                        +Project
+                                            +RenameCols
+                                                "__AQL_TMP_COL_10" => "__AQL_TMP_COL_12"
+                                            +Project
+                                                +SelectCols
+                                                    "__AQL_TMP_COL_10"
+                                                +Union
+                                                    +Project
+                                                        +RenameCols
+                                                            "__AQL_TMP_COL_8" => "__AQL_TMP_COL_10"
+                                                        +Project
+                                                            +SelectCols
+                                                                "__AQL_TMP_COL_8"
+                                                            +Project
+                                                                +RenameCols
+                                                                    "__AQL_GROUP_0" => "__AQL_TMP_COL_8"
+                                                                +Project
+                                                                    +SelectCols
+                                                                        "__AQL_GROUP_0"
+                                                                    +Regex
+                                                                        +RegExpr
+                                                                            Total revenues
+                                                    +Project
+                                                        +RenameCols
+                                                            "__AQL_TMP_COL_9" => "__AQL_TMP_COL_10"
+                                                        +Project
+                                                            +SelectCols
+                                                                "__AQL_TMP_COL_9"
+                                                            +Project
+                                                                +RenameCols
+                                                                    "__AQL_GROUP_0" => "__AQL_TMP_COL_9"
+                                                                +Project
+                                                                    +SelectCols
+                                                                        "__AQL_GROUP_0"
+                                                                    +Regex
+                                                                        +RegExpr
+                                                                            Fourth-quarter
+                                        +Project
+                                            +RenameCols
+                                                "__AQL_TMP_COL_11" => "__AQL_TMP_COL_12"
+                                            +Project
+                                                +SelectCols
+                                                    "__AQL_TMP_COL_11"
+                                                +Project
+                                                    +RenameCols
+                                                        "__AQL_GROUP_0" => "__AQL_TMP_COL_11"
+                                                    +Project
+                                                        +SelectCols
+                                                            "__AQL_GROUP_0"
+                                                        +Regex
+                                                            +RegExpr
+                                                                Global Services business
+                            +Project
+                                +RenameCols
+                                    "__AQL_TMP_COL_14" => "__AQL_TMP_COL_15"
+                                +Project
+                                    +SelectCols
+                                        "__AQL_TMP_COL_14"
+                                    +ApplyFunc
+                                        +FuncName
+                                            CombineSpans
+                                        +Args
+                                            +Column
+                                                '__AQL_TMP_COL_13'
+                                            +Column
+                                                '__AQL_GROUP_2'
+                                        +NewColName
+                                            __AQL_TMP_COL_14
+                                        +Join
+                                            +Conditions
+                                                +[1]
+                                                    +FuncName
+                                                        FollowTok
+                                                    +Args
+                                                        +Column
+                                                            '__AQL_TMP_COL_13'
+                                                        +Column
+                                                            '__AQL_GROUP_2'
+                                                        +NUM
+                                                            1
+                                                        +NUM
+                                                            20
+                                            +ApplyFunc
+                                                +FuncName
+                                                    CombineSpans
+                                                +Args
+                                                    +Column
+                                                        '__AQL_GROUP_1'
+                                                    +Column
+                                                        'R.revenue'
+                                                +NewColName
+                                                    __AQL_TMP_COL_13
+                                                +Join
+                                                    +Conditions
+                                                        +[1]
+                                                            +FuncName
+                                                                FollowTok
+                                                            +Args
+                                                                +Column
+                                                                    '__AQL_GROUP_1'
+                                                                +Column
+                                                                    'R.revenue'
+                                                                +NUM
+                                                                    1
+                                                                +NUM
+                                                                    3
+                                                    +Project
+                                                        +CopyCols
+                                                            "D.division" => "__AQL_GROUP_1"
+                                                        +Project
+                                                            +AddPrefix
+                                                                "D"
+                                                            +Scan
+                                                                +ViewName
+                                                                    Division
+                                                    +Project
+                                                        +AddPrefix
+                                                            "R"
+                                                        +Scan
+                                                            +ViewName
+                                                                Revenue
+                                            +Project
+                                                +CopyCols
+                                                    "M.money" => "__AQL_GROUP_2"
+                                                +Project
+                                                    +AddPrefix
+                                                        "M"
+                                                    +Scan
+                                                        +ViewName
+                                                            Money
+    +[15] Stmt
+        +Output
+            +ViewName
+                Test1
+    +[16] Stmt
+        +CreateView
+            +ViewName
+                Test2
+            +Project
+                +SelectCols
+                    "number"
+                    "unit"
+                    "money"
+                +Project
+                    +RenameCols
+                        "N.number" => "number"
+                        "U.unit" => "unit"
+                    +ApplyFunc
+                        +FuncName
+                            CombineSpans
+                        +Args
+                            +Column
+                                'N.number'
+                            +Column
+                                'U.unit'
+                        +NewColName
+                            money
+                        +Join
+                            +Conditions
+                                +[1]
+                                    +FuncName
+                                        FollowTok
+                                    +Args
+                                        +Column
+                                            'N.number'
+                                        +Column
+                                            'U.unit'
+                                        +NUM
+                                            0
+                                        +NUM
+                                            0
+                            +Project
+                                +AddPrefix
+                                    "N"
+                                +Scan
+                                    +ViewName
+                                        Number
+                            +Project
+                                +AddPrefix
+                                    "U"
+                                +Scan
+                                    +ViewName
+                                        Unit
+    +[17] Stmt
+        +Output
+            +ViewName
+                Test2
+    +[18] Stmt
+        +CreateView
+            +ViewName
+                Test3
+            +Project
+                +SelectCols
+                    "money"
+                    "number"
+                    "unit"
+                    "number_unit"
+                +Project
+                    +RenameCols
+                        "N.number" => "number"
+                        "U.unit" => "unit"
+                    +ApplyFunc
+                        +FuncName
+                            CombineSpans
+                        +Args
+                            +Column
+                                'N.number'
+                            +Column
+                                'U.unit'
+                        +NewColName
+                            number_unit
+                        +Project
+                            +RenameCols
+                                "__AQL_GROUP_0" => "money"
+                            +Project
+                                +RenameCols
+                                    "__AQL_TMP_COL_18" => "__AQL_GROUP_0"
+                                +ApplyFunc
+                                    +FuncName
+                                        CombineSpans
+                                    +Args
+                                        +Column
+                                            '__AQL_TMP_COL_17'
+                                        +Column
+                                            '__AQL_GROUP_3'
+                                    +NewColName
+                                        __AQL_TMP_COL_18
+                                    +Join
+                                        +Conditions
+                                            +[1]
+                                                +FuncName
+                                                    FollowTok
+                                                +Args
+                                                    +Column
+                                                        '__AQL_TMP_COL_17'
+                                                    +Column
+                                                        '__AQL_GROUP_3'
+                                                    +NUM
+                                                        0
+                                                    +NUM
+                                                        0
+                                        +ApplyFunc
+                                            +FuncName
+                                                CombineSpans
+                                            +Args
+                                                +Column
+                                                    '__AQL_GROUP_1'
+                                                +Column
+                                                    '__AQL_GROUP_2'
+                                            +NewColName
+                                                __AQL_TMP_COL_17
+                                            +Join
+                                                +Conditions
+                                                    +[1]
+                                                        +FuncName
+                                                            FollowTok
+                                                        +Args
+                                                            +Column
+                                                                '__AQL_GROUP_1'
+                                                            +Column
+                                                                '__AQL_GROUP_2'
+                                                            +NUM
+                                                                0
+                                                            +NUM
+                                                                0
+                                                +Project
+                                                    +CopyCols
+                                                        "__AQL_TMP_COL_16" => "__AQL_GROUP_1"
+                                                    +Project
+                                                        +RenameCols
+                                                            "__AQL_GROUP_0" => "__AQL_TMP_COL_16"
+                                                        +Project
+                                                            +SelectCols
+                                                                "__AQL_GROUP_0"
+                                                            +Regex
+                                                                +RegExpr
+                                                                    \$?
+                                                +Project
+                                                    +CopyCols
+                                                        "N.number" => "__AQL_GROUP_2"
+                                                    +Project
+                                                        +AddPrefix
+                                                            "N"
+                                                        +Scan
+                                                            +ViewName
+                                                                Number
+                                        +Project
+                                            +CopyCols
+                                                "U.unit" => "__AQL_GROUP_3"
+                                            +Project
+                                                +AddPrefix
+                                                    "U"
+                                                +Scan
+                                                    +ViewName
+                                                        Unit
+    +[19] Stmt
+        +Output
+            +ViewName
+                Test3
+
+Processing ../input/Revenue.txt
+View: Number
++--------------------+
+| number             |
++--------------------+
+| 2006:(12,16)       |
+| 18:(140,142)       |
+| 2007:(147,151)     |
+| 26.3:(176,180)     |
+| 7:(193,194)        |
+| 2.2:(239,242)      |
+| 6:(242,243)        |
+| 12:(285,287)       |
+| 7:(312,313)        |
+| 2005:(355,359)     |
+| 17.8:(423,427)     |
+| 55:(440,442)       |
+| 2006:(489,493)     |
+| 2.2:(515,518)      |
+| 6:(518,519)        |
+| 12:(573,575)       |
+| 2.0:(632,635)      |
+| 1:(635,636)        |
+| 2005:(672,676)     |
+| 2005:(697,701)     |
+| 0.1:(728,731)      |
+| 0:(731,732)        |
+| 267:(788,791)      |
+| 2006:(878,882)     |
+| 7:(888,889)        |
+| 2.1:(937,940)      |
+| 1:(940,941)        |
+| 2006:(1015,1019)   |
+| 0.0:(1058,1061)    |
+| 6:(1061,1062)      |
+| 3.5:(1162,1165)    |
+| 3.2:(1189,1192)    |
+| 2005:(1226,1230)   |
+| 8:(1247,1248)      |
+| 2:(1320,1321)      |
+| 2005:(1363,1367)   |
+| 3.4:(1406,1409)    |
+| 2006:(1491,1495)   |
+| 26.3:(1500,1504)   |
+| 7:(1523,1524)      |
+| 4:(1534,1535)      |
+| 2005:(1596,1600)   |
+| 11.1:(2073,2077)   |
+| 6:(2102,2103)      |
+| 5:(2125,2126)      |
+| 2005:(2169,2173)   |
+| 9.3:(2228,2231)    |
+| 11:(2244,2246)     |
+| 3:(2256,2257)      |
+| 7:(2324,2325)      |
+| 5:(2335,2336)      |
+| 4.8:(2374,2377)    |
+| 1.0:(2406,2409)    |
+| 3:(2424,2425)      |
+| 2005:(2452,2456)   |
+| 5.6:(2517,2520)    |
+| 14:(2545,2547)     |
+| 11:(2557,2559)     |
+| 2005:(2629,2633)   |
+| 4.4:(2766,2769)    |
+| 18:(2782,2784)     |
+| 2005:(2822,2826)   |
+| 2:(2865,2866)      |
+| 642:(2879,2882)    |
+| 22:(3284,3286)     |
+| 28:(3409,3411)     |
+| 25:(3581,3583)     |
+| 30:(3743,3745)     |
+| 12:(3880,3882)     |
+| 7:(4023,4024)      |
+| 4:(4034,4035)      |
+| 8.6:(4073,4076)    |
+| 6:(4147,4148)      |
+| 3:(4158,4159)      |
+| 4.2:(4197,4200)    |
+| 17.8:(4250,4254)   |
+| 55:(4267,4269)     |
+| 116:(4502,4505)    |
+| 5:(4531,4532)      |
+| 7.1:(4643,4646)    |
+| 3:(4675,4676)      |
+| 5:(4771,4772)      |
+| 6:(4935,4936)      |
+| 4:(5004,5005)      |
+| 2005:(5032,5036)   |
+| 7:(5090,5091)      |
+| 10:(5150,5152)     |
+| 6:(5203,5204)      |
+| 9:(5256,5257)      |
+| 3:(5314,5315)      |
+| 620:(5381,5384)    |
+| 44.6:(5441,5445)   |
+| 2006:(5461,5465)   |
+| 44.1:(5495,5499)   |
+| 2005:(5515,5519)   |
+| 11:(5572,5574)     |
+| 6.9:(5587,5590)    |
+| 7:(5659,5660)      |
+| 5.6:(5673,5676)    |
+| 9:(5709,5710)      |
+| 241:(5820,5823)    |
+| 228:(5847,5850)    |
+| 150:(5921,5924)    |
+| 2006:(5958,5962)   |
+| 334:(5981,5984)    |
+| 2005:(6018,6022)   |
+| 140:(6247,6250)    |
+| 2006:(6323,6327)   |
+| 28.0:(6332,6336)   |
+| 29.5:(6359,6363)   |
+| 2005:(6397,6401)   |
+| 2006:(6694,6698)   |
+| 3.5:(6704,6707)    |
+| 2.3:(6721,6724)    |
+| 1:(6724,6725)      |
+| 76:(6835,6837)     |
+| 2005:(6883,6887)   |
+| 3.2:(6903,6906)    |
+| 1.9:(6920,6923)    |
+| 9:(6923,6924)      |
+| 3:(6999,7000)      |
+| 47:(7079,7081)     |
+| 36:(7104,7106)     |
+| 1.4:(7160,7163)    |
+| 2006:(7282,7286)   |
+| 1.5:(7291,7294)    |
+| 3:(7294,7295)      |
+| 1.6:(7318,7321)    |
+| 0:(7321,7322)      |
+| 2005:(7360,7364)   |
+| 2006:(7379,7383)   |
+| 91.4:(7413,7417)   |
+| 4:(7430,7431)      |
+| 9.4:(7516,7519)    |
+| 18:(7532,7534)     |
+| 9:(7562,7563)      |
+| 2005:(7582,7586)   |
+| 6.0:(7631,7634)    |
+| 6:(7634,7635)      |
+| 23:(7677,7679)     |
+| 14:(7707,7709)     |
+| 2005:(7728,7732)   |
+| 15.3:(7785,7789)   |
+| 2.2:(7803,7806)    |
+| 6.0:(7918,7921)    |
+| 6:(7921,7922)      |
+| 4.9:(7938,7941)    |
+| 1:(7941,7942)      |
+| 2005:(7969,7973)   |
+| 0.4:(7993,7996)    |
+| 0:(7996,7997)      |
+| 23:(8055,8057)     |
+| 2005:(8097,8101)   |
+| 2006:(8123,8127)   |
+| 0.7:(8139,8142)    |
+| 4:(8142,8143)      |
+| 14:(8158,8160)     |
+| 31:(8274,8276)     |
+| 2006:(8278,8282)   |
+| 9.4:(8288,8291)    |
+| 8.0:(8316,8319)    |
+| 18:(8358,8360)     |
+| 525:(8398,8401)    |
+| 2005:(8443,8447)   |
+| 267:(8543,8546)    |
+| 1.7:(8628,8631)    |
+| 1.1:(8656,8659)    |
+| 775:(8735,8738)    |
+| 2005:(8842,8846)   |
+| 9:(8901,8902)      |
+| 2006:(8970,8974)   |
+| 91.4:(8984,8988)   |
+| 91.1:(9069,9073)   |
+| 2005:(9086,9090)   |
+| 2.9:(9123,9126)    |
+| 2005:(9164,9168)   |
+| 4:(9230,9231)      |
+| 3:(9241,9242)      |
+| 2005:(9294,9298)   |
+| 39.5:(9379,9383)   |
+| 2:(9408,9409)      |
+| 4:(9431,9432)      |
+| 2005:(9483,9487)   |
+| 30.5:(9542,9546)   |
+| 2:(9577,9578)      |
+| 6:(9653,9654)      |
+| 2:(9667,9668)      |
+| 17.6:(9714,9718)   |
+| 3.9:(9747,9750)    |
+| 18:(9763,9765)     |
+| 2005:(9788,9792)   |
+| 2006:(9826,9830)   |
+| 18.2:(9840,9844)   |
+| 8:(9869,9870)      |
+| 7:(9880,9881)      |
+| 32.3:(9978,9982)   |
+| 3:(10007,10008)    |
+| 2:(10018,10019)    |
+| 2005:(10067,10071) |
+| 16.0:(10130,10134) |
+| 1:(10153,10154)    |
+| 22.0:(10217,10221) |
+| 5:(10246,10247)    |
+| 4:(10257,10258)    |
+| 2.4:(10328,10331)  |
+| 2:(10355,10356)    |
+| 2:(10366,10367)    |
+| 2006:(10442,10446) |
+| 9.5:(10452,10455)  |
+| 6.1:(10469,10472)  |
+| 1:(10472,10473)    |
+| 76:(10583,10585)   |
+| 2005:(10613,10617) |
+| 7.9:(10633,10636)  |
+| 4.8:(10650,10653)  |
+| 7:(10653,10654)    |
+| 24:(10729,10731)   |
+| 47:(10810,10812)   |
+| 36:(10835,10837)   |
+| 2006:(10860,10864) |
+| 10.7:(10871,10875) |
+| 15.3:(11011,11015) |
+| 2.2:(11042,11045)  |
+| 158:(11259,11262)  |
+| 158:(11269,11272)  |
+| 2006:(11415,11419) |
+| 158:(11771,11774)  |
+| 31:(11787,11789)   |
+| 2006:(11791,11795) |
+| 9.2:(11829,11832)  |
+| 0.3:(11872,11875)  |
+| 9.5:(11921,11924)  |
+| 8.0:(12151,12154)  |
+| 2006:(12166,12170) |
+| 2006:(12240,12244) |
+| 1.5:(12249,12252)  |
+| 5:(12252,12253)    |
+| 1.6:(12276,12279)  |
+| 3:(12279,12280)    |
+| 2005:(12299,12303) |
+| 31:(12320,12322)   |
+| 2006:(12324,12328) |
+| 1.5:(12341,12344)  |
+| 1:(12344,12345)    |
+| 22.7:(12433,12437) |
+| 22.6:(12462,12466) |
+| 2005:(12487,12491) |
+| 1.5:(12583,12586)  |
+| 2006:(12609,12613) |
+| 1.8:(12652,12655)  |
+| 2005:(12678,12682) |
+| 22.3:(12698,12702) |
+| 6.9:(12751,12754)  |
+| 1:(12758,12759)    |
+| 1995:(13031,13035) |
+| 10:(14184,14186)   |
+| 10:(14195,14197)   |
+| 8:(15358,15359)    |
++--------------------+
+258 rows in set
+
+View: Unit
++-----------------------+
+| unit                  |
++-----------------------+
+| billion:(181,188)     |
+| percent:(195,202)     |
+| percent:(288,295)     |
+| percent:(314,321)     |
+| billion:(428,435)     |
+| percent:(443,450)     |
+| percent:(576,583)     |
+| million:(792,799)     |
+| percent:(890,897)     |
+| billion:(1166,1173)   |
+| billion:(1193,1200)   |
+| percent:(1249,1256)   |
+| percent:(1322,1329)   |
+| billion:(1410,1417)   |
+| billion:(1505,1512)   |
+| percent:(1525,1532)   |
+| percent:(1536,1543)   |
+| billion:(2078,2085)   |
+| percent:(2104,2111)   |
+| percent:(2127,2134)   |
+| billion:(2232,2239)   |
+| percent:(2247,2254)   |
+| percent:(2258,2265)   |
+| percent:(2326,2333)   |
+| percent:(2337,2344)   |
+| billion:(2378,2385)   |
+| billion:(2410,2417)   |
+| percent:(2426,2433)   |
+| billion:(2521,2528)   |
+| percent:(2548,2555)   |
+| percent:(2560,2567)   |
+| billion:(2770,2777)   |
+| percent:(2785,2792)   |
+| percent:(2867,2874)   |
+| million:(2883,2890)   |
+| percent:(3287,3294)   |
+| percent:(3412,3419)   |
+| percent:(3584,3591)   |
+| percent:(3746,3753)   |
+| percent:(3883,3890)   |
+| percent:(4025,4032)   |
+| percent:(4036,4043)   |
+| billion:(4077,4084)   |
+| percent:(4149,4156)   |
+| percent:(4160,4167)   |
+| billion:(4201,4208)   |
+| billion:(4255,4262)   |
+| percent:(4270,4277)   |
+| billion:(4506,4513)   |
+| billion:(4533,4540)   |
+| billion:(4647,4654)   |
+| percent:(4677,4684)   |
+| percent:(4773,4780)   |
+| million:(4887,4894)   |
+| percent:(4937,4944)   |
+| percent:(5006,5013)   |
+| percent:(5092,5099)   |
+| percent:(5153,5160)   |
+| percent:(5205,5212)   |
+| percent:(5258,5265)   |
+| percent:(5316,5323)   |
+| million:(5385,5392)   |
+| percent:(5446,5453)   |
+| percent:(5500,5507)   |
+| percent:(5575,5582)   |
+| billion:(5591,5598)   |
+| percent:(5661,5668)   |
+| billion:(5677,5684)   |
+| percent:(5711,5718)   |
+| million:(5824,5831)   |
+| million:(5851,5858)   |
+| million:(5925,5932)   |
+| million:(5985,5992)   |
+| million:(6251,6258)   |
+| percent:(6337,6344)   |
+| percent:(6364,6371)   |
+| billion:(6708,6715)   |
+| million:(6838,6845)   |
+| billion:(6907,6914)   |
+| million:(7001,7008)   |
+| million:(7107,7114)   |
+| billion:(7164,7171)   |
+| billion:(7296,7303)   |
+| billion:(7323,7330)   |
+| billion:(7418,7425)   |
+| percent:(7432,7439)   |
+| billion:(7520,7527)   |
+| percent:(7535,7542)   |
+| percent:(7564,7571)   |
+| percent:(7680,7687)   |
+| percent:(7710,7717)   |
+| billion:(7790,7797)   |
+| billion:(7807,7814)   |
+| percent:(8058,8065)   |
+| percent:(8161,8168)   |
+| billion:(8292,8299)   |
+| billion:(8320,8327)   |
+| percent:(8361,8368)   |
+| million:(8402,8409)   |
+| million:(8547,8554)   |
+| billion:(8632,8639)   |
+| billion:(8660,8667)   |
+| million:(8739,8746)   |
+| percent:(8903,8910)   |
+| billion:(8989,8996)   |
+| billion:(9074,9081)   |
+| billion:(9127,9134)   |
+| percent:(9232,9239)   |
+| percent:(9243,9250)   |
+| billion:(9384,9391)   |
+| percent:(9410,9417)   |
+| percent:(9433,9440)   |
+| billion:(9547,9554)   |
+| percent:(9579,9586)   |
+| percent:(9655,9662)   |
+| percent:(9669,9676)   |
+| billion:(9719,9726)   |
+| billion:(9751,9758)   |
+| percent:(9766,9773)   |
+| billion:(9845,9852)   |
+| percent:(9871,9878)   |
+| percent:(9882,9889)   |
+| billion:(9983,9990)   |
+| percent:(10009,10016) |
+| percent:(10020,10027) |
+| billion:(10135,10142) |
+| percent:(10155,10162) |
+| billion:(10222,10229) |
+| percent:(10248,10255) |
+| percent:(10259,10266) |
+| billion:(10332,10339) |
+| percent:(10357,10364) |
+| percent:(10368,10375) |
+| billion:(10456,10463) |
+| million:(10586,10593) |
+| billion:(10637,10644) |
+| million:(10732,10739) |
+| million:(10838,10845) |
+| billion:(10876,10883) |
+| billion:(11016,11023) |
+| billion:(11046,11053) |
+| billion:(11833,11840) |
+| billion:(11876,11883) |
+| billion:(11925,11932) |
+| billion:(12155,12162) |
+| billion:(12254,12261) |
+| billion:(12281,12288) |
+| billion:(12346,12353) |
+| billion:(12438,12445) |
+| billion:(12467,12474) |
+| percent:(12587,12594) |
+| billion:(12656,12663) |
+| billion:(12703,12710) |
++-----------------------+
+153 rows in set
+
+View: Money
++-----------------+-----------------------------+--------------------+-----------------------+
+| dollar          | money                       | number             | unit                  |
++-----------------+-----------------------------+--------------------+-----------------------+
+| $:(175,176)     | $26.3 billion:(175,188)     | 26.3:(176,180)     | billion:(181,188)     |
+| $:(422,423)     | $17.8 billion:(422,435)     | 17.8:(423,427)     | billion:(428,435)     |
+| $:(787,788)     | $267 million:(787,799)      | 267:(788,791)      | million:(792,799)     |
+| $:(1161,1162)   | $3.5 billion:(1161,1173)    | 3.5:(1162,1165)    | billion:(1166,1173)   |
+| $:(1188,1189)   | $3.2 billion:(1188,1200)    | 3.2:(1189,1192)    | billion:(1193,1200)   |
+| $:(1405,1406)   | $3.4 billion:(1405,1417)    | 3.4:(1406,1409)    | billion:(1410,1417)   |
+| $:(1499,1500)   | $26.3 billion:(1499,1512)   | 26.3:(1500,1504)   | billion:(1505,1512)   |
+| $:(2072,2073)   | $11.1 billion:(2072,2085)   | 11.1:(2073,2077)   | billion:(2078,2085)   |
+| $:(2227,2228)   | $9.3 billion:(2227,2239)    | 9.3:(2228,2231)    | billion:(2232,2239)   |
+| $:(2373,2374)   | $4.8 billion:(2373,2385)    | 4.8:(2374,2377)    | billion:(2378,2385)   |
+| $:(2405,2406)   | $1.0 billion:(2405,2417)    | 1.0:(2406,2409)    | billion:(2410,2417)   |
+| $:(2516,2517)   | $5.6 billion:(2516,2528)    | 5.6:(2517,2520)    | billion:(2521,2528)   |
+| $:(2765,2766)   | $4.4 billion:(2765,2777)    | 4.4:(2766,2769)    | billion:(2770,2777)   |
+| $:(2878,2879)   | $642 million:(2878,2890)    | 642:(2879,2882)    | million:(2883,2890)   |
+| $:(4072,4073)   | $8.6 billion:(4072,4084)    | 8.6:(4073,4076)    | billion:(4077,4084)   |
+| $:(4196,4197)   | $4.2 billion:(4196,4208)    | 4.2:(4197,4200)    | billion:(4201,4208)   |
+| $:(4249,4250)   | $17.8 billion:(4249,4262)   | 17.8:(4250,4254)   | billion:(4255,4262)   |
+| $:(4501,4502)   | $116 billion:(4501,4513)    | 116:(4502,4505)    | billion:(4506,4513)   |
+| $:(4530,4531)   | $5 billion:(4530,4540)      | 5:(4531,4532)      | billion:(4533,4540)   |
+| $:(4642,4643)   | $7.1 billion:(4642,4654)    | 7.1:(4643,4646)    | billion:(4647,4654)   |
+| $:(5380,5381)   | $620 million:(5380,5392)    | 620:(5381,5384)    | million:(5385,5392)   |
+| $:(5586,5587)   | $6.9 billion:(5586,5598)    | 6.9:(5587,5590)    | billion:(5591,5598)   |
+| $:(5672,5673)   | $5.6 billion:(5672,5684)    | 5.6:(5673,5676)    | billion:(5677,5684)   |
+| $:(5819,5820)   | $241 million:(5819,5831)    | 241:(5820,5823)    | million:(5824,5831)   |
+| $:(5846,5847)   | $228 million:(5846,5858)    | 228:(5847,5850)    | million:(5851,5858)   |
+| $:(5920,5921)   | $150 million:(5920,5932)    | 150:(5921,5924)    | million:(5925,5932)   |
+| $:(5980,5981)   | $334 million:(5980,5992)    | 334:(5981,5984)    | million:(5985,5992)   |
+| $:(6246,6247)   | $140 million:(6246,6258)    | 140:(6247,6250)    | million:(6251,6258)   |
+| $:(6703,6704)   | $3.5 billion:(6703,6715)    | 3.5:(6704,6707)    | billion:(6708,6715)   |
+| $:(6834,6835)   | $76 million:(6834,6845)     | 76:(6835,6837)     | million:(6838,6845)   |
+| $:(6902,6903)   | $3.2 billion:(6902,6914)    | 3.2:(6903,6906)    | billion:(6907,6914)   |
+| $:(6998,6999)   | $3 million:(6998,7008)      | 3:(6999,7000)      | million:(7001,7008)   |
+| $:(7103,7104)   | $36 million:(7103,7114)     | 36:(7104,7106)     | million:(7107,7114)   |
+| $:(7159,7160)   | $1.4 billion:(7159,7171)    | 1.4:(7160,7163)    | billion:(7164,7171)   |
+| $:(7412,7413)   | $91.4 billion:(7412,7425)   | 91.4:(7413,7417)   | billion:(7418,7425)   |
+| $:(7515,7516)   | $9.4 billion:(7515,7527)    | 9.4:(7516,7519)    | billion:(7520,7527)   |
+| $:(7784,7785)   | $15.3 billion:(7784,7797)   | 15.3:(7785,7789)   | billion:(7790,7797)   |
+| $:(7802,7803)   | $2.2 billion:(7802,7814)    | 2.2:(7803,7806)    | billion:(7807,7814)   |
+| $:(8287,8288)   | $9.4 billion:(8287,8299)    | 9.4:(8288,8291)    | billion:(8292,8299)   |
+| $:(8315,8316)   | $8.0 billion:(8315,8327)    | 8.0:(8316,8319)    | billion:(8320,8327)   |
+| $:(8397,8398)   | $525 million:(8397,8409)    | 525:(8398,8401)    | million:(8402,8409)   |
+| $:(8542,8543)   | $267 million:(8542,8554)    | 267:(8543,8546)    | million:(8547,8554)   |
+| $:(8627,8628)   | $1.7 billion:(8627,8639)    | 1.7:(8628,8631)    | billion:(8632,8639)   |
+| $:(8655,8656)   | $1.1 billion:(8655,8667)    | 1.1:(8656,8659)    | billion:(8660,8667)   |
+| $:(8734,8735)   | $775 million:(8734,8746)    | 775:(8735,8738)    | million:(8739,8746)   |
+| $:(8983,8984)   | $91.4 billion:(8983,8996)   | 91.4:(8984,8988)   | billion:(8989,8996)   |
+| $:(9068,9069)   | $91.1 billion:(9068,9081)   | 91.1:(9069,9073)   | billion:(9074,9081)   |
+| $:(9122,9123)   | $2.9 billion:(9122,9134)    | 2.9:(9123,9126)    | billion:(9127,9134)   |
+| $:(9378,9379)   | $39.5 billion:(9378,9391)   | 39.5:(9379,9383)   | billion:(9384,9391)   |
+| $:(9541,9542)   | $30.5 billion:(9541,9554)   | 30.5:(9542,9546)   | billion:(9547,9554)   |
+| $:(9713,9714)   | $17.6 billion:(9713,9726)   | 17.6:(9714,9718)   | billion:(9719,9726)   |
+| $:(9746,9747)   | $3.9 billion:(9746,9758)    | 3.9:(9747,9750)    | billion:(9751,9758)   |
+| $:(9839,9840)   | $18.2 billion:(9839,9852)   | 18.2:(9840,9844)   | billion:(9845,9852)   |
+| $:(9977,9978)   | $32.3 billion:(9977,9990)   | 32.3:(9978,9982)   | billion:(9983,9990)   |
+| $:(10129,10130) | $16.0 billion:(10129,10142) | 16.0:(10130,10134) | billion:(10135,10142) |
+| $:(10216,10217) | $22.0 billion:(10216,10229) | 22.0:(10217,10221) | billion:(10222,10229) |
+| $:(10327,10328) | $2.4 billion:(10327,10339)  | 2.4:(10328,10331)  | billion:(10332,10339) |
+| $:(10451,10452) | $9.5 billion:(10451,10463)  | 9.5:(10452,10455)  | billion:(10456,10463) |
+| $:(10582,10583) | $76 million:(10582,10593)   | 76:(10583,10585)   | million:(10586,10593) |
+| $:(10632,10633) | $7.9 billion:(10632,10644)  | 7.9:(10633,10636)  | billion:(10637,10644) |
+| $:(10728,10729) | $24 million:(10728,10739)   | 24:(10729,10731)   | million:(10732,10739) |
+| $:(10834,10835) | $36 million:(10834,10845)   | 36:(10835,10837)   | million:(10838,10845) |
+| $:(10870,10871) | $10.7 billion:(10870,10883) | 10.7:(10871,10875) | billion:(10876,10883) |
+| $:(11010,11011) | $15.3 billion:(11010,11023) | 15.3:(11011,11015) | billion:(11016,11023) |
+| $:(11041,11042) | $2.2 billion:(11041,11053)  | 2.2:(11042,11045)  | billion:(11046,11053) |
+| $:(11828,11829) | $9.2 billion:(11828,11840)  | 9.2:(11829,11832)  | billion:(11833,11840) |
+| $:(11871,11872) | $0.3 billion:(11871,11883)  | 0.3:(11872,11875)  | billion:(11876,11883) |
+| $:(11920,11921) | $9.5 billion:(11920,11932)  | 9.5:(11921,11924)  | billion:(11925,11932) |
+| $:(12150,12151) | $8.0 billion:(12150,12162)  | 8.0:(12151,12154)  | billion:(12155,12162) |
+| $:(12432,12433) | $22.7 billion:(12432,12445) | 22.7:(12433,12437) | billion:(12438,12445) |
+| $:(12461,12462) | $22.6 billion:(12461,12474) | 22.6:(12462,12466) | billion:(12467,12474) |
+| $:(12651,12652) | $1.8 billion:(12651,12663)  | 1.8:(12652,12655)  | billion:(12656,12663) |
+| $:(12697,12698) | $22.3 billion:(12697,12710) | 22.3:(12698,12702) | billion:(12703,12710) |
++-----------------+-----------------------------+--------------------+-----------------------+
+73 rows in set
+
+View: Revenue
++-----------------------+
+| revenue               |
++-----------------------+
+| revenue:(163,170)     |
+| revenue:(1456,1463)   |
+| revenue:(2058,2065)   |
+| revenue:(2305,2312)   |
+| revenue:(2391,2398)   |
+| revenue:(2846,2853)   |
+| revenue:(3265,3272)   |
+| revenue:(3597,3604)   |
+| revenue:(3972,3979)   |
+| revenue:(4098,4105)   |
+| revenue:(4722,4729)   |
+| revenue:(5105,5112)   |
+| revenue:(5217,5224)   |
+| revenue:(5295,5302)   |
+| revenue:(7401,7408)   |
+| revenue:(9110,9117)   |
+| revenue:(9211,9218)   |
+| revenue:(9364,9371)   |
+| revenue:(9634,9641)   |
+| revenue:(9732,9739)   |
+| revenue:(9814,9821)   |
+| revenue:(10202,10209) |
+| revenue:(10310,10317) |
+| revenue:(13426,13433) |
++-----------------------+
+24 rows in set
+
+View: Division
++----------------------------------------+
+| division                               |
++----------------------------------------+
+| Software:(2494,2502)                   |
+| Global Technology Services:(3986,4012) |
+| Global Business Services:(4112,4136)   |
+| Global Business Services:(4424,4448)   |
+| S&TG:(4620,4624)                       |
+| S&TG:(4717,4721)                       |
+| Global Financing:(5270,5286)           |
+| Global Financing:(7826,7842)           |
+| Software:(9797,9805)                   |
+| Global Technology Services:(9934,9960) |
+| Global Business Services:(10091,10115) |
+| S&TG:(10189,10193)                     |
+| Global Financing:(10293,10309)         |
+| Global Financing:(10976,10992)         |
+| Global Financing:(12406,12422)         |
+| Global Financing:(12619,12635)         |
+| Global Financing:(14981,14997)         |
++----------------------------------------+
+17 rows in set
+
+View: RevenueAndDivision
++-----------------------------+----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+-----------------------+-----------+---------+
+| Amount                      | Division                               | RevenueAndDivision                                                                                                                     | revenue               | rule_name | rule_no |
++-----------------------------+----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+-----------------------+-----------+---------+
+| $8.6 billion:(4072,4084)    | Global Technology Services:(3986,4012) | revenues from Global Technology Services increased 7 percent (4 percent, adjusting for currency) to $8.6 billion:(3972,4084)           | revenue:(3972,3979)   | RDM       | 1       |
+| $4.2 billion:(4196,4208)    | Global Business Services:(4112,4136)   | revenues from Global Business Services increased 6 percent (3 percent, adjusting for currency) to $4.2 billion:(4098,4208)             | revenue:(4098,4105)   | RDM       | 1       |
+| $620 million:(5380,5392)    | Global Financing:(5270,5286)           | Global Financing segment revenues increased 3 percent (flat, adjusting for currency) in the fourth quarter to $620 million:(5270,5392) | revenue:(5295,5302)   | DRM       | 2       |
+| $18.2 billion:(9839,9852)   | Software:(9797,9805)                   | Software segment revenues in 2006 totaled $18.2 billion:(9797,9852)                                                                    | revenue:(9814,9821)   | DRM       | 2       |
+| $22.0 billion:(10216,10229) | S&TG:(10189,10193)                     | S&TG segment revenues were $22.0 billion:(10189,10229)                                                                                 | revenue:(10202,10209) | DRM       | 2       |
++-----------------------------+----------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------+-----------------------+-----------+---------+
+5 rows in set
+
+View: Test1
++----------------------------------------------------------------------------------------------------------------------------------------+
+| text                                                                                                                                   |
++----------------------------------------------------------------------------------------------------------------------------------------+
+| Total revenues:(157,171)                                                                                                               |
+| Total revenues:(1450,1464)                                                                                                             |
+| Fourth-quarter:(1000,1014)                                                                                                             |
+| Fourth-quarter:(1108,1122)                                                                                                             |
+| Global Services business:(3938,3962)                                                                                                   |
+| Global Financing segment revenues increased 3 percent (flat, adjusting for currency) in the fourth quarter to $620 million:(5270,5392) |
+| Software segment revenues in 2006 totaled $18.2 billion:(9797,9852)                                                                    |
+| S&TG segment revenues were $22.0 billion:(10189,10229)                                                                                 |
++----------------------------------------------------------------------------------------------------------------------------------------+
+8 rows in set
+
+View: Test2
++----------------------------+--------------------+-----------------------+
+| money                      | number             | unit                  |
++----------------------------+--------------------+-----------------------+
+| 26.3 billion:(176,188)     | 26.3:(176,180)     | billion:(181,188)     |
+| 7 percent:(193,202)        | 7:(193,194)        | percent:(195,202)     |
+| 12 percent:(285,295)       | 12:(285,287)       | percent:(288,295)     |
+| 7 percent:(312,321)        | 7:(312,313)        | percent:(314,321)     |
+| 17.8 billion:(423,435)     | 17.8:(423,427)     | billion:(428,435)     |
+| 55 percent:(440,450)       | 55:(440,442)       | percent:(443,450)     |
+| 12 percent:(573,583)       | 12:(573,575)       | percent:(576,583)     |
+| 267 million:(788,799)      | 267:(788,791)      | million:(792,799)     |
+| 7 percent:(888,897)        | 7:(888,889)        | percent:(890,897)     |
+| 3.5 billion:(1162,1173)    | 3.5:(1162,1165)    | billion:(1166,1173)   |
+| 3.2 billion:(1189,1200)    | 3.2:(1189,1192)    | billion:(1193,1200)   |
+| 8 percent:(1247,1256)      | 8:(1247,1248)      | percent:(1249,1256)   |
+| 2 percent:(1320,1329)      | 2:(1320,1321)      | percent:(1322,1329)   |
+| 3.4 billion:(1406,1417)    | 3.4:(1406,1409)    | billion:(1410,1417)   |
+| 26.3 billion:(1500,1512)   | 26.3:(1500,1504)   | billion:(1505,1512)   |
+| 7 percent:(1523,1532)      | 7:(1523,1524)      | percent:(1525,1532)   |
+| 4 percent:(1534,1543)      | 4:(1534,1535)      | percent:(1536,1543)   |
+| 11.1 billion:(2073,2085)   | 11.1:(2073,2077)   | billion:(2078,2085)   |
+| 6 percent:(2102,2111)      | 6:(2102,2103)      | percent:(2104,2111)   |
+| 5 percent:(2125,2134)      | 5:(2125,2126)      | percent:(2127,2134)   |
+| 9.3 billion:(2228,2239)    | 9.3:(2228,2231)    | billion:(2232,2239)   |
+| 11 percent:(2244,2254)     | 11:(2244,2246)     | percent:(2247,2254)   |
+| 3 percent:(2256,2265)      | 3:(2256,2257)      | percent:(2258,2265)   |
+| 7 percent:(2324,2333)      | 7:(2324,2325)      | percent:(2326,2333)   |
+| 5 percent:(2335,2344)      | 5:(2335,2336)      | percent:(2337,2344)   |
+| 4.8 billion:(2374,2385)    | 4.8:(2374,2377)    | billion:(2378,2385)   |
+| 1.0 billion:(2406,2417)    | 1.0:(2406,2409)    | billion:(2410,2417)   |
+| 3 percent:(2424,2433)      | 3:(2424,2425)      | percent:(2426,2433)   |
+| 5.6 billion:(2517,2528)    | 5.6:(2517,2520)    | billion:(2521,2528)   |
+| 14 percent:(2545,2555)     | 14:(2545,2547)     | percent:(2548,2555)   |
+| 11 percent:(2557,2567)     | 11:(2557,2559)     | percent:(2560,2567)   |
+| 4.4 billion:(2766,2777)    | 4.4:(2766,2769)    | billion:(2770,2777)   |
+| 18 percent:(2782,2792)     | 18:(2782,2784)     | percent:(2785,2792)   |
+| 2 percent:(2865,2874)      | 2:(2865,2866)      | percent:(2867,2874)   |
+| 642 million:(2879,2890)    | 642:(2879,2882)    | million:(2883,2890)   |
+| 22 percent:(3284,3294)     | 22:(3284,3286)     | percent:(3287,3294)   |
+| 28 percent:(3409,3419)     | 28:(3409,3411)     | percent:(3412,3419)   |
+| 25 percent:(3581,3591)     | 25:(3581,3583)     | percent:(3584,3591)   |
+| 30 percent:(3743,3753)     | 30:(3743,3745)     | percent:(3746,3753)   |
+| 12 percent:(3880,3890)     | 12:(3880,3882)     | percent:(3883,3890)   |
+| 7 percent:(4023,4032)      | 7:(4023,4024)      | percent:(4025,4032)   |
+| 4 percent:(4034,4043)      | 4:(4034,4035)      | percent:(4036,4043)   |
+| 8.6 billion:(4073,4084)    | 8.6:(4073,4076)    | billion:(4077,4084)   |
+| 6 percent:(4147,4156)      | 6:(4147,4148)      | percent:(4149,4156)   |
+| 3 percent:(4158,4167)      | 3:(4158,4159)      | percent:(4160,4167)   |
+| 4.2 billion:(4197,4208)    | 4.2:(4197,4200)    | billion:(4201,4208)   |
+| 17.8 billion:(4250,4262)   | 17.8:(4250,4254)   | billion:(4255,4262)   |
+| 55 percent:(4267,4277)     | 55:(4267,4269)     | percent:(4270,4277)   |
+| 116 billion:(4502,4513)    | 116:(4502,4505)    | billion:(4506,4513)   |
+| 5 billion:(4531,4540)      | 5:(4531,4532)      | billion:(4533,4540)   |
+| 7.1 billion:(4643,4654)    | 7.1:(4643,4646)    | billion:(4647,4654)   |
+| 3 percent:(4675,4684)      | 3:(4675,4676)      | percent:(4677,4684)   |
+| 5 percent:(4771,4780)      | 5:(4771,4772)      | percent:(4773,4780)   |
+| 6 percent:(4935,4944)      | 6:(4935,4936)      | percent:(4937,4944)   |
+| 4 percent:(5004,5013)      | 4:(5004,5005)      | percent:(5006,5013)   |
+| 7 percent:(5090,5099)      | 7:(5090,5091)      | percent:(5092,5099)   |
+| 10 percent:(5150,5160)     | 10:(5150,5152)     | percent:(5153,5160)   |
+| 6 percent:(5203,5212)      | 6:(5203,5204)      | percent:(5205,5212)   |
+| 9 percent:(5256,5265)      | 9:(5256,5257)      | percent:(5258,5265)   |
+| 3 percent:(5314,5323)      | 3:(5314,5315)      | percent:(5316,5323)   |
+| 620 million:(5381,5392)    | 620:(5381,5384)    | million:(5385,5392)   |
+| 44.6 percent:(5441,5453)   | 44.6:(5441,5445)   | percent:(5446,5453)   |
+| 44.1 percent:(5495,5507)   | 44.1:(5495,5499)   | percent:(5500,5507)   |
+| 11 percent:(5572,5582)     | 11:(5572,5574)     | percent:(5575,5582)   |
+| 6.9 billion:(5587,5598)    | 6.9:(5587,5590)    | billion:(5591,5598)   |
+| 7 percent:(5659,5668)      | 7:(5659,5660)      | percent:(5661,5668)   |
+| 5.6 billion:(5673,5684)    | 5.6:(5673,5676)    | billion:(5677,5684)   |
+| 9 percent:(5709,5718)      | 9:(5709,5710)      | percent:(5711,5718)   |
+| 241 million:(5820,5831)    | 241:(5820,5823)    | million:(5824,5831)   |
+| 228 million:(5847,5858)    | 228:(5847,5850)    | million:(5851,5858)   |
+| 150 million:(5921,5932)    | 150:(5921,5924)    | million:(5925,5932)   |
+| 334 million:(5981,5992)    | 334:(5981,5984)    | million:(5985,5992)   |
+| 140 million:(6247,6258)    | 140:(6247,6250)    | million:(6251,6258)   |
+| 28.0 percent:(6332,6344)   | 28.0:(6332,6336)   | percent:(6337,6344)   |
+| 29.5 percent:(6359,6371)   | 29.5:(6359,6363)   | percent:(6364,6371)   |
+| 3.5 billion:(6704,6715)    | 3.5:(6704,6707)    | billion:(6708,6715)   |
+| 76 million:(6835,6845)     | 76:(6835,6837)     | million:(6838,6845)   |
+| 3.2 billion:(6903,6914)    | 3.2:(6903,6906)    | billion:(6907,6914)   |
+| 3 million:(6999,7008)      | 3:(6999,7000)      | million:(7001,7008)   |
+| 36 million:(7104,7114)     | 36:(7104,7106)     | million:(7107,7114)   |
+| 1.4 billion:(7160,7171)    | 1.4:(7160,7163)    | billion:(7164,7171)   |
+| 1.53 billion:(7291,7303)   | 1.5:(7291,7294)    | billion:(7296,7303)   |
+| 3 billion:(7294,7303)      | 3:(7294,7295)      | billion:(7296,7303)   |
+| 1.60 billion:(7318,7330)   | 1.6:(7318,7321)    | billion:(7323,7330)   |
+| 0 billion:(7321,7330)      | 0:(7321,7322)      | billion:(7323,7330)   |
+| 91.4 billion:(7413,7425)   | 91.4:(7413,7417)   | billion:(7418,7425)   |
+| 4 percent:(7430,7439)      | 4:(7430,7431)      | percent:(7432,7439)   |
+| 9.4 billion:(7516,7527)    | 9.4:(7516,7519)    | billion:(7520,7527)   |
+| 18 percent:(7532,7542)     | 18:(7532,7534)     | percent:(7535,7542)   |
+| 9 percent:(7562,7571)      | 9:(7562,7563)      | percent:(7564,7571)   |
+| 23 percent:(7677,7687)     | 23:(7677,7679)     | percent:(7680,7687)   |
+| 14 percent:(7707,7717)     | 14:(7707,7709)     | percent:(7710,7717)   |
+| 15.3 billion:(7785,7797)   | 15.3:(7785,7789)   | billion:(7790,7797)   |
+| 2.2 billion:(7803,7814)    | 2.2:(7803,7806)    | billion:(7807,7814)   |
+| 23 percent:(8055,8065)     | 23:(8055,8057)     | percent:(8058,8065)   |
+| 14 percent:(8158,8168)     | 14:(8158,8160)     | percent:(8161,8168)   |
+| 9.4 billion:(8288,8299)    | 9.4:(8288,8291)    | billion:(8292,8299)   |
+| 8.0 billion:(8316,8327)    | 8.0:(8316,8319)    | billion:(8320,8327)   |
+| 18 percent:(8358,8368)     | 18:(8358,8360)     | percent:(8361,8368)   |
+| 525 million:(8398,8409)    | 525:(8398,8401)    | million:(8402,8409)   |
+| 267 million:(8543,8554)    | 267:(8543,8546)    | million:(8547,8554)   |
+| 1.7 billion:(8628,8639)    | 1.7:(8628,8631)    | billion:(8632,8639)   |
+| 1.1 billion:(8656,8667)    | 1.1:(8656,8659)    | billion:(8660,8667)   |
+| 775 million:(8735,8746)    | 775:(8735,8738)    | million:(8739,8746)   |
+| 9 percent:(8901,8910)      | 9:(8901,8902)      | percent:(8903,8910)   |
+| 91.4 billion:(8984,8996)   | 91.4:(8984,8988)   | billion:(8989,8996)   |
+| 91.1 billion:(9069,9081)   | 91.1:(9069,9073)   | billion:(9074,9081)   |
+| 2.9 billion:(9123,9134)    | 2.9:(9123,9126)    | billion:(9127,9134)   |
+| 4 percent:(9230,9239)      | 4:(9230,9231)      | percent:(9232,9239)   |
+| 3 percent:(9241,9250)      | 3:(9241,9242)      | percent:(9243,9250)   |
+| 39.5 billion:(9379,9391)   | 39.5:(9379,9383)   | billion:(9384,9391)   |
+| 2 percent:(9408,9417)      | 2:(9408,9409)      | percent:(9410,9417)   |
+| 4 percent:(9431,9440)      | 4:(9431,9432)      | percent:(9433,9440)   |
+| 30.5 billion:(9542,9554)   | 30.5:(9542,9546)   | billion:(9547,9554)   |
+| 2 percent:(9577,9586)      | 2:(9577,9578)      | percent:(9579,9586)   |
+| 6 percent:(9653,9662)      | 6:(9653,9654)      | percent:(9655,9662)   |
+| 2 percent:(9667,9676)      | 2:(9667,9668)      | percent:(9669,9676)   |
+| 17.6 billion:(9714,9726)   | 17.6:(9714,9718)   | billion:(9719,9726)   |
+| 3.9 billion:(9747,9758)    | 3.9:(9747,9750)    | billion:(9751,9758)   |
+| 18 percent:(9763,9773)     | 18:(9763,9765)     | percent:(9766,9773)   |
+| 18.2 billion:(9840,9852)   | 18.2:(9840,9844)   | billion:(9845,9852)   |
+| 8 percent:(9869,9878)      | 8:(9869,9870)      | percent:(9871,9878)   |
+| 7 percent:(9880,9889)      | 7:(9880,9881)      | percent:(9882,9889)   |
+| 32.3 billion:(9978,9990)   | 32.3:(9978,9982)   | billion:(9983,9990)   |
+| 3 percent:(10007,10016)    | 3:(10007,10008)    | percent:(10009,10016) |
+| 2 percent:(10018,10027)    | 2:(10018,10019)    | percent:(10020,10027) |
+| 16.0 billion:(10130,10142) | 16.0:(10130,10134) | billion:(10135,10142) |
+| 1 percent:(10153,10162)    | 1:(10153,10154)    | percent:(10155,10162) |
+| 22.0 billion:(10217,10229) | 22.0:(10217,10221) | billion:(10222,10229) |
+| 5 percent:(10246,10255)    | 5:(10246,10247)    | percent:(10248,10255) |
+| 4 percent:(10257,10266)    | 4:(10257,10258)    | percent:(10259,10266) |
+| 2.4 billion:(10328,10339)  | 2.4:(10328,10331)  | billion:(10332,10339) |
+| 2 percent:(10355,10364)    | 2:(10355,10356)    | percent:(10357,10364) |
+| 2 percent:(10366,10375)    | 2:(10366,10367)    | percent:(10368,10375) |
+| 9.5 billion:(10452,10463)  | 9.5:(10452,10455)  | billion:(10456,10463) |
+| 76 million:(10583,10593)   | 76:(10583,10585)   | million:(10586,10593) |
+| 7.9 billion:(10633,10644)  | 7.9:(10633,10636)  | billion:(10637,10644) |
+| 24 million:(10729,10739)   | 24:(10729,10731)   | million:(10732,10739) |
+| 36 million:(10835,10845)   | 36:(10835,10837)   | million:(10838,10845) |
+| 10.7 billion:(10871,10883) | 10.7:(10871,10875) | billion:(10876,10883) |
+| 15.3 billion:(11011,11023) | 15.3:(11011,11015) | billion:(11016,11023) |
+| 2.2 billion:(11042,11053)  | 2.2:(11042,11045)  | billion:(11046,11053) |
+| 9.2 billion:(11829,11840)  | 9.2:(11829,11832)  | billion:(11833,11840) |
+| 0.3 billion:(11872,11883)  | 0.3:(11872,11875)  | billion:(11876,11883) |
+| 9.5 billion:(11921,11932)  | 9.5:(11921,11924)  | billion:(11925,11932) |
+| 8.0 billion:(12151,12162)  | 8.0:(12151,12154)  | billion:(12155,12162) |
+| 1.55 billion:(12249,12261) | 1.5:(12249,12252)  | billion:(12254,12261) |
+| 5 billion:(12252,12261)    | 5:(12252,12253)    | billion:(12254,12261) |
+| 1.63 billion:(12276,12288) | 1.6:(12276,12279)  | billion:(12281,12288) |
+| 3 billion:(12279,12288)    | 3:(12279,12280)    | billion:(12281,12288) |
+| 1.51 billion:(12341,12353) | 1.5:(12341,12344)  | billion:(12346,12353) |
+| 1 billion:(12344,12353)    | 1:(12344,12345)    | billion:(12346,12353) |
+| 22.7 billion:(12433,12445) | 22.7:(12433,12437) | billion:(12438,12445) |
+| 22.6 billion:(12462,12474) | 22.6:(12462,12466) | billion:(12467,12474) |
+| 1.5 percent:(12583,12594)  | 1.5:(12583,12586)  | percent:(12587,12594) |
+| 1.8 billion:(12652,12663)  | 1.8:(12652,12655)  | billion:(12656,12663) |
+| 22.3 billion:(12698,12710) | 22.3:(12698,12702) | billion:(12703,12710) |
++----------------------------+--------------------+-----------------------+
+157 rows in set
+
+View: Test3
++-----------------------------+--------------------+----------------------------+-----------------------+
+| money                       | number             | number_unit                | unit                  |
++-----------------------------+--------------------+----------------------------+-----------------------+
+| $26.3 billion:(175,188)     | 26.3:(176,180)     | 26.3 billion:(176,188)     | billion:(181,188)     |
+| $17.8 billion:(422,435)     | 17.8:(423,427)     | 17.8 billion:(423,435)     | billion:(428,435)     |
+| $267 million:(787,799)      | 267:(788,791)      | 267 million:(788,799)      | million:(792,799)     |
+| $3.5 billion:(1161,1173)    | 3.5:(1162,1165)    | 3.5 billion:(1162,1173)    | billion:(1166,1173)   |
+| $3.2 billion:(1188,1200)    | 3.2:(1189,1192)    | 3.2 billion:(1189,1200)    | billion:(1193,1200)   |
+| $3.4 billion:(1405,1417)    | 3.4:(1406,1409)    | 3.4 billion:(1406,1417)    | billion:(1410,1417)   |
+| $26.3 billion:(1499,1512)   | 26.3:(1500,1504)   | 26.3 billion:(1500,1512)   | billion:(1505,1512)   |
+| $11.1 billion:(2072,2085)   | 11.1:(2073,2077)   | 11.1 billion:(2073,2085)   | billion:(2078,2085)   |
+| $9.3 billion:(2227,2239)    | 9.3:(2228,2231)    | 9.3 billion:(2228,2239)    | billion:(2232,2239)   |
+| $4.8 billion:(2373,2385)    | 4.8:(2374,2377)    | 4.8 billion:(2374,2385)    | billion:(2378,2385)   |
+| $1.0 billion:(2405,2417)    | 1.0:(2406,2409)    | 1.0 billion:(2406,2417)    | billion:(2410,2417)   |
+| $5.6 billion:(2516,2528)    | 5.6:(2517,2520)    | 5.6 billion:(2517,2528)    | billion:(2521,2528)   |
+| $4.4 billion:(2765,2777)    | 4.4:(2766,2769)    | 4.4 billion:(2766,2777)    | billion:(2770,2777)   |
+| $642 million:(2878,2890)    | 642:(2879,2882)    | 642 million:(2879,2890)    | million:(2883,2890)   |
+| $8.6 billion:(4072,4084)    | 8.6:(4073,4076)    | 8.6 billion:(4073,4084)    | billion:(4077,4084)   |
+| $4.2 billion:(4196,4208)    | 4.2:(4197,4200)    | 4.2 billion:(4197,4208)    | billion:(4201,4208)   |
+| $17.8 billion:(4249,4262)   | 17.8:(4250,4254)   | 17.8 billion:(4250,4262)   | billion:(4255,4262)   |
+| $116 billion:(4501,4513)    | 116:(4502,4505)    | 116 billion:(4502,4513)    | billion:(4506,4513)   |
+| $5 billion:(4530,4540)      | 5:(4531,4532)      | 5 billion:(4531,4540)      | billion:(4533,4540)   |
+| $7.1 billion:(4642,4654)    | 7.1:(4643,4646)    | 7.1 billion:(4643,4654)    | billion:(4647,4654)   |
+| $620 million:(5380,5392)    | 620:(5381,5384)    | 620 million:(5381,5392)    | million:(5385,5392)   |
+| $6.9 billion:(5586,5598)    | 6.9:(5587,5590)    | 6.9 billion:(5587,5598)    | billion:(5591,5598)   |
+| $5.6 billion:(5672,5684)    | 5.6:(5673,5676)    | 5.6 billion:(5673,5684)    | billion:(5677,5684)   |
+| $241 million:(5819,5831)    | 241:(5820,5823)    | 241 million:(5820,5831)    | million:(5824,5831)   |
+| $228 million:(5846,5858)    | 228:(5847,5850)    | 228 million:(5847,5858)    | million:(5851,5858)   |
+| $150 million:(5920,5932)    | 150:(5921,5924)    | 150 million:(5921,5932)    | million:(5925,5932)   |
+| $334 million:(5980,5992)    | 334:(5981,5984)    | 334 million:(5981,5992)    | million:(5985,5992)   |
+| $140 million:(6246,6258)    | 140:(6247,6250)    | 140 million:(6247,6258)    | million:(6251,6258)   |
+| $3.5 billion:(6703,6715)    | 3.5:(6704,6707)    | 3.5 billion:(6704,6715)    | billion:(6708,6715)   |
+| $76 million:(6834,6845)     | 76:(6835,6837)     | 76 million:(6835,6845)     | million:(6838,6845)   |
+| $3.2 billion:(6902,6914)    | 3.2:(6903,6906)    | 3.2 billion:(6903,6914)    | billion:(6907,6914)   |
+| $3 million:(6998,7008)      | 3:(6999,7000)      | 3 million:(6999,7008)      | million:(7001,7008)   |
+| $36 million:(7103,7114)     | 36:(7104,7106)     | 36 million:(7104,7114)     | million:(7107,7114)   |
+| $1.4 billion:(7159,7171)    | 1.4:(7160,7163)    | 1.4 billion:(7160,7171)    | billion:(7164,7171)   |
+| $91.4 billion:(7412,7425)   | 91.4:(7413,7417)   | 91.4 billion:(7413,7425)   | billion:(7418,7425)   |
+| $9.4 billion:(7515,7527)    | 9.4:(7516,7519)    | 9.4 billion:(7516,7527)    | billion:(7520,7527)   |
+| $15.3 billion:(7784,7797)   | 15.3:(7785,7789)   | 15.3 billion:(7785,7797)   | billion:(7790,7797)   |
+| $2.2 billion:(7802,7814)    | 2.2:(7803,7806)    | 2.2 billion:(7803,7814)    | billion:(7807,7814)   |
+| $9.4 billion:(8287,8299)    | 9.4:(8288,8291)    | 9.4 billion:(8288,8299)    | billion:(8292,8299)   |
+| $8.0 billion:(8315,8327)    | 8.0:(8316,8319)    | 8.0 billion:(8316,8327)    | billion:(8320,8327)   |
+| $525 million:(8397,8409)    | 525:(8398,8401)    | 525 million:(8398,8409)    | million:(8402,8409)   |
+| $267 million:(8542,8554)    | 267:(8543,8546)    | 267 million:(8543,8554)    | million:(8547,8554)   |
+| $1.7 billion:(8627,8639)    | 1.7:(8628,8631)    | 1.7 billion:(8628,8639)    | billion:(8632,8639)   |
+| $1.1 billion:(8655,8667)    | 1.1:(8656,8659)    | 1.1 billion:(8656,8667)    | billion:(8660,8667)   |
+| $775 million:(8734,8746)    | 775:(8735,8738)    | 775 million:(8735,8746)    | million:(8739,8746)   |
+| $91.4 billion:(8983,8996)   | 91.4:(8984,8988)   | 91.4 billion:(8984,8996)   | billion:(8989,8996)   |
+| $91.1 billion:(9068,9081)   | 91.1:(9069,9073)   | 91.1 billion:(9069,9081)   | billion:(9074,9081)   |
+| $2.9 billion:(9122,9134)    | 2.9:(9123,9126)    | 2.9 billion:(9123,9134)    | billion:(9127,9134)   |
+| $39.5 billion:(9378,9391)   | 39.5:(9379,9383)   | 39.5 billion:(9379,9391)   | billion:(9384,9391)   |
+| $30.5 billion:(9541,9554)   | 30.5:(9542,9546)   | 30.5 billion:(9542,9554)   | billion:(9547,9554)   |
+| $17.6 billion:(9713,9726)   | 17.6:(9714,9718)   | 17.6 billion:(9714,9726)   | billion:(9719,9726)   |
+| $3.9 billion:(9746,9758)    | 3.9:(9747,9750)    | 3.9 billion:(9747,9758)    | billion:(9751,9758)   |
+| $18.2 billion:(9839,9852)   | 18.2:(9840,9844)   | 18.2 billion:(9840,9852)   | billion:(9845,9852)   |
+| $32.3 billion:(9977,9990)   | 32.3:(9978,9982)   | 32.3 billion:(9978,9990)   | billion:(9983,9990)   |
+| $16.0 billion:(10129,10142) | 16.0:(10130,10134) | 16.0 billion:(10130,10142) | billion:(10135,10142) |
+| $22.0 billion:(10216,10229) | 22.0:(10217,10221) | 22.0 billion:(10217,10229) | billion:(10222,10229) |
+| $2.4 billion:(10327,10339)  | 2.4:(10328,10331)  | 2.4 billion:(10328,10339)  | billion:(10332,10339) |
+| $9.5 billion:(10451,10463)  | 9.5:(10452,10455)  | 9.5 billion:(10452,10463)  | billion:(10456,10463) |
+| $76 million:(10582,10593)   | 76:(10583,10585)   | 76 million:(10583,10593)   | million:(10586,10593) |
+| $7.9 billion:(10632,10644)  | 7.9:(10633,10636)  | 7.9 billion:(10633,10644)  | billion:(10637,10644) |
+| $24 million:(10728,10739)   | 24:(10729,10731)   | 24 million:(10729,10739)   | million:(10732,10739) |
+| $36 million:(10834,10845)   | 36:(10835,10837)   | 36 million:(10835,10845)   | million:(10838,10845) |
+| $10.7 billion:(10870,10883) | 10.7:(10871,10875) | 10.7 billion:(10871,10883) | billion:(10876,10883) |
+| $15.3 billion:(11010,11023) | 15.3:(11011,11015) | 15.3 billion:(11011,11023) | billion:(11016,11023) |
+| $2.2 billion:(11041,11053)  | 2.2:(11042,11045)  | 2.2 billion:(11042,11053)  | billion:(11046,11053) |
+| $9.2 billion:(11828,11840)  | 9.2:(11829,11832)  | 9.2 billion:(11829,11840)  | billion:(11833,11840) |
+| $0.3 billion:(11871,11883)  | 0.3:(11872,11875)  | 0.3 billion:(11872,11883)  | billion:(11876,11883) |
+| $9.5 billion:(11920,11932)  | 9.5:(11921,11924)  | 9.5 billion:(11921,11932)  | billion:(11925,11932) |
+| $8.0 billion:(12150,12162)  | 8.0:(12151,12154)  | 8.0 billion:(12151,12162)  | billion:(12155,12162) |
+| $22.7 billion:(12432,12445) | 22.7:(12433,12437) | 22.7 billion:(12433,12445) | billion:(12438,12445) |
+| $22.6 billion:(12461,12474) | 22.6:(12462,12466) | 22.6 billion:(12462,12474) | billion:(12467,12474) |
+| $1.8 billion:(12651,12663)  | 1.8:(12652,12655)  | 1.8 billion:(12652,12663)  | billion:(12656,12663) |
+| $22.3 billion:(12697,12710) | 22.3:(12698,12702) | 22.3 billion:(12698,12710) | billion:(12703,12710) |
++-----------------------------+--------------------+----------------------------+-----------------------+
+73 rows in set
+

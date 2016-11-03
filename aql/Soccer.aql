@@ -1,0 +1,98 @@
+create dictionary SoccerTeamDict
+  from file '../dict/soccer/soccer_team.dict';
+
+create dictionary ResultDict
+  from file '../dict/soccer/result.dict';
+
+create dictionary MatchDict
+  from file '../dict/soccer/match.dict';
+
+create dictionary LevelDict
+  from file '../dict/soccer/level.dict';
+
+create view SoccerTeam as
+  extract dictionary SoccerTeamDict
+    on D.text as teamName
+  from Document D;
+
+create view Result as
+  extract dictionary ResultDict
+    on D.text as result
+  from Document D;
+
+create view Match as
+  extract dictionary MatchDict
+    on D.text as match
+  from Document D;
+
+create view Level as
+  extract dictionary LevelDict
+    on D.text as level
+  from Document D;
+
+create view Score as
+  extract regex /[0-9]{1,2}:[0-9]{1,2}|[0-9]{1,2}-[0-9]{1,2}|[0-9]{1,2}比[0-9]{1,2}/
+    on D.text as vs
+  from Document D;
+
+create view Competition as
+  extract
+    1 as rule_no, 'Time-SoccerTeam-VS-Result-SoccerTeam' as rule_name,
+    pattern (<T.text>) <Token>{0,20} (<So1.teamName>) <Token>{0,10} (<S.vs>) <Token>{0,10} (<R.result>) <Token>{0,10} (<So2.teamName>)
+      return group 0 as competition
+        and  group 1 as time
+        and  group 2 as team1
+        and  group 3 as vs
+        and  group 4 as result
+        and  group 5 as team2
+    from Time T, SoccerTeam So1, SoccerTeam So2, Score S, Result R
+union
+  extract
+    2 as rule_no, 'Time-SoccerTeam-VS-SoccerTeam-Result' as rule_name,
+    pattern (<T.text>) <Token>{0,20} (<So1.teamName>) <Token>{0,10} (<S.vs>) <Token>{0,10} (<So2.teamName>) <Token>{0,5} (<R.result>)
+      return group 0 as competition
+        and  group 1 as time
+        and  group 2 as team1
+        and  group 3 as vs
+        and  group 4 as team2
+        and  group 5 as result
+  from Time T, SoccerTeam So1, SoccerTeam So2, Score S, Result R
+union
+  extract
+    3 as rule_no, 'Time-SoccerTeam-SoccerTeam-VS-Result' as rule_name,
+    pattern (<T.text>) <Token>{0,20} (<So1.teamName>) <Token>{0,10} (<So2.teamName>) <Token>{0,10} (<S.vs>) <Token>{0,10} (<R.result>)
+      return group 0 as competition
+        and  group 1 as time
+        and  group 2 as team1
+        and  group 3 as team2
+        and  group 4 as vs
+        and  group 5 as result
+  from Time T, SoccerTeam So1, SoccerTeam So2, Score S, Result R
+union
+  extract
+    4 as rule_no, 'Time-SoccerTeam-SoccerTeam-Result-VS' as rule_name,
+    pattern (<T.text>) <Token>{0,20} (<So1.teamName>) <Token>{0,10} (<So2.teamName>) <Token>{0,10} (<R.result>) <Token>{0,10} (<S.vs>)
+      return group 0 as competition
+        and  group 1 as time
+        and  group 2 as team1
+        and  group 3 as team2
+        and  group 4 as result
+        and  group 5 as vs
+  from Time T, SoccerTeam So1, SoccerTeam So2, Score S, Result R;
+
+
+-- Built-in Named Entity Views
+output view Person;
+output view Location;
+output view Organization;
+output view Time;
+
+-- User Dictionary Views
+output view SoccerTeam;
+output view Result;
+output view Match;
+output view Level;
+output view Score;
+
+-- Soccer Match Rule Views
+output view Competition;

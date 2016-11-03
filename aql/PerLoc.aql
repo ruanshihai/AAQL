@@ -1,0 +1,72 @@
+create view Cap as
+  extract regex /[A-Z][a-z]*/
+    on D.text as Cap
+  from Document D;
+output view Cap;
+
+create view Stt as
+  extract regex /Washington|Georgia|Virginia/
+    on D.text
+    return group 0 as Stt
+  from Document D;
+output view Stt;
+
+create view Loc as
+  extract pattern (<C.Cap>) /,/ (<S.Stt>)
+  return group 0 as Loc
+    and group 1 as Cap
+    and group 2 as Stt
+  from Cap C, Stt S;
+output view Loc;
+
+create view Per as
+  extract regex /[A-Z][a-z]*/
+    on D.text
+    return group 0 as Per
+  from Document D;
+output view Per;
+
+create view PerLoc as
+  extract pattern (<P.Per>) <Token>{1,2} (<L.Loc>)
+  return group 0 as PerLoc
+    and group 1 as Per
+    and group 2 as Loc
+  from Per P, Loc L;
+output view PerLoc;
+
+create view PerLocOnly as
+  select PL.PerLoc as PerLoc
+  from PerLoc PL;
+output view PerLocOnly;
+
+create view Zh as
+  extract regex /今天[a-z]*/
+    on D.text as Zh
+  from Document D;
+output view Zh;
+
+create dictionary AdjDict
+  from file '/home/ruan/workspase/CLion/AQL/dict/Adj.dict';
+
+create view Adj as
+  extract dictionary AdjDict
+    on D.text as adj
+  from Document D;
+
+output view Adj;
+output view Person;
+output view Location;
+output view Organization;
+output view Time;
+
+create view NamedEntity as
+  select P.text from Person P
+union
+  select L.text from Location L
+union
+  select O.text from Organization O
+union
+  select T.text from Time T;
+output view NamedEntity;
+
+output view Document;

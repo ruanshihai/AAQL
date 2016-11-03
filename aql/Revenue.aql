@@ -1,0 +1,86 @@
+-- Extract revenue information of IBM
+
+create view Number as
+  extract regex /[0-9]+(\.[0-9])?/
+    on D.text as number
+  from Document D;
+output view Number;
+
+create view Unit as
+  extract regex /percent|billion|million|trillion/
+    on D.text as unit
+  from Document D;
+output view Unit;
+
+create view Money as
+  extract pattern (/\$?/) (<N.number>) (<U.unit>)
+    return group 0 as money
+      and group 1 as dollar
+      and group 2 as number
+      and group 3 as unit
+  from Number N, Unit U;
+output view Money;
+
+create view Revenue as
+  extract regex /revenues|revenue/
+    on D.text as revenue
+  from Document D;
+output view Revenue;
+
+-- create dictionary DepartmentDict
+--  from file '/home/ruan/workspase/CLion/AAQL/dict/Department.dict';
+
+create dictionary DepartmentDict as (
+  'Global Technology Services',
+  'Systems and Technology',
+  'S&TG',
+  'Software',
+  'Global Financing',
+  'Global Business Services');
+
+create view Division as
+  extract dictionary DepartmentDict
+    on D.text as division
+  from Document D;
+output view Division;
+
+create view RevenueAndDivision as
+  extract
+    1 as rule_no, 'RDM' as rule_name, R.revenue,
+    pattern <R.revenue> <Token>{1,3} (<D.division>) <Token>{1,20} (<M.money>)
+      return group 0 as RevenueAndDivision
+        and group 1 as Division
+        and group 2 as Amount
+  from Revenue R, Division D, Money M
+union
+  extract
+    2 as rule_no, 'DRM' as rule_name, R.revenue,
+    pattern (<D.division>) <Token>{1,3} <R.revenue> <Token>{1,20} (<M.money>)
+      return group 0 as RevenueAndDivision
+        and group 1 as Division
+        and group 2 as Amount
+  from Revenue R, Division D, Money M;
+output view RevenueAndDivision;
+
+
+create view Test1 as
+  extract
+    pattern /Total revenues/ | /Fourth-quarter/ | /Global Services business/
+      | (<D.division>) <Token>{1,3} <R.revenue> <Token>{1,20} (<M.money>)
+    as text
+  from Revenue R, Division D, Money M;
+output view Test1;
+
+create view Test2 as
+  select N.number, U.unit, CombineSpans(N.number, U.unit) as money
+  from Number N, Unit U
+  where FollowTok(N.number, U.unit, 0, 0);
+output view Test2;
+
+create view Test3 as
+  extract
+    N.number, U.unit, CombineSpans(N.number, U.unit) as number_unit,
+    pattern (/\$?/) (<N.number>) (<U.unit>)
+      return group 0 as money
+  from Number N, Unit U;
+output view Test3;

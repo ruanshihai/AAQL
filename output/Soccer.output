@@ -1,0 +1,3668 @@
+All tokens:
+[1]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 1,	colno: 0,	content: "create"
+[2]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 1,	colno: 7,	content: "dictionary"
+[3]	Tag: 258,	type: ID,	length: 14,	lineno: 1,	colno: 18,	content: "SoccerTeamDict"
+[4]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 2,	colno: 2,	content: "from"
+[5]	Tag: 1015,	type: KEYWORD,	length: 4,	lineno: 2,	colno: 7,	content: "file"
+[6]	Tag: 257,	type: STRING,	length: 53,	lineno: 2,	colno: 12,	content: "../dict/soccer/soccer_team.dict"
+[7]	Tag: 59,	type: CHAR,	length: 1,	lineno: 2,	colno: 65,	content: ";"
+[8]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 4,	colno: 0,	content: "create"
+[9]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 4,	colno: 7,	content: "dictionary"
+[10]	Tag: 258,	type: ID,	length: 10,	lineno: 4,	colno: 18,	content: "ResultDict"
+[11]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 5,	colno: 2,	content: "from"
+[12]	Tag: 1015,	type: KEYWORD,	length: 4,	lineno: 5,	colno: 7,	content: "file"
+[13]	Tag: 257,	type: STRING,	length: 48,	lineno: 5,	colno: 12,	content: "../dict/soccer/result.dict"
+[14]	Tag: 59,	type: CHAR,	length: 1,	lineno: 5,	colno: 60,	content: ";"
+[15]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 7,	colno: 0,	content: "create"
+[16]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 7,	colno: 7,	content: "dictionary"
+[17]	Tag: 258,	type: ID,	length: 9,	lineno: 7,	colno: 18,	content: "MatchDict"
+[18]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 8,	colno: 2,	content: "from"
+[19]	Tag: 1015,	type: KEYWORD,	length: 4,	lineno: 8,	colno: 7,	content: "file"
+[20]	Tag: 257,	type: STRING,	length: 47,	lineno: 8,	colno: 12,	content: "../dict/soccer/match.dict"
+[21]	Tag: 59,	type: CHAR,	length: 1,	lineno: 8,	colno: 59,	content: ";"
+[22]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 10,	colno: 0,	content: "create"
+[23]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 10,	colno: 7,	content: "dictionary"
+[24]	Tag: 258,	type: ID,	length: 9,	lineno: 10,	colno: 18,	content: "LevelDict"
+[25]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 11,	colno: 2,	content: "from"
+[26]	Tag: 1015,	type: KEYWORD,	length: 4,	lineno: 11,	colno: 7,	content: "file"
+[27]	Tag: 257,	type: STRING,	length: 47,	lineno: 11,	colno: 12,	content: "../dict/soccer/level.dict"
+[28]	Tag: 59,	type: CHAR,	length: 1,	lineno: 11,	colno: 59,	content: ";"
+[29]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 13,	colno: 0,	content: "create"
+[30]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 13,	colno: 7,	content: "view"
+[31]	Tag: 258,	type: ID,	length: 10,	lineno: 13,	colno: 12,	content: "SoccerTeam"
+[32]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 13,	colno: 23,	content: "as"
+[33]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 14,	colno: 2,	content: "extract"
+[34]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 14,	colno: 10,	content: "dictionary"
+[35]	Tag: 258,	type: ID,	length: 14,	lineno: 14,	colno: 21,	content: "SoccerTeamDict"
+[36]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 15,	colno: 4,	content: "on"
+[37]	Tag: 258,	type: ID,	length: 1,	lineno: 15,	colno: 7,	content: "D"
+[38]	Tag: 46,	type: CHAR,	length: 1,	lineno: 15,	colno: 8,	content: "."
+[39]	Tag: 258,	type: ID,	length: 4,	lineno: 15,	colno: 9,	content: "text"
+[40]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 15,	colno: 14,	content: "as"
+[41]	Tag: 258,	type: ID,	length: 8,	lineno: 15,	colno: 17,	content: "teamName"
+[42]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 16,	colno: 2,	content: "from"
+[43]	Tag: 258,	type: ID,	length: 8,	lineno: 16,	colno: 7,	content: "Document"
+[44]	Tag: 258,	type: ID,	length: 1,	lineno: 16,	colno: 16,	content: "D"
+[45]	Tag: 59,	type: CHAR,	length: 1,	lineno: 16,	colno: 17,	content: ";"
+[46]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 18,	colno: 0,	content: "create"
+[47]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 18,	colno: 7,	content: "view"
+[48]	Tag: 258,	type: ID,	length: 6,	lineno: 18,	colno: 12,	content: "Result"
+[49]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 18,	colno: 19,	content: "as"
+[50]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 19,	colno: 2,	content: "extract"
+[51]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 19,	colno: 10,	content: "dictionary"
+[52]	Tag: 258,	type: ID,	length: 10,	lineno: 19,	colno: 21,	content: "ResultDict"
+[53]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 20,	colno: 4,	content: "on"
+[54]	Tag: 258,	type: ID,	length: 1,	lineno: 20,	colno: 7,	content: "D"
+[55]	Tag: 46,	type: CHAR,	length: 1,	lineno: 20,	colno: 8,	content: "."
+[56]	Tag: 258,	type: ID,	length: 4,	lineno: 20,	colno: 9,	content: "text"
+[57]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 20,	colno: 14,	content: "as"
+[58]	Tag: 258,	type: ID,	length: 6,	lineno: 20,	colno: 17,	content: "result"
+[59]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 21,	colno: 2,	content: "from"
+[60]	Tag: 258,	type: ID,	length: 8,	lineno: 21,	colno: 7,	content: "Document"
+[61]	Tag: 258,	type: ID,	length: 1,	lineno: 21,	colno: 16,	content: "D"
+[62]	Tag: 59,	type: CHAR,	length: 1,	lineno: 21,	colno: 17,	content: ";"
+[63]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 23,	colno: 0,	content: "create"
+[64]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 23,	colno: 7,	content: "view"
+[65]	Tag: 258,	type: ID,	length: 5,	lineno: 23,	colno: 12,	content: "Match"
+[66]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 23,	colno: 18,	content: "as"
+[67]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 24,	colno: 2,	content: "extract"
+[68]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 24,	colno: 10,	content: "dictionary"
+[69]	Tag: 258,	type: ID,	length: 9,	lineno: 24,	colno: 21,	content: "MatchDict"
+[70]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 25,	colno: 4,	content: "on"
+[71]	Tag: 258,	type: ID,	length: 1,	lineno: 25,	colno: 7,	content: "D"
+[72]	Tag: 46,	type: CHAR,	length: 1,	lineno: 25,	colno: 8,	content: "."
+[73]	Tag: 258,	type: ID,	length: 4,	lineno: 25,	colno: 9,	content: "text"
+[74]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 25,	colno: 14,	content: "as"
+[75]	Tag: 258,	type: ID,	length: 5,	lineno: 25,	colno: 17,	content: "match"
+[76]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 26,	colno: 2,	content: "from"
+[77]	Tag: 258,	type: ID,	length: 8,	lineno: 26,	colno: 7,	content: "Document"
+[78]	Tag: 258,	type: ID,	length: 1,	lineno: 26,	colno: 16,	content: "D"
+[79]	Tag: 59,	type: CHAR,	length: 1,	lineno: 26,	colno: 17,	content: ";"
+[80]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 28,	colno: 0,	content: "create"
+[81]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 28,	colno: 7,	content: "view"
+[82]	Tag: 258,	type: ID,	length: 5,	lineno: 28,	colno: 12,	content: "Level"
+[83]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 28,	colno: 18,	content: "as"
+[84]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 29,	colno: 2,	content: "extract"
+[85]	Tag: 1014,	type: KEYWORD,	length: 10,	lineno: 29,	colno: 10,	content: "dictionary"
+[86]	Tag: 258,	type: ID,	length: 9,	lineno: 29,	colno: 21,	content: "LevelDict"
+[87]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 30,	colno: 4,	content: "on"
+[88]	Tag: 258,	type: ID,	length: 1,	lineno: 30,	colno: 7,	content: "D"
+[89]	Tag: 46,	type: CHAR,	length: 1,	lineno: 30,	colno: 8,	content: "."
+[90]	Tag: 258,	type: ID,	length: 4,	lineno: 30,	colno: 9,	content: "text"
+[91]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 30,	colno: 14,	content: "as"
+[92]	Tag: 258,	type: ID,	length: 5,	lineno: 30,	colno: 17,	content: "level"
+[93]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 31,	colno: 2,	content: "from"
+[94]	Tag: 258,	type: ID,	length: 8,	lineno: 31,	colno: 7,	content: "Document"
+[95]	Tag: 258,	type: ID,	length: 1,	lineno: 31,	colno: 16,	content: "D"
+[96]	Tag: 59,	type: CHAR,	length: 1,	lineno: 31,	colno: 17,	content: ";"
+[97]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 33,	colno: 0,	content: "create"
+[98]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 33,	colno: 7,	content: "view"
+[99]	Tag: 258,	type: ID,	length: 5,	lineno: 33,	colno: 12,	content: "Score"
+[100]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 33,	colno: 18,	content: "as"
+[101]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 34,	colno: 2,	content: "extract"
+[102]	Tag: 1007,	type: KEYWORD,	length: 5,	lineno: 34,	colno: 10,	content: "regex"
+[103]	Tag: 259,	type: REG_EXPR,	length: 69,	lineno: 34,	colno: 16,	content: "[0-9]{1,2}:[0-9]{1,2}|[0-9]{1,2}-[0-9]{1,2}|[0-9]{1,2}比[0-9]{1,2}"
+[104]	Tag: 1012,	type: KEYWORD,	length: 2,	lineno: 35,	colno: 4,	content: "on"
+[105]	Tag: 258,	type: ID,	length: 1,	lineno: 35,	colno: 7,	content: "D"
+[106]	Tag: 46,	type: CHAR,	length: 1,	lineno: 35,	colno: 8,	content: "."
+[107]	Tag: 258,	type: ID,	length: 4,	lineno: 35,	colno: 9,	content: "text"
+[108]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 35,	colno: 14,	content: "as"
+[109]	Tag: 258,	type: ID,	length: 2,	lineno: 35,	colno: 17,	content: "vs"
+[110]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 36,	colno: 2,	content: "from"
+[111]	Tag: 258,	type: ID,	length: 8,	lineno: 36,	colno: 7,	content: "Document"
+[112]	Tag: 258,	type: ID,	length: 1,	lineno: 36,	colno: 16,	content: "D"
+[113]	Tag: 59,	type: CHAR,	length: 1,	lineno: 36,	colno: 17,	content: ";"
+[114]	Tag: 1000,	type: KEYWORD,	length: 6,	lineno: 38,	colno: 0,	content: "create"
+[115]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 38,	colno: 7,	content: "view"
+[116]	Tag: 258,	type: ID,	length: 11,	lineno: 38,	colno: 12,	content: "Competition"
+[117]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 38,	colno: 24,	content: "as"
+[118]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 39,	colno: 2,	content: "extract"
+[119]	Tag: 256,	type: NUM,	length: 1,	lineno: 40,	colno: 4,	content: "1"
+[120]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 40,	colno: 6,	content: "as"
+[121]	Tag: 258,	type: ID,	length: 7,	lineno: 40,	colno: 9,	content: "rule_no"
+[122]	Tag: 44,	type: CHAR,	length: 1,	lineno: 40,	colno: 16,	content: ","
+[123]	Tag: 257,	type: STRING,	length: 38,	lineno: 40,	colno: 18,	content: "Time-SoccerTeam-VS-Result-SoccerTeam"
+[124]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 40,	colno: 57,	content: "as"
+[125]	Tag: 258,	type: ID,	length: 9,	lineno: 40,	colno: 60,	content: "rule_name"
+[126]	Tag: 44,	type: CHAR,	length: 1,	lineno: 40,	colno: 69,	content: ","
+[127]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 41,	colno: 4,	content: "pattern"
+[128]	Tag: 40,	type: CHAR,	length: 1,	lineno: 41,	colno: 12,	content: "("
+[129]	Tag: 60,	type: CHAR,	length: 1,	lineno: 41,	colno: 13,	content: "<"
+[130]	Tag: 258,	type: ID,	length: 1,	lineno: 41,	colno: 14,	content: "T"
+[131]	Tag: 46,	type: CHAR,	length: 1,	lineno: 41,	colno: 15,	content: "."
+[132]	Tag: 258,	type: ID,	length: 4,	lineno: 41,	colno: 16,	content: "text"
+[133]	Tag: 62,	type: CHAR,	length: 1,	lineno: 41,	colno: 20,	content: ">"
+[134]	Tag: 41,	type: CHAR,	length: 1,	lineno: 41,	colno: 21,	content: ")"
+[135]	Tag: 60,	type: CHAR,	length: 1,	lineno: 41,	colno: 23,	content: "<"
+[136]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 41,	colno: 24,	content: "Token"
+[137]	Tag: 62,	type: CHAR,	length: 1,	lineno: 41,	colno: 29,	content: ">"
+[138]	Tag: 123,	type: CHAR,	length: 1,	lineno: 41,	colno: 30,	content: "{"
+[139]	Tag: 256,	type: NUM,	length: 1,	lineno: 41,	colno: 31,	content: "0"
+[140]	Tag: 44,	type: CHAR,	length: 1,	lineno: 41,	colno: 32,	content: ","
+[141]	Tag: 256,	type: NUM,	length: 2,	lineno: 41,	colno: 33,	content: "20"
+[142]	Tag: 125,	type: CHAR,	length: 1,	lineno: 41,	colno: 35,	content: "}"
+[143]	Tag: 40,	type: CHAR,	length: 1,	lineno: 41,	colno: 37,	content: "("
+[144]	Tag: 60,	type: CHAR,	length: 1,	lineno: 41,	colno: 38,	content: "<"
+[145]	Tag: 258,	type: ID,	length: 3,	lineno: 41,	colno: 39,	content: "So1"
+[146]	Tag: 46,	type: CHAR,	length: 1,	lineno: 41,	colno: 42,	content: "."
+[147]	Tag: 258,	type: ID,	length: 8,	lineno: 41,	colno: 43,	content: "teamName"
+[148]	Tag: 62,	type: CHAR,	length: 1,	lineno: 41,	colno: 51,	content: ">"
+[149]	Tag: 41,	type: CHAR,	length: 1,	lineno: 41,	colno: 52,	content: ")"
+[150]	Tag: 60,	type: CHAR,	length: 1,	lineno: 41,	colno: 54,	content: "<"
+[151]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 41,	colno: 55,	content: "Token"
+[152]	Tag: 62,	type: CHAR,	length: 1,	lineno: 41,	colno: 60,	content: ">"
+[153]	Tag: 123,	type: CHAR,	length: 1,	lineno: 41,	colno: 61,	content: "{"
+[154]	Tag: 256,	type: NUM,	length: 1,	lineno: 41,	colno: 62,	content: "0"
+[155]	Tag: 44,	type: CHAR,	length: 1,	lineno: 41,	colno: 63,	content: ","
+[156]	Tag: 256,	type: NUM,	length: 2,	lineno: 41,	colno: 64,	content: "10"
+[157]	Tag: 125,	type: CHAR,	length: 1,	lineno: 41,	colno: 66,	content: "}"
+[158]	Tag: 40,	type: CHAR,	length: 1,	lineno: 41,	colno: 68,	content: "("
+[159]	Tag: 60,	type: CHAR,	length: 1,	lineno: 41,	colno: 69,	content: "<"
+[160]	Tag: 258,	type: ID,	length: 1,	lineno: 41,	colno: 70,	content: "S"
+[161]	Tag: 46,	type: CHAR,	length: 1,	lineno: 41,	colno: 71,	content: "."
+[162]	Tag: 258,	type: ID,	length: 2,	lineno: 41,	colno: 72,	content: "vs"
+[163]	Tag: 62,	type: CHAR,	length: 1,	lineno: 41,	colno: 74,	content: ">"
+[164]	Tag: 41,	type: CHAR,	length: 1,	lineno: 41,	colno: 75,	content: ")"
+[165]	Tag: 60,	type: CHAR,	length: 1,	lineno: 41,	colno: 77,	content: "<"
+[166]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 41,	colno: 78,	content: "Token"
+[167]	Tag: 62,	type: CHAR,	length: 1,	lineno: 41,	colno: 83,	content: ">"
+[168]	Tag: 123,	type: CHAR,	length: 1,	lineno: 41,	colno: 84,	content: "{"
+[169]	Tag: 256,	type: NUM,	length: 1,	lineno: 41,	colno: 85,	content: "0"
+[170]	Tag: 44,	type: CHAR,	length: 1,	lineno: 41,	colno: 86,	content: ","
+[171]	Tag: 256,	type: NUM,	length: 2,	lineno: 41,	colno: 87,	content: "10"
+[172]	Tag: 125,	type: CHAR,	length: 1,	lineno: 41,	colno: 89,	content: "}"
+[173]	Tag: 40,	type: CHAR,	length: 1,	lineno: 41,	colno: 91,	content: "("
+[174]	Tag: 60,	type: CHAR,	length: 1,	lineno: 41,	colno: 92,	content: "<"
+[175]	Tag: 258,	type: ID,	length: 1,	lineno: 41,	colno: 93,	content: "R"
+[176]	Tag: 46,	type: CHAR,	length: 1,	lineno: 41,	colno: 94,	content: "."
+[177]	Tag: 258,	type: ID,	length: 6,	lineno: 41,	colno: 95,	content: "result"
+[178]	Tag: 62,	type: CHAR,	length: 1,	lineno: 41,	colno: 101,	content: ">"
+[179]	Tag: 41,	type: CHAR,	length: 1,	lineno: 41,	colno: 102,	content: ")"
+[180]	Tag: 60,	type: CHAR,	length: 1,	lineno: 41,	colno: 104,	content: "<"
+[181]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 41,	colno: 105,	content: "Token"
+[182]	Tag: 62,	type: CHAR,	length: 1,	lineno: 41,	colno: 110,	content: ">"
+[183]	Tag: 123,	type: CHAR,	length: 1,	lineno: 41,	colno: 111,	content: "{"
+[184]	Tag: 256,	type: NUM,	length: 1,	lineno: 41,	colno: 112,	content: "0"
+[185]	Tag: 44,	type: CHAR,	length: 1,	lineno: 41,	colno: 113,	content: ","
+[186]	Tag: 256,	type: NUM,	length: 2,	lineno: 41,	colno: 114,	content: "10"
+[187]	Tag: 125,	type: CHAR,	length: 1,	lineno: 41,	colno: 116,	content: "}"
+[188]	Tag: 40,	type: CHAR,	length: 1,	lineno: 41,	colno: 118,	content: "("
+[189]	Tag: 60,	type: CHAR,	length: 1,	lineno: 41,	colno: 119,	content: "<"
+[190]	Tag: 258,	type: ID,	length: 3,	lineno: 41,	colno: 120,	content: "So2"
+[191]	Tag: 46,	type: CHAR,	length: 1,	lineno: 41,	colno: 123,	content: "."
+[192]	Tag: 258,	type: ID,	length: 8,	lineno: 41,	colno: 124,	content: "teamName"
+[193]	Tag: 62,	type: CHAR,	length: 1,	lineno: 41,	colno: 132,	content: ">"
+[194]	Tag: 41,	type: CHAR,	length: 1,	lineno: 41,	colno: 133,	content: ")"
+[195]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 42,	colno: 6,	content: "return"
+[196]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 42,	colno: 13,	content: "group"
+[197]	Tag: 256,	type: NUM,	length: 1,	lineno: 42,	colno: 19,	content: "0"
+[198]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 42,	colno: 21,	content: "as"
+[199]	Tag: 258,	type: ID,	length: 11,	lineno: 42,	colno: 24,	content: "competition"
+[200]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 43,	colno: 8,	content: "and"
+[201]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 43,	colno: 13,	content: "group"
+[202]	Tag: 256,	type: NUM,	length: 1,	lineno: 43,	colno: 19,	content: "1"
+[203]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 43,	colno: 21,	content: "as"
+[204]	Tag: 258,	type: ID,	length: 4,	lineno: 43,	colno: 24,	content: "time"
+[205]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 44,	colno: 8,	content: "and"
+[206]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 44,	colno: 13,	content: "group"
+[207]	Tag: 256,	type: NUM,	length: 1,	lineno: 44,	colno: 19,	content: "2"
+[208]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 44,	colno: 21,	content: "as"
+[209]	Tag: 258,	type: ID,	length: 5,	lineno: 44,	colno: 24,	content: "team1"
+[210]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 45,	colno: 8,	content: "and"
+[211]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 45,	colno: 13,	content: "group"
+[212]	Tag: 256,	type: NUM,	length: 1,	lineno: 45,	colno: 19,	content: "3"
+[213]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 45,	colno: 21,	content: "as"
+[214]	Tag: 258,	type: ID,	length: 2,	lineno: 45,	colno: 24,	content: "vs"
+[215]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 46,	colno: 8,	content: "and"
+[216]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 46,	colno: 13,	content: "group"
+[217]	Tag: 256,	type: NUM,	length: 1,	lineno: 46,	colno: 19,	content: "4"
+[218]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 46,	colno: 21,	content: "as"
+[219]	Tag: 258,	type: ID,	length: 6,	lineno: 46,	colno: 24,	content: "result"
+[220]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 47,	colno: 8,	content: "and"
+[221]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 47,	colno: 13,	content: "group"
+[222]	Tag: 256,	type: NUM,	length: 1,	lineno: 47,	colno: 19,	content: "5"
+[223]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 47,	colno: 21,	content: "as"
+[224]	Tag: 258,	type: ID,	length: 5,	lineno: 47,	colno: 24,	content: "team2"
+[225]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 48,	colno: 4,	content: "from"
+[226]	Tag: 258,	type: ID,	length: 4,	lineno: 48,	colno: 9,	content: "Time"
+[227]	Tag: 258,	type: ID,	length: 1,	lineno: 48,	colno: 14,	content: "T"
+[228]	Tag: 44,	type: CHAR,	length: 1,	lineno: 48,	colno: 15,	content: ","
+[229]	Tag: 258,	type: ID,	length: 10,	lineno: 48,	colno: 17,	content: "SoccerTeam"
+[230]	Tag: 258,	type: ID,	length: 3,	lineno: 48,	colno: 28,	content: "So1"
+[231]	Tag: 44,	type: CHAR,	length: 1,	lineno: 48,	colno: 31,	content: ","
+[232]	Tag: 258,	type: ID,	length: 10,	lineno: 48,	colno: 33,	content: "SoccerTeam"
+[233]	Tag: 258,	type: ID,	length: 3,	lineno: 48,	colno: 44,	content: "So2"
+[234]	Tag: 44,	type: CHAR,	length: 1,	lineno: 48,	colno: 47,	content: ","
+[235]	Tag: 258,	type: ID,	length: 5,	lineno: 48,	colno: 49,	content: "Score"
+[236]	Tag: 258,	type: ID,	length: 1,	lineno: 48,	colno: 55,	content: "S"
+[237]	Tag: 44,	type: CHAR,	length: 1,	lineno: 48,	colno: 56,	content: ","
+[238]	Tag: 258,	type: ID,	length: 6,	lineno: 48,	colno: 58,	content: "Result"
+[239]	Tag: 258,	type: ID,	length: 1,	lineno: 48,	colno: 65,	content: "R"
+[240]	Tag: 1016,	type: KEYWORD,	length: 5,	lineno: 49,	colno: 0,	content: "union"
+[241]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 50,	colno: 2,	content: "extract"
+[242]	Tag: 256,	type: NUM,	length: 1,	lineno: 51,	colno: 4,	content: "2"
+[243]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 51,	colno: 6,	content: "as"
+[244]	Tag: 258,	type: ID,	length: 7,	lineno: 51,	colno: 9,	content: "rule_no"
+[245]	Tag: 44,	type: CHAR,	length: 1,	lineno: 51,	colno: 16,	content: ","
+[246]	Tag: 257,	type: STRING,	length: 38,	lineno: 51,	colno: 18,	content: "Time-SoccerTeam-Result-VS-SoccerTeam"
+[247]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 51,	colno: 57,	content: "as"
+[248]	Tag: 258,	type: ID,	length: 9,	lineno: 51,	colno: 60,	content: "rule_name"
+[249]	Tag: 44,	type: CHAR,	length: 1,	lineno: 51,	colno: 69,	content: ","
+[250]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 52,	colno: 4,	content: "pattern"
+[251]	Tag: 40,	type: CHAR,	length: 1,	lineno: 52,	colno: 12,	content: "("
+[252]	Tag: 60,	type: CHAR,	length: 1,	lineno: 52,	colno: 13,	content: "<"
+[253]	Tag: 258,	type: ID,	length: 1,	lineno: 52,	colno: 14,	content: "T"
+[254]	Tag: 46,	type: CHAR,	length: 1,	lineno: 52,	colno: 15,	content: "."
+[255]	Tag: 258,	type: ID,	length: 4,	lineno: 52,	colno: 16,	content: "text"
+[256]	Tag: 62,	type: CHAR,	length: 1,	lineno: 52,	colno: 20,	content: ">"
+[257]	Tag: 41,	type: CHAR,	length: 1,	lineno: 52,	colno: 21,	content: ")"
+[258]	Tag: 60,	type: CHAR,	length: 1,	lineno: 52,	colno: 23,	content: "<"
+[259]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 52,	colno: 24,	content: "Token"
+[260]	Tag: 62,	type: CHAR,	length: 1,	lineno: 52,	colno: 29,	content: ">"
+[261]	Tag: 123,	type: CHAR,	length: 1,	lineno: 52,	colno: 30,	content: "{"
+[262]	Tag: 256,	type: NUM,	length: 1,	lineno: 52,	colno: 31,	content: "0"
+[263]	Tag: 44,	type: CHAR,	length: 1,	lineno: 52,	colno: 32,	content: ","
+[264]	Tag: 256,	type: NUM,	length: 2,	lineno: 52,	colno: 33,	content: "20"
+[265]	Tag: 125,	type: CHAR,	length: 1,	lineno: 52,	colno: 35,	content: "}"
+[266]	Tag: 40,	type: CHAR,	length: 1,	lineno: 52,	colno: 37,	content: "("
+[267]	Tag: 60,	type: CHAR,	length: 1,	lineno: 52,	colno: 38,	content: "<"
+[268]	Tag: 258,	type: ID,	length: 3,	lineno: 52,	colno: 39,	content: "So1"
+[269]	Tag: 46,	type: CHAR,	length: 1,	lineno: 52,	colno: 42,	content: "."
+[270]	Tag: 258,	type: ID,	length: 8,	lineno: 52,	colno: 43,	content: "teamName"
+[271]	Tag: 62,	type: CHAR,	length: 1,	lineno: 52,	colno: 51,	content: ">"
+[272]	Tag: 41,	type: CHAR,	length: 1,	lineno: 52,	colno: 52,	content: ")"
+[273]	Tag: 60,	type: CHAR,	length: 1,	lineno: 52,	colno: 54,	content: "<"
+[274]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 52,	colno: 55,	content: "Token"
+[275]	Tag: 62,	type: CHAR,	length: 1,	lineno: 52,	colno: 60,	content: ">"
+[276]	Tag: 123,	type: CHAR,	length: 1,	lineno: 52,	colno: 61,	content: "{"
+[277]	Tag: 256,	type: NUM,	length: 1,	lineno: 52,	colno: 62,	content: "0"
+[278]	Tag: 44,	type: CHAR,	length: 1,	lineno: 52,	colno: 63,	content: ","
+[279]	Tag: 256,	type: NUM,	length: 2,	lineno: 52,	colno: 64,	content: "10"
+[280]	Tag: 125,	type: CHAR,	length: 1,	lineno: 52,	colno: 66,	content: "}"
+[281]	Tag: 40,	type: CHAR,	length: 1,	lineno: 52,	colno: 68,	content: "("
+[282]	Tag: 60,	type: CHAR,	length: 1,	lineno: 52,	colno: 69,	content: "<"
+[283]	Tag: 258,	type: ID,	length: 1,	lineno: 52,	colno: 70,	content: "S"
+[284]	Tag: 46,	type: CHAR,	length: 1,	lineno: 52,	colno: 71,	content: "."
+[285]	Tag: 258,	type: ID,	length: 2,	lineno: 52,	colno: 72,	content: "vs"
+[286]	Tag: 62,	type: CHAR,	length: 1,	lineno: 52,	colno: 74,	content: ">"
+[287]	Tag: 41,	type: CHAR,	length: 1,	lineno: 52,	colno: 75,	content: ")"
+[288]	Tag: 60,	type: CHAR,	length: 1,	lineno: 52,	colno: 77,	content: "<"
+[289]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 52,	colno: 78,	content: "Token"
+[290]	Tag: 62,	type: CHAR,	length: 1,	lineno: 52,	colno: 83,	content: ">"
+[291]	Tag: 123,	type: CHAR,	length: 1,	lineno: 52,	colno: 84,	content: "{"
+[292]	Tag: 256,	type: NUM,	length: 1,	lineno: 52,	colno: 85,	content: "0"
+[293]	Tag: 44,	type: CHAR,	length: 1,	lineno: 52,	colno: 86,	content: ","
+[294]	Tag: 256,	type: NUM,	length: 2,	lineno: 52,	colno: 87,	content: "10"
+[295]	Tag: 125,	type: CHAR,	length: 1,	lineno: 52,	colno: 89,	content: "}"
+[296]	Tag: 40,	type: CHAR,	length: 1,	lineno: 52,	colno: 91,	content: "("
+[297]	Tag: 60,	type: CHAR,	length: 1,	lineno: 52,	colno: 92,	content: "<"
+[298]	Tag: 258,	type: ID,	length: 3,	lineno: 52,	colno: 93,	content: "So2"
+[299]	Tag: 46,	type: CHAR,	length: 1,	lineno: 52,	colno: 96,	content: "."
+[300]	Tag: 258,	type: ID,	length: 8,	lineno: 52,	colno: 97,	content: "teamName"
+[301]	Tag: 62,	type: CHAR,	length: 1,	lineno: 52,	colno: 105,	content: ">"
+[302]	Tag: 41,	type: CHAR,	length: 1,	lineno: 52,	colno: 106,	content: ")"
+[303]	Tag: 60,	type: CHAR,	length: 1,	lineno: 52,	colno: 108,	content: "<"
+[304]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 52,	colno: 109,	content: "Token"
+[305]	Tag: 62,	type: CHAR,	length: 1,	lineno: 52,	colno: 114,	content: ">"
+[306]	Tag: 123,	type: CHAR,	length: 1,	lineno: 52,	colno: 115,	content: "{"
+[307]	Tag: 256,	type: NUM,	length: 1,	lineno: 52,	colno: 116,	content: "0"
+[308]	Tag: 44,	type: CHAR,	length: 1,	lineno: 52,	colno: 117,	content: ","
+[309]	Tag: 256,	type: NUM,	length: 1,	lineno: 52,	colno: 118,	content: "5"
+[310]	Tag: 125,	type: CHAR,	length: 1,	lineno: 52,	colno: 119,	content: "}"
+[311]	Tag: 40,	type: CHAR,	length: 1,	lineno: 52,	colno: 121,	content: "("
+[312]	Tag: 60,	type: CHAR,	length: 1,	lineno: 52,	colno: 122,	content: "<"
+[313]	Tag: 258,	type: ID,	length: 1,	lineno: 52,	colno: 123,	content: "R"
+[314]	Tag: 46,	type: CHAR,	length: 1,	lineno: 52,	colno: 124,	content: "."
+[315]	Tag: 258,	type: ID,	length: 6,	lineno: 52,	colno: 125,	content: "result"
+[316]	Tag: 62,	type: CHAR,	length: 1,	lineno: 52,	colno: 131,	content: ">"
+[317]	Tag: 41,	type: CHAR,	length: 1,	lineno: 52,	colno: 132,	content: ")"
+[318]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 53,	colno: 6,	content: "return"
+[319]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 53,	colno: 13,	content: "group"
+[320]	Tag: 256,	type: NUM,	length: 1,	lineno: 53,	colno: 19,	content: "0"
+[321]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 53,	colno: 21,	content: "as"
+[322]	Tag: 258,	type: ID,	length: 11,	lineno: 53,	colno: 24,	content: "competition"
+[323]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 54,	colno: 8,	content: "and"
+[324]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 54,	colno: 13,	content: "group"
+[325]	Tag: 256,	type: NUM,	length: 1,	lineno: 54,	colno: 19,	content: "1"
+[326]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 54,	colno: 21,	content: "as"
+[327]	Tag: 258,	type: ID,	length: 4,	lineno: 54,	colno: 24,	content: "time"
+[328]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 55,	colno: 8,	content: "and"
+[329]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 55,	colno: 13,	content: "group"
+[330]	Tag: 256,	type: NUM,	length: 1,	lineno: 55,	colno: 19,	content: "2"
+[331]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 55,	colno: 21,	content: "as"
+[332]	Tag: 258,	type: ID,	length: 5,	lineno: 55,	colno: 24,	content: "team1"
+[333]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 56,	colno: 8,	content: "and"
+[334]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 56,	colno: 13,	content: "group"
+[335]	Tag: 256,	type: NUM,	length: 1,	lineno: 56,	colno: 19,	content: "3"
+[336]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 56,	colno: 21,	content: "as"
+[337]	Tag: 258,	type: ID,	length: 2,	lineno: 56,	colno: 24,	content: "vs"
+[338]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 57,	colno: 8,	content: "and"
+[339]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 57,	colno: 13,	content: "group"
+[340]	Tag: 256,	type: NUM,	length: 1,	lineno: 57,	colno: 19,	content: "4"
+[341]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 57,	colno: 21,	content: "as"
+[342]	Tag: 258,	type: ID,	length: 5,	lineno: 57,	colno: 24,	content: "team2"
+[343]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 58,	colno: 8,	content: "and"
+[344]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 58,	colno: 13,	content: "group"
+[345]	Tag: 256,	type: NUM,	length: 1,	lineno: 58,	colno: 19,	content: "5"
+[346]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 58,	colno: 21,	content: "as"
+[347]	Tag: 258,	type: ID,	length: 6,	lineno: 58,	colno: 24,	content: "result"
+[348]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 59,	colno: 2,	content: "from"
+[349]	Tag: 258,	type: ID,	length: 4,	lineno: 59,	colno: 7,	content: "Time"
+[350]	Tag: 258,	type: ID,	length: 1,	lineno: 59,	colno: 12,	content: "T"
+[351]	Tag: 44,	type: CHAR,	length: 1,	lineno: 59,	colno: 13,	content: ","
+[352]	Tag: 258,	type: ID,	length: 10,	lineno: 59,	colno: 15,	content: "SoccerTeam"
+[353]	Tag: 258,	type: ID,	length: 3,	lineno: 59,	colno: 26,	content: "So1"
+[354]	Tag: 44,	type: CHAR,	length: 1,	lineno: 59,	colno: 29,	content: ","
+[355]	Tag: 258,	type: ID,	length: 10,	lineno: 59,	colno: 31,	content: "SoccerTeam"
+[356]	Tag: 258,	type: ID,	length: 3,	lineno: 59,	colno: 42,	content: "So2"
+[357]	Tag: 44,	type: CHAR,	length: 1,	lineno: 59,	colno: 45,	content: ","
+[358]	Tag: 258,	type: ID,	length: 5,	lineno: 59,	colno: 47,	content: "Score"
+[359]	Tag: 258,	type: ID,	length: 1,	lineno: 59,	colno: 53,	content: "S"
+[360]	Tag: 44,	type: CHAR,	length: 1,	lineno: 59,	colno: 54,	content: ","
+[361]	Tag: 258,	type: ID,	length: 6,	lineno: 59,	colno: 56,	content: "Result"
+[362]	Tag: 258,	type: ID,	length: 1,	lineno: 59,	colno: 63,	content: "R"
+[363]	Tag: 1016,	type: KEYWORD,	length: 5,	lineno: 60,	colno: 0,	content: "union"
+[364]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 61,	colno: 2,	content: "extract"
+[365]	Tag: 256,	type: NUM,	length: 1,	lineno: 62,	colno: 4,	content: "3"
+[366]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 62,	colno: 6,	content: "as"
+[367]	Tag: 258,	type: ID,	length: 7,	lineno: 62,	colno: 9,	content: "rule_no"
+[368]	Tag: 44,	type: CHAR,	length: 1,	lineno: 62,	colno: 16,	content: ","
+[369]	Tag: 257,	type: STRING,	length: 38,	lineno: 62,	colno: 18,	content: "Time-SoccerTeam-SoccerTeam-VS-Result"
+[370]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 62,	colno: 57,	content: "as"
+[371]	Tag: 258,	type: ID,	length: 9,	lineno: 62,	colno: 60,	content: "rule_name"
+[372]	Tag: 44,	type: CHAR,	length: 1,	lineno: 62,	colno: 69,	content: ","
+[373]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 63,	colno: 4,	content: "pattern"
+[374]	Tag: 40,	type: CHAR,	length: 1,	lineno: 63,	colno: 12,	content: "("
+[375]	Tag: 60,	type: CHAR,	length: 1,	lineno: 63,	colno: 13,	content: "<"
+[376]	Tag: 258,	type: ID,	length: 1,	lineno: 63,	colno: 14,	content: "T"
+[377]	Tag: 46,	type: CHAR,	length: 1,	lineno: 63,	colno: 15,	content: "."
+[378]	Tag: 258,	type: ID,	length: 4,	lineno: 63,	colno: 16,	content: "text"
+[379]	Tag: 62,	type: CHAR,	length: 1,	lineno: 63,	colno: 20,	content: ">"
+[380]	Tag: 41,	type: CHAR,	length: 1,	lineno: 63,	colno: 21,	content: ")"
+[381]	Tag: 60,	type: CHAR,	length: 1,	lineno: 63,	colno: 23,	content: "<"
+[382]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 63,	colno: 24,	content: "Token"
+[383]	Tag: 62,	type: CHAR,	length: 1,	lineno: 63,	colno: 29,	content: ">"
+[384]	Tag: 123,	type: CHAR,	length: 1,	lineno: 63,	colno: 30,	content: "{"
+[385]	Tag: 256,	type: NUM,	length: 1,	lineno: 63,	colno: 31,	content: "0"
+[386]	Tag: 44,	type: CHAR,	length: 1,	lineno: 63,	colno: 32,	content: ","
+[387]	Tag: 256,	type: NUM,	length: 2,	lineno: 63,	colno: 33,	content: "20"
+[388]	Tag: 125,	type: CHAR,	length: 1,	lineno: 63,	colno: 35,	content: "}"
+[389]	Tag: 40,	type: CHAR,	length: 1,	lineno: 63,	colno: 37,	content: "("
+[390]	Tag: 60,	type: CHAR,	length: 1,	lineno: 63,	colno: 38,	content: "<"
+[391]	Tag: 258,	type: ID,	length: 3,	lineno: 63,	colno: 39,	content: "So1"
+[392]	Tag: 46,	type: CHAR,	length: 1,	lineno: 63,	colno: 42,	content: "."
+[393]	Tag: 258,	type: ID,	length: 8,	lineno: 63,	colno: 43,	content: "teamName"
+[394]	Tag: 62,	type: CHAR,	length: 1,	lineno: 63,	colno: 51,	content: ">"
+[395]	Tag: 41,	type: CHAR,	length: 1,	lineno: 63,	colno: 52,	content: ")"
+[396]	Tag: 60,	type: CHAR,	length: 1,	lineno: 63,	colno: 54,	content: "<"
+[397]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 63,	colno: 55,	content: "Token"
+[398]	Tag: 62,	type: CHAR,	length: 1,	lineno: 63,	colno: 60,	content: ">"
+[399]	Tag: 123,	type: CHAR,	length: 1,	lineno: 63,	colno: 61,	content: "{"
+[400]	Tag: 256,	type: NUM,	length: 1,	lineno: 63,	colno: 62,	content: "0"
+[401]	Tag: 44,	type: CHAR,	length: 1,	lineno: 63,	colno: 63,	content: ","
+[402]	Tag: 256,	type: NUM,	length: 2,	lineno: 63,	colno: 64,	content: "10"
+[403]	Tag: 125,	type: CHAR,	length: 1,	lineno: 63,	colno: 66,	content: "}"
+[404]	Tag: 40,	type: CHAR,	length: 1,	lineno: 63,	colno: 68,	content: "("
+[405]	Tag: 60,	type: CHAR,	length: 1,	lineno: 63,	colno: 69,	content: "<"
+[406]	Tag: 258,	type: ID,	length: 3,	lineno: 63,	colno: 70,	content: "So2"
+[407]	Tag: 46,	type: CHAR,	length: 1,	lineno: 63,	colno: 73,	content: "."
+[408]	Tag: 258,	type: ID,	length: 8,	lineno: 63,	colno: 74,	content: "teamName"
+[409]	Tag: 62,	type: CHAR,	length: 1,	lineno: 63,	colno: 82,	content: ">"
+[410]	Tag: 41,	type: CHAR,	length: 1,	lineno: 63,	colno: 83,	content: ")"
+[411]	Tag: 60,	type: CHAR,	length: 1,	lineno: 63,	colno: 85,	content: "<"
+[412]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 63,	colno: 86,	content: "Token"
+[413]	Tag: 62,	type: CHAR,	length: 1,	lineno: 63,	colno: 91,	content: ">"
+[414]	Tag: 123,	type: CHAR,	length: 1,	lineno: 63,	colno: 92,	content: "{"
+[415]	Tag: 256,	type: NUM,	length: 1,	lineno: 63,	colno: 93,	content: "0"
+[416]	Tag: 44,	type: CHAR,	length: 1,	lineno: 63,	colno: 94,	content: ","
+[417]	Tag: 256,	type: NUM,	length: 2,	lineno: 63,	colno: 95,	content: "10"
+[418]	Tag: 125,	type: CHAR,	length: 1,	lineno: 63,	colno: 97,	content: "}"
+[419]	Tag: 40,	type: CHAR,	length: 1,	lineno: 63,	colno: 99,	content: "("
+[420]	Tag: 60,	type: CHAR,	length: 1,	lineno: 63,	colno: 100,	content: "<"
+[421]	Tag: 258,	type: ID,	length: 1,	lineno: 63,	colno: 101,	content: "S"
+[422]	Tag: 46,	type: CHAR,	length: 1,	lineno: 63,	colno: 102,	content: "."
+[423]	Tag: 258,	type: ID,	length: 2,	lineno: 63,	colno: 103,	content: "vs"
+[424]	Tag: 62,	type: CHAR,	length: 1,	lineno: 63,	colno: 105,	content: ">"
+[425]	Tag: 41,	type: CHAR,	length: 1,	lineno: 63,	colno: 106,	content: ")"
+[426]	Tag: 60,	type: CHAR,	length: 1,	lineno: 63,	colno: 108,	content: "<"
+[427]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 63,	colno: 109,	content: "Token"
+[428]	Tag: 62,	type: CHAR,	length: 1,	lineno: 63,	colno: 114,	content: ">"
+[429]	Tag: 123,	type: CHAR,	length: 1,	lineno: 63,	colno: 115,	content: "{"
+[430]	Tag: 256,	type: NUM,	length: 1,	lineno: 63,	colno: 116,	content: "0"
+[431]	Tag: 44,	type: CHAR,	length: 1,	lineno: 63,	colno: 117,	content: ","
+[432]	Tag: 256,	type: NUM,	length: 2,	lineno: 63,	colno: 118,	content: "10"
+[433]	Tag: 125,	type: CHAR,	length: 1,	lineno: 63,	colno: 120,	content: "}"
+[434]	Tag: 40,	type: CHAR,	length: 1,	lineno: 63,	colno: 122,	content: "("
+[435]	Tag: 60,	type: CHAR,	length: 1,	lineno: 63,	colno: 123,	content: "<"
+[436]	Tag: 258,	type: ID,	length: 1,	lineno: 63,	colno: 124,	content: "R"
+[437]	Tag: 46,	type: CHAR,	length: 1,	lineno: 63,	colno: 125,	content: "."
+[438]	Tag: 258,	type: ID,	length: 6,	lineno: 63,	colno: 126,	content: "result"
+[439]	Tag: 62,	type: CHAR,	length: 1,	lineno: 63,	colno: 132,	content: ">"
+[440]	Tag: 41,	type: CHAR,	length: 1,	lineno: 63,	colno: 133,	content: ")"
+[441]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 64,	colno: 6,	content: "return"
+[442]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 64,	colno: 13,	content: "group"
+[443]	Tag: 256,	type: NUM,	length: 1,	lineno: 64,	colno: 19,	content: "0"
+[444]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 64,	colno: 21,	content: "as"
+[445]	Tag: 258,	type: ID,	length: 11,	lineno: 64,	colno: 24,	content: "competition"
+[446]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 65,	colno: 8,	content: "and"
+[447]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 65,	colno: 13,	content: "group"
+[448]	Tag: 256,	type: NUM,	length: 1,	lineno: 65,	colno: 19,	content: "1"
+[449]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 65,	colno: 21,	content: "as"
+[450]	Tag: 258,	type: ID,	length: 4,	lineno: 65,	colno: 24,	content: "time"
+[451]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 66,	colno: 8,	content: "and"
+[452]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 66,	colno: 13,	content: "group"
+[453]	Tag: 256,	type: NUM,	length: 1,	lineno: 66,	colno: 19,	content: "2"
+[454]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 66,	colno: 21,	content: "as"
+[455]	Tag: 258,	type: ID,	length: 5,	lineno: 66,	colno: 24,	content: "team1"
+[456]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 67,	colno: 8,	content: "and"
+[457]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 67,	colno: 13,	content: "group"
+[458]	Tag: 256,	type: NUM,	length: 1,	lineno: 67,	colno: 19,	content: "3"
+[459]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 67,	colno: 21,	content: "as"
+[460]	Tag: 258,	type: ID,	length: 5,	lineno: 67,	colno: 24,	content: "team2"
+[461]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 68,	colno: 8,	content: "and"
+[462]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 68,	colno: 13,	content: "group"
+[463]	Tag: 256,	type: NUM,	length: 1,	lineno: 68,	colno: 19,	content: "4"
+[464]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 68,	colno: 21,	content: "as"
+[465]	Tag: 258,	type: ID,	length: 2,	lineno: 68,	colno: 24,	content: "vs"
+[466]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 69,	colno: 8,	content: "and"
+[467]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 69,	colno: 13,	content: "group"
+[468]	Tag: 256,	type: NUM,	length: 1,	lineno: 69,	colno: 19,	content: "5"
+[469]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 69,	colno: 21,	content: "as"
+[470]	Tag: 258,	type: ID,	length: 6,	lineno: 69,	colno: 24,	content: "result"
+[471]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 70,	colno: 2,	content: "from"
+[472]	Tag: 258,	type: ID,	length: 4,	lineno: 70,	colno: 7,	content: "Time"
+[473]	Tag: 258,	type: ID,	length: 1,	lineno: 70,	colno: 12,	content: "T"
+[474]	Tag: 44,	type: CHAR,	length: 1,	lineno: 70,	colno: 13,	content: ","
+[475]	Tag: 258,	type: ID,	length: 10,	lineno: 70,	colno: 15,	content: "SoccerTeam"
+[476]	Tag: 258,	type: ID,	length: 3,	lineno: 70,	colno: 26,	content: "So1"
+[477]	Tag: 44,	type: CHAR,	length: 1,	lineno: 70,	colno: 29,	content: ","
+[478]	Tag: 258,	type: ID,	length: 10,	lineno: 70,	colno: 31,	content: "SoccerTeam"
+[479]	Tag: 258,	type: ID,	length: 3,	lineno: 70,	colno: 42,	content: "So2"
+[480]	Tag: 44,	type: CHAR,	length: 1,	lineno: 70,	colno: 45,	content: ","
+[481]	Tag: 258,	type: ID,	length: 5,	lineno: 70,	colno: 47,	content: "Score"
+[482]	Tag: 258,	type: ID,	length: 1,	lineno: 70,	colno: 53,	content: "S"
+[483]	Tag: 44,	type: CHAR,	length: 1,	lineno: 70,	colno: 54,	content: ","
+[484]	Tag: 258,	type: ID,	length: 6,	lineno: 70,	colno: 56,	content: "Result"
+[485]	Tag: 258,	type: ID,	length: 1,	lineno: 70,	colno: 63,	content: "R"
+[486]	Tag: 1016,	type: KEYWORD,	length: 5,	lineno: 71,	colno: 0,	content: "union"
+[487]	Tag: 1003,	type: KEYWORD,	length: 7,	lineno: 72,	colno: 2,	content: "extract"
+[488]	Tag: 256,	type: NUM,	length: 1,	lineno: 73,	colno: 4,	content: "4"
+[489]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 73,	colno: 6,	content: "as"
+[490]	Tag: 258,	type: ID,	length: 7,	lineno: 73,	colno: 9,	content: "rule_no"
+[491]	Tag: 44,	type: CHAR,	length: 1,	lineno: 73,	colno: 16,	content: ","
+[492]	Tag: 257,	type: STRING,	length: 38,	lineno: 73,	colno: 18,	content: "Time-SoccerTeam-SoccerTeam-Result-VS"
+[493]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 73,	colno: 57,	content: "as"
+[494]	Tag: 258,	type: ID,	length: 9,	lineno: 73,	colno: 60,	content: "rule_name"
+[495]	Tag: 44,	type: CHAR,	length: 1,	lineno: 73,	colno: 69,	content: ","
+[496]	Tag: 1008,	type: KEYWORD,	length: 7,	lineno: 74,	colno: 4,	content: "pattern"
+[497]	Tag: 40,	type: CHAR,	length: 1,	lineno: 74,	colno: 12,	content: "("
+[498]	Tag: 60,	type: CHAR,	length: 1,	lineno: 74,	colno: 13,	content: "<"
+[499]	Tag: 258,	type: ID,	length: 1,	lineno: 74,	colno: 14,	content: "T"
+[500]	Tag: 46,	type: CHAR,	length: 1,	lineno: 74,	colno: 15,	content: "."
+[501]	Tag: 258,	type: ID,	length: 4,	lineno: 74,	colno: 16,	content: "text"
+[502]	Tag: 62,	type: CHAR,	length: 1,	lineno: 74,	colno: 20,	content: ">"
+[503]	Tag: 41,	type: CHAR,	length: 1,	lineno: 74,	colno: 21,	content: ")"
+[504]	Tag: 60,	type: CHAR,	length: 1,	lineno: 74,	colno: 23,	content: "<"
+[505]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 74,	colno: 24,	content: "Token"
+[506]	Tag: 62,	type: CHAR,	length: 1,	lineno: 74,	colno: 29,	content: ">"
+[507]	Tag: 123,	type: CHAR,	length: 1,	lineno: 74,	colno: 30,	content: "{"
+[508]	Tag: 256,	type: NUM,	length: 1,	lineno: 74,	colno: 31,	content: "0"
+[509]	Tag: 44,	type: CHAR,	length: 1,	lineno: 74,	colno: 32,	content: ","
+[510]	Tag: 256,	type: NUM,	length: 2,	lineno: 74,	colno: 33,	content: "20"
+[511]	Tag: 125,	type: CHAR,	length: 1,	lineno: 74,	colno: 35,	content: "}"
+[512]	Tag: 40,	type: CHAR,	length: 1,	lineno: 74,	colno: 37,	content: "("
+[513]	Tag: 60,	type: CHAR,	length: 1,	lineno: 74,	colno: 38,	content: "<"
+[514]	Tag: 258,	type: ID,	length: 3,	lineno: 74,	colno: 39,	content: "So1"
+[515]	Tag: 46,	type: CHAR,	length: 1,	lineno: 74,	colno: 42,	content: "."
+[516]	Tag: 258,	type: ID,	length: 8,	lineno: 74,	colno: 43,	content: "teamName"
+[517]	Tag: 62,	type: CHAR,	length: 1,	lineno: 74,	colno: 51,	content: ">"
+[518]	Tag: 41,	type: CHAR,	length: 1,	lineno: 74,	colno: 52,	content: ")"
+[519]	Tag: 60,	type: CHAR,	length: 1,	lineno: 74,	colno: 54,	content: "<"
+[520]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 74,	colno: 55,	content: "Token"
+[521]	Tag: 62,	type: CHAR,	length: 1,	lineno: 74,	colno: 60,	content: ">"
+[522]	Tag: 123,	type: CHAR,	length: 1,	lineno: 74,	colno: 61,	content: "{"
+[523]	Tag: 256,	type: NUM,	length: 1,	lineno: 74,	colno: 62,	content: "0"
+[524]	Tag: 44,	type: CHAR,	length: 1,	lineno: 74,	colno: 63,	content: ","
+[525]	Tag: 256,	type: NUM,	length: 2,	lineno: 74,	colno: 64,	content: "10"
+[526]	Tag: 125,	type: CHAR,	length: 1,	lineno: 74,	colno: 66,	content: "}"
+[527]	Tag: 40,	type: CHAR,	length: 1,	lineno: 74,	colno: 68,	content: "("
+[528]	Tag: 60,	type: CHAR,	length: 1,	lineno: 74,	colno: 69,	content: "<"
+[529]	Tag: 258,	type: ID,	length: 3,	lineno: 74,	colno: 70,	content: "So2"
+[530]	Tag: 46,	type: CHAR,	length: 1,	lineno: 74,	colno: 73,	content: "."
+[531]	Tag: 258,	type: ID,	length: 8,	lineno: 74,	colno: 74,	content: "teamName"
+[532]	Tag: 62,	type: CHAR,	length: 1,	lineno: 74,	colno: 82,	content: ">"
+[533]	Tag: 41,	type: CHAR,	length: 1,	lineno: 74,	colno: 83,	content: ")"
+[534]	Tag: 60,	type: CHAR,	length: 1,	lineno: 74,	colno: 85,	content: "<"
+[535]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 74,	colno: 86,	content: "Token"
+[536]	Tag: 62,	type: CHAR,	length: 1,	lineno: 74,	colno: 91,	content: ">"
+[537]	Tag: 123,	type: CHAR,	length: 1,	lineno: 74,	colno: 92,	content: "{"
+[538]	Tag: 256,	type: NUM,	length: 1,	lineno: 74,	colno: 93,	content: "0"
+[539]	Tag: 44,	type: CHAR,	length: 1,	lineno: 74,	colno: 94,	content: ","
+[540]	Tag: 256,	type: NUM,	length: 2,	lineno: 74,	colno: 95,	content: "10"
+[541]	Tag: 125,	type: CHAR,	length: 1,	lineno: 74,	colno: 97,	content: "}"
+[542]	Tag: 40,	type: CHAR,	length: 1,	lineno: 74,	colno: 99,	content: "("
+[543]	Tag: 60,	type: CHAR,	length: 1,	lineno: 74,	colno: 100,	content: "<"
+[544]	Tag: 258,	type: ID,	length: 1,	lineno: 74,	colno: 101,	content: "R"
+[545]	Tag: 46,	type: CHAR,	length: 1,	lineno: 74,	colno: 102,	content: "."
+[546]	Tag: 258,	type: ID,	length: 6,	lineno: 74,	colno: 103,	content: "result"
+[547]	Tag: 62,	type: CHAR,	length: 1,	lineno: 74,	colno: 109,	content: ">"
+[548]	Tag: 41,	type: CHAR,	length: 1,	lineno: 74,	colno: 110,	content: ")"
+[549]	Tag: 60,	type: CHAR,	length: 1,	lineno: 74,	colno: 112,	content: "<"
+[550]	Tag: 1009,	type: KEYWORD,	length: 5,	lineno: 74,	colno: 113,	content: "Token"
+[551]	Tag: 62,	type: CHAR,	length: 1,	lineno: 74,	colno: 118,	content: ">"
+[552]	Tag: 123,	type: CHAR,	length: 1,	lineno: 74,	colno: 119,	content: "{"
+[553]	Tag: 256,	type: NUM,	length: 1,	lineno: 74,	colno: 120,	content: "0"
+[554]	Tag: 44,	type: CHAR,	length: 1,	lineno: 74,	colno: 121,	content: ","
+[555]	Tag: 256,	type: NUM,	length: 2,	lineno: 74,	colno: 122,	content: "10"
+[556]	Tag: 125,	type: CHAR,	length: 1,	lineno: 74,	colno: 124,	content: "}"
+[557]	Tag: 40,	type: CHAR,	length: 1,	lineno: 74,	colno: 126,	content: "("
+[558]	Tag: 60,	type: CHAR,	length: 1,	lineno: 74,	colno: 127,	content: "<"
+[559]	Tag: 258,	type: ID,	length: 1,	lineno: 74,	colno: 128,	content: "S"
+[560]	Tag: 46,	type: CHAR,	length: 1,	lineno: 74,	colno: 129,	content: "."
+[561]	Tag: 258,	type: ID,	length: 2,	lineno: 74,	colno: 130,	content: "vs"
+[562]	Tag: 62,	type: CHAR,	length: 1,	lineno: 74,	colno: 132,	content: ">"
+[563]	Tag: 41,	type: CHAR,	length: 1,	lineno: 74,	colno: 133,	content: ")"
+[564]	Tag: 1004,	type: KEYWORD,	length: 6,	lineno: 75,	colno: 6,	content: "return"
+[565]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 75,	colno: 13,	content: "group"
+[566]	Tag: 256,	type: NUM,	length: 1,	lineno: 75,	colno: 19,	content: "0"
+[567]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 75,	colno: 21,	content: "as"
+[568]	Tag: 258,	type: ID,	length: 11,	lineno: 75,	colno: 24,	content: "competition"
+[569]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 76,	colno: 8,	content: "and"
+[570]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 76,	colno: 13,	content: "group"
+[571]	Tag: 256,	type: NUM,	length: 1,	lineno: 76,	colno: 19,	content: "1"
+[572]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 76,	colno: 21,	content: "as"
+[573]	Tag: 258,	type: ID,	length: 4,	lineno: 76,	colno: 24,	content: "time"
+[574]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 77,	colno: 8,	content: "and"
+[575]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 77,	colno: 13,	content: "group"
+[576]	Tag: 256,	type: NUM,	length: 1,	lineno: 77,	colno: 19,	content: "2"
+[577]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 77,	colno: 21,	content: "as"
+[578]	Tag: 258,	type: ID,	length: 5,	lineno: 77,	colno: 24,	content: "team1"
+[579]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 78,	colno: 8,	content: "and"
+[580]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 78,	colno: 13,	content: "group"
+[581]	Tag: 256,	type: NUM,	length: 1,	lineno: 78,	colno: 19,	content: "3"
+[582]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 78,	colno: 21,	content: "as"
+[583]	Tag: 258,	type: ID,	length: 5,	lineno: 78,	colno: 24,	content: "team2"
+[584]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 79,	colno: 8,	content: "and"
+[585]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 79,	colno: 13,	content: "group"
+[586]	Tag: 256,	type: NUM,	length: 1,	lineno: 79,	colno: 19,	content: "4"
+[587]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 79,	colno: 21,	content: "as"
+[588]	Tag: 258,	type: ID,	length: 6,	lineno: 79,	colno: 24,	content: "result"
+[589]	Tag: 1013,	type: KEYWORD,	length: 3,	lineno: 80,	colno: 8,	content: "and"
+[590]	Tag: 1005,	type: KEYWORD,	length: 5,	lineno: 80,	colno: 13,	content: "group"
+[591]	Tag: 256,	type: NUM,	length: 1,	lineno: 80,	colno: 19,	content: "5"
+[592]	Tag: 1011,	type: KEYWORD,	length: 2,	lineno: 80,	colno: 21,	content: "as"
+[593]	Tag: 258,	type: ID,	length: 2,	lineno: 80,	colno: 24,	content: "vs"
+[594]	Tag: 1010,	type: KEYWORD,	length: 4,	lineno: 81,	colno: 2,	content: "from"
+[595]	Tag: 258,	type: ID,	length: 4,	lineno: 81,	colno: 7,	content: "Time"
+[596]	Tag: 258,	type: ID,	length: 1,	lineno: 81,	colno: 12,	content: "T"
+[597]	Tag: 44,	type: CHAR,	length: 1,	lineno: 81,	colno: 13,	content: ","
+[598]	Tag: 258,	type: ID,	length: 10,	lineno: 81,	colno: 15,	content: "SoccerTeam"
+[599]	Tag: 258,	type: ID,	length: 3,	lineno: 81,	colno: 26,	content: "So1"
+[600]	Tag: 44,	type: CHAR,	length: 1,	lineno: 81,	colno: 29,	content: ","
+[601]	Tag: 258,	type: ID,	length: 10,	lineno: 81,	colno: 31,	content: "SoccerTeam"
+[602]	Tag: 258,	type: ID,	length: 3,	lineno: 81,	colno: 42,	content: "So2"
+[603]	Tag: 44,	type: CHAR,	length: 1,	lineno: 81,	colno: 45,	content: ","
+[604]	Tag: 258,	type: ID,	length: 5,	lineno: 81,	colno: 47,	content: "Score"
+[605]	Tag: 258,	type: ID,	length: 1,	lineno: 81,	colno: 53,	content: "S"
+[606]	Tag: 44,	type: CHAR,	length: 1,	lineno: 81,	colno: 54,	content: ","
+[607]	Tag: 258,	type: ID,	length: 6,	lineno: 81,	colno: 56,	content: "Result"
+[608]	Tag: 258,	type: ID,	length: 1,	lineno: 81,	colno: 63,	content: "R"
+[609]	Tag: 59,	type: CHAR,	length: 1,	lineno: 81,	colno: 64,	content: ";"
+[610]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 85,	colno: 0,	content: "output"
+[611]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 85,	colno: 7,	content: "view"
+[612]	Tag: 258,	type: ID,	length: 6,	lineno: 85,	colno: 12,	content: "Person"
+[613]	Tag: 59,	type: CHAR,	length: 1,	lineno: 85,	colno: 18,	content: ";"
+[614]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 86,	colno: 0,	content: "output"
+[615]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 86,	colno: 7,	content: "view"
+[616]	Tag: 258,	type: ID,	length: 8,	lineno: 86,	colno: 12,	content: "Location"
+[617]	Tag: 59,	type: CHAR,	length: 1,	lineno: 86,	colno: 20,	content: ";"
+[618]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 87,	colno: 0,	content: "output"
+[619]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 87,	colno: 7,	content: "view"
+[620]	Tag: 258,	type: ID,	length: 12,	lineno: 87,	colno: 12,	content: "Organization"
+[621]	Tag: 59,	type: CHAR,	length: 1,	lineno: 87,	colno: 24,	content: ";"
+[622]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 88,	colno: 0,	content: "output"
+[623]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 88,	colno: 7,	content: "view"
+[624]	Tag: 258,	type: ID,	length: 4,	lineno: 88,	colno: 12,	content: "Time"
+[625]	Tag: 59,	type: CHAR,	length: 1,	lineno: 88,	colno: 16,	content: ";"
+[626]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 91,	colno: 0,	content: "output"
+[627]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 91,	colno: 7,	content: "view"
+[628]	Tag: 258,	type: ID,	length: 10,	lineno: 91,	colno: 12,	content: "SoccerTeam"
+[629]	Tag: 59,	type: CHAR,	length: 1,	lineno: 91,	colno: 22,	content: ";"
+[630]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 92,	colno: 0,	content: "output"
+[631]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 92,	colno: 7,	content: "view"
+[632]	Tag: 258,	type: ID,	length: 6,	lineno: 92,	colno: 12,	content: "Result"
+[633]	Tag: 59,	type: CHAR,	length: 1,	lineno: 92,	colno: 18,	content: ";"
+[634]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 93,	colno: 0,	content: "output"
+[635]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 93,	colno: 7,	content: "view"
+[636]	Tag: 258,	type: ID,	length: 5,	lineno: 93,	colno: 12,	content: "Match"
+[637]	Tag: 59,	type: CHAR,	length: 1,	lineno: 93,	colno: 17,	content: ";"
+[638]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 94,	colno: 0,	content: "output"
+[639]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 94,	colno: 7,	content: "view"
+[640]	Tag: 258,	type: ID,	length: 5,	lineno: 94,	colno: 12,	content: "Level"
+[641]	Tag: 59,	type: CHAR,	length: 1,	lineno: 94,	colno: 17,	content: ";"
+[642]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 95,	colno: 0,	content: "output"
+[643]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 95,	colno: 7,	content: "view"
+[644]	Tag: 258,	type: ID,	length: 5,	lineno: 95,	colno: 12,	content: "Score"
+[645]	Tag: 59,	type: CHAR,	length: 1,	lineno: 95,	colno: 17,	content: ";"
+[646]	Tag: 1001,	type: KEYWORD,	length: 6,	lineno: 98,	colno: 0,	content: "output"
+[647]	Tag: 1006,	type: KEYWORD,	length: 4,	lineno: 98,	colno: 7,	content: "view"
+[648]	Tag: 258,	type: ID,	length: 11,	lineno: 98,	colno: 12,	content: "Competition"
+[649]	Tag: 59,	type: CHAR,	length: 1,	lineno: 98,	colno: 23,	content: ";"
+[650]	Tag: -1,	type: EOF,	length: 0,	lineno: 99,	colno: 0,	content: "�"
+
+Parser tree:
++Program
+    +[1] Stmt
+        +CreateDict
+            +DictName
+                SoccerTeamDict
+            +DictFile
+                '../dict/soccer/soccer_team.dict'
+    +[2] Stmt
+        +CreateDict
+            +DictName
+                ResultDict
+            +DictFile
+                '../dict/soccer/result.dict'
+    +[3] Stmt
+        +CreateDict
+            +DictName
+                MatchDict
+            +DictFile
+                '../dict/soccer/match.dict'
+    +[4] Stmt
+        +CreateDict
+            +DictName
+                LevelDict
+            +DictFile
+                '../dict/soccer/level.dict'
+    +[5] Stmt
+        +CreateView
+            +ViewName
+                SoccerTeam
+            +ExtractStmt
+                +ExtractSpec
+                    +DictSpec
+                        +DictName
+                            SoccerTeamDict
+                        +On
+                            +Column
+                                D.text
+                        +As
+                            teamName
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[6] Stmt
+        +CreateView
+            +ViewName
+                Result
+            +ExtractStmt
+                +ExtractSpec
+                    +DictSpec
+                        +DictName
+                            ResultDict
+                        +On
+                            +Column
+                                D.text
+                        +As
+                            result
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[7] Stmt
+        +CreateView
+            +ViewName
+                Match
+            +ExtractStmt
+                +ExtractSpec
+                    +DictSpec
+                        +DictName
+                            MatchDict
+                        +On
+                            +Column
+                                D.text
+                        +As
+                            match
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[8] Stmt
+        +CreateView
+            +ViewName
+                Level
+            +ExtractStmt
+                +ExtractSpec
+                    +DictSpec
+                        +DictName
+                            LevelDict
+                        +On
+                            +Column
+                                D.text
+                        +As
+                            level
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[9] Stmt
+        +CreateView
+            +ViewName
+                Score
+            +ExtractStmt
+                +ExtractSpec
+                    +RegexSpec
+                        +RegExpr
+                            [0-9]{1,2}:[0-9]{1,2}|[0-9]{1,2}-[0-9]{1,2}|[0-9]{1,2}比[0-9]{1,2}
+                        +On
+                            +Column
+                                D.text
+                        +GroupList
+                            Group 0 => vs
+                +FromList
+                    +FromItem
+                        +ViewName
+                            Document
+                        +Alias
+                            D
+    +[10] Stmt
+        +CreateView
+            +ViewName
+                Competition
+            +NodeUnion
+                +NodeUnion
+                    +NodeUnion
+                        +ExtractStmt
+                            +SelectList
+                                +SelectItem
+                                    +NUM
+                                        1
+                                    +Alias
+                                        rule_no
+                                +SelectItem
+                                    +STRING
+                                        'Time-SoccerTeam-VS-Result-SoccerTeam'
+                                    +Alias
+                                        rule_name
+                            +ExtractSpec
+                                +PatternSpec
+                                    +PatternExpr
+                                        +PatternSeq
+                                            +PatternSeq
+                                                +PatternSeq
+                                                    +PatternSeq
+                                                        +PatternSeq
+                                                            +PatternSeq
+                                                                +PatternSeq
+                                                                    +PatternSeq
+                                                                        +PatternGroup: 1
+                                                                            +Column
+                                                                                T.text
+                                                                        +PatternRepeat: {0, 20}
+                                                                            Token
+                                                                    +PatternGroup: 2
+                                                                        +Column
+                                                                            So1.teamName
+                                                                +PatternRepeat: {0, 10}
+                                                                    Token
+                                                            +PatternGroup: 3
+                                                                +Column
+                                                                    S.vs
+                                                        +PatternRepeat: {0, 10}
+                                                            Token
+                                                    +PatternGroup: 4
+                                                        +Column
+                                                            R.result
+                                                +PatternRepeat: {0, 10}
+                                                    Token
+                                            +PatternGroup: 5
+                                                +Column
+                                                    So2.teamName
+                                    +GroupList
+                                        Group 0 => competition
+                                        Group 1 => time
+                                        Group 2 => team1
+                                        Group 3 => vs
+                                        Group 4 => result
+                                        Group 5 => team2
+                            +FromList
+                                +FromItem
+                                    +ViewName
+                                        Time
+                                    +Alias
+                                        T
+                                +FromItem
+                                    +ViewName
+                                        SoccerTeam
+                                    +Alias
+                                        So1
+                                +FromItem
+                                    +ViewName
+                                        SoccerTeam
+                                    +Alias
+                                        So2
+                                +FromItem
+                                    +ViewName
+                                        Score
+                                    +Alias
+                                        S
+                                +FromItem
+                                    +ViewName
+                                        Result
+                                    +Alias
+                                        R
+                        +ExtractStmt
+                            +SelectList
+                                +SelectItem
+                                    +NUM
+                                        2
+                                    +Alias
+                                        rule_no
+                                +SelectItem
+                                    +STRING
+                                        'Time-SoccerTeam-Result-VS-SoccerTeam'
+                                    +Alias
+                                        rule_name
+                            +ExtractSpec
+                                +PatternSpec
+                                    +PatternExpr
+                                        +PatternSeq
+                                            +PatternSeq
+                                                +PatternSeq
+                                                    +PatternSeq
+                                                        +PatternSeq
+                                                            +PatternSeq
+                                                                +PatternSeq
+                                                                    +PatternSeq
+                                                                        +PatternGroup: 1
+                                                                            +Column
+                                                                                T.text
+                                                                        +PatternRepeat: {0, 20}
+                                                                            Token
+                                                                    +PatternGroup: 2
+                                                                        +Column
+                                                                            So1.teamName
+                                                                +PatternRepeat: {0, 10}
+                                                                    Token
+                                                            +PatternGroup: 3
+                                                                +Column
+                                                                    S.vs
+                                                        +PatternRepeat: {0, 10}
+                                                            Token
+                                                    +PatternGroup: 4
+                                                        +Column
+                                                            So2.teamName
+                                                +PatternRepeat: {0, 5}
+                                                    Token
+                                            +PatternGroup: 5
+                                                +Column
+                                                    R.result
+                                    +GroupList
+                                        Group 0 => competition
+                                        Group 1 => time
+                                        Group 2 => team1
+                                        Group 3 => vs
+                                        Group 4 => team2
+                                        Group 5 => result
+                            +FromList
+                                +FromItem
+                                    +ViewName
+                                        Time
+                                    +Alias
+                                        T
+                                +FromItem
+                                    +ViewName
+                                        SoccerTeam
+                                    +Alias
+                                        So1
+                                +FromItem
+                                    +ViewName
+                                        SoccerTeam
+                                    +Alias
+                                        So2
+                                +FromItem
+                                    +ViewName
+                                        Score
+                                    +Alias
+                                        S
+                                +FromItem
+                                    +ViewName
+                                        Result
+                                    +Alias
+                                        R
+                    +ExtractStmt
+                        +SelectList
+                            +SelectItem
+                                +NUM
+                                    3
+                                +Alias
+                                    rule_no
+                            +SelectItem
+                                +STRING
+                                    'Time-SoccerTeam-SoccerTeam-VS-Result'
+                                +Alias
+                                    rule_name
+                        +ExtractSpec
+                            +PatternSpec
+                                +PatternExpr
+                                    +PatternSeq
+                                        +PatternSeq
+                                            +PatternSeq
+                                                +PatternSeq
+                                                    +PatternSeq
+                                                        +PatternSeq
+                                                            +PatternSeq
+                                                                +PatternSeq
+                                                                    +PatternGroup: 1
+                                                                        +Column
+                                                                            T.text
+                                                                    +PatternRepeat: {0, 20}
+                                                                        Token
+                                                                +PatternGroup: 2
+                                                                    +Column
+                                                                        So1.teamName
+                                                            +PatternRepeat: {0, 10}
+                                                                Token
+                                                        +PatternGroup: 3
+                                                            +Column
+                                                                So2.teamName
+                                                    +PatternRepeat: {0, 10}
+                                                        Token
+                                                +PatternGroup: 4
+                                                    +Column
+                                                        S.vs
+                                            +PatternRepeat: {0, 10}
+                                                Token
+                                        +PatternGroup: 5
+                                            +Column
+                                                R.result
+                                +GroupList
+                                    Group 0 => competition
+                                    Group 1 => time
+                                    Group 2 => team1
+                                    Group 3 => team2
+                                    Group 4 => vs
+                                    Group 5 => result
+                        +FromList
+                            +FromItem
+                                +ViewName
+                                    Time
+                                +Alias
+                                    T
+                            +FromItem
+                                +ViewName
+                                    SoccerTeam
+                                +Alias
+                                    So1
+                            +FromItem
+                                +ViewName
+                                    SoccerTeam
+                                +Alias
+                                    So2
+                            +FromItem
+                                +ViewName
+                                    Score
+                                +Alias
+                                    S
+                            +FromItem
+                                +ViewName
+                                    Result
+                                +Alias
+                                    R
+                +ExtractStmt
+                    +SelectList
+                        +SelectItem
+                            +NUM
+                                4
+                            +Alias
+                                rule_no
+                        +SelectItem
+                            +STRING
+                                'Time-SoccerTeam-SoccerTeam-Result-VS'
+                            +Alias
+                                rule_name
+                    +ExtractSpec
+                        +PatternSpec
+                            +PatternExpr
+                                +PatternSeq
+                                    +PatternSeq
+                                        +PatternSeq
+                                            +PatternSeq
+                                                +PatternSeq
+                                                    +PatternSeq
+                                                        +PatternSeq
+                                                            +PatternSeq
+                                                                +PatternGroup: 1
+                                                                    +Column
+                                                                        T.text
+                                                                +PatternRepeat: {0, 20}
+                                                                    Token
+                                                            +PatternGroup: 2
+                                                                +Column
+                                                                    So1.teamName
+                                                        +PatternRepeat: {0, 10}
+                                                            Token
+                                                    +PatternGroup: 3
+                                                        +Column
+                                                            So2.teamName
+                                                +PatternRepeat: {0, 10}
+                                                    Token
+                                            +PatternGroup: 4
+                                                +Column
+                                                    R.result
+                                        +PatternRepeat: {0, 10}
+                                            Token
+                                    +PatternGroup: 5
+                                        +Column
+                                            S.vs
+                            +GroupList
+                                Group 0 => competition
+                                Group 1 => time
+                                Group 2 => team1
+                                Group 3 => team2
+                                Group 4 => result
+                                Group 5 => vs
+                    +FromList
+                        +FromItem
+                            +ViewName
+                                Time
+                            +Alias
+                                T
+                        +FromItem
+                            +ViewName
+                                SoccerTeam
+                            +Alias
+                                So1
+                        +FromItem
+                            +ViewName
+                                SoccerTeam
+                            +Alias
+                                So2
+                        +FromItem
+                            +ViewName
+                                Score
+                            +Alias
+                                S
+                        +FromItem
+                            +ViewName
+                                Result
+                            +Alias
+                                R
+    +[11] Stmt
+        +Output
+            +ViewName
+                Person
+    +[12] Stmt
+        +Output
+            +ViewName
+                Location
+    +[13] Stmt
+        +Output
+            +ViewName
+                Organization
+    +[14] Stmt
+        +Output
+            +ViewName
+                Time
+    +[15] Stmt
+        +Output
+            +ViewName
+                SoccerTeam
+    +[16] Stmt
+        +Output
+            +ViewName
+                Result
+    +[17] Stmt
+        +Output
+            +ViewName
+                Match
+    +[18] Stmt
+        +Output
+            +ViewName
+                Level
+    +[19] Stmt
+        +Output
+            +ViewName
+                Score
+    +[20] Stmt
+        +Output
+            +ViewName
+                Competition
+
+Query plan tree:
++QueryPlanTree
+    +[1] Stmt
+        +CreateDict
+            +DictName
+                SoccerTeamDict
+            +DictFile
+                '../dict/soccer/soccer_team.dict'
+    +[2] Stmt
+        +CreateDict
+            +DictName
+                ResultDict
+            +DictFile
+                '../dict/soccer/result.dict'
+    +[3] Stmt
+        +CreateDict
+            +DictName
+                MatchDict
+            +DictFile
+                '../dict/soccer/match.dict'
+    +[4] Stmt
+        +CreateDict
+            +DictName
+                LevelDict
+            +DictFile
+                '../dict/soccer/level.dict'
+    +[5] Stmt
+        +CreateView
+            +ViewName
+                SoccerTeam
+            +Project
+                +SelectCols
+                    "teamName"
+                +Dictionary
+                    +DictName
+                        SoccerTeamDict
+                    +As
+                        teamName
+    +[6] Stmt
+        +CreateView
+            +ViewName
+                Result
+            +Project
+                +SelectCols
+                    "result"
+                +Dictionary
+                    +DictName
+                        ResultDict
+                    +As
+                        result
+    +[7] Stmt
+        +CreateView
+            +ViewName
+                Match
+            +Project
+                +SelectCols
+                    "match"
+                +Dictionary
+                    +DictName
+                        MatchDict
+                    +As
+                        match
+    +[8] Stmt
+        +CreateView
+            +ViewName
+                Level
+            +Project
+                +SelectCols
+                    "level"
+                +Dictionary
+                    +DictName
+                        LevelDict
+                    +As
+                        level
+    +[9] Stmt
+        +CreateView
+            +ViewName
+                Score
+            +Project
+                +SelectCols
+                    "vs"
+                +Project
+                    +RenameCols
+                        "__AQL_GROUP_0" => "vs"
+                    +Regex
+                        +RegExpr
+                            [0-9]{1,2}:[0-9]{1,2}|[0-9]{1,2}-[0-9]{1,2}|[0-9]{1,2}比[0-9]{1,2}
+    +[10] Stmt
+        +CreateView
+            +ViewName
+                Competition
+            +Union
+                +Union
+                    +Union
+                        +Project
+                            +SelectCols
+                                "competition"
+                                "time"
+                                "team1"
+                                "vs"
+                                "result"
+                                "team2"
+                                "rule_no"
+                                "rule_name"
+                            +Project
+                                +NewStringColumn
+                                    STRING(Time-SoccerTeam-VS-Result-SoccerTeam) => "rule_name"
+                                +Project
+                                    +NewNumColumn
+                                        NUM(1) => "rule_no"
+                                    +Project
+                                        +RenameCols
+                                            "__AQL_GROUP_0" => "competition"
+                                            "__AQL_GROUP_1" => "time"
+                                            "__AQL_GROUP_2" => "team1"
+                                            "__AQL_GROUP_3" => "vs"
+                                            "__AQL_GROUP_4" => "result"
+                                            "__AQL_GROUP_5" => "team2"
+                                        +Project
+                                            +RenameCols
+                                                "__AQL_TMP_COL_4" => "__AQL_GROUP_0"
+                                            +ApplyFunc
+                                                +FuncName
+                                                    CombineSpans
+                                                +Args
+                                                    +Column
+                                                        '__AQL_TMP_COL_3'
+                                                    +Column
+                                                        '__AQL_GROUP_5'
+                                                +NewColName
+                                                    __AQL_TMP_COL_4
+                                                +Join
+                                                    +Conditions
+                                                        +[1]
+                                                            +FuncName
+                                                                FollowTok
+                                                            +Args
+                                                                +Column
+                                                                    '__AQL_TMP_COL_3'
+                                                                +Column
+                                                                    '__AQL_GROUP_5'
+                                                                +NUM
+                                                                    0
+                                                                +NUM
+                                                                    10
+                                                    +ApplyFunc
+                                                        +FuncName
+                                                            CombineSpans
+                                                        +Args
+                                                            +Column
+                                                                '__AQL_TMP_COL_2'
+                                                            +Column
+                                                                '__AQL_GROUP_4'
+                                                        +NewColName
+                                                            __AQL_TMP_COL_3
+                                                        +Join
+                                                            +Conditions
+                                                                +[1]
+                                                                    +FuncName
+                                                                        FollowTok
+                                                                    +Args
+                                                                        +Column
+                                                                            '__AQL_TMP_COL_2'
+                                                                        +Column
+                                                                            '__AQL_GROUP_4'
+                                                                        +NUM
+                                                                            0
+                                                                        +NUM
+                                                                            10
+                                                            +ApplyFunc
+                                                                +FuncName
+                                                                    CombineSpans
+                                                                +Args
+                                                                    +Column
+                                                                        '__AQL_TMP_COL_1'
+                                                                    +Column
+                                                                        '__AQL_GROUP_3'
+                                                                +NewColName
+                                                                    __AQL_TMP_COL_2
+                                                                +Join
+                                                                    +Conditions
+                                                                        +[1]
+                                                                            +FuncName
+                                                                                FollowTok
+                                                                            +Args
+                                                                                +Column
+                                                                                    '__AQL_TMP_COL_1'
+                                                                                +Column
+                                                                                    '__AQL_GROUP_3'
+                                                                                +NUM
+                                                                                    0
+                                                                                +NUM
+                                                                                    10
+                                                                    +ApplyFunc
+                                                                        +FuncName
+                                                                            CombineSpans
+                                                                        +Args
+                                                                            +Column
+                                                                                '__AQL_GROUP_1'
+                                                                            +Column
+                                                                                '__AQL_GROUP_2'
+                                                                        +NewColName
+                                                                            __AQL_TMP_COL_1
+                                                                        +Join
+                                                                            +Conditions
+                                                                                +[1]
+                                                                                    +FuncName
+                                                                                        FollowTok
+                                                                                    +Args
+                                                                                        +Column
+                                                                                            '__AQL_GROUP_1'
+                                                                                        +Column
+                                                                                            '__AQL_GROUP_2'
+                                                                                        +NUM
+                                                                                            0
+                                                                                        +NUM
+                                                                                            20
+                                                                            +Project
+                                                                                +CopyCols
+                                                                                    "T.text" => "__AQL_GROUP_1"
+                                                                                +Project
+                                                                                    +AddPrefix
+                                                                                        "T"
+                                                                                    +Scan
+                                                                                        +ViewName
+                                                                                            Time
+                                                                            +Project
+                                                                                +CopyCols
+                                                                                    "So1.teamName" => "__AQL_GROUP_2"
+                                                                                +Project
+                                                                                    +AddPrefix
+                                                                                        "So1"
+                                                                                    +Scan
+                                                                                        +ViewName
+                                                                                            SoccerTeam
+                                                                    +Project
+                                                                        +CopyCols
+                                                                            "S.vs" => "__AQL_GROUP_3"
+                                                                        +Project
+                                                                            +AddPrefix
+                                                                                "S"
+                                                                            +Scan
+                                                                                +ViewName
+                                                                                    Score
+                                                            +Project
+                                                                +CopyCols
+                                                                    "R.result" => "__AQL_GROUP_4"
+                                                                +Project
+                                                                    +AddPrefix
+                                                                        "R"
+                                                                    +Scan
+                                                                        +ViewName
+                                                                            Result
+                                                    +Project
+                                                        +CopyCols
+                                                            "So2.teamName" => "__AQL_GROUP_5"
+                                                        +Project
+                                                            +AddPrefix
+                                                                "So2"
+                                                            +Scan
+                                                                +ViewName
+                                                                    SoccerTeam
+                        +Project
+                            +SelectCols
+                                "competition"
+                                "time"
+                                "team1"
+                                "vs"
+                                "team2"
+                                "result"
+                                "rule_no"
+                                "rule_name"
+                            +Project
+                                +NewStringColumn
+                                    STRING(Time-SoccerTeam-Result-VS-SoccerTeam) => "rule_name"
+                                +Project
+                                    +NewNumColumn
+                                        NUM(2) => "rule_no"
+                                    +Project
+                                        +RenameCols
+                                            "__AQL_GROUP_0" => "competition"
+                                            "__AQL_GROUP_1" => "time"
+                                            "__AQL_GROUP_2" => "team1"
+                                            "__AQL_GROUP_3" => "vs"
+                                            "__AQL_GROUP_4" => "team2"
+                                            "__AQL_GROUP_5" => "result"
+                                        +Project
+                                            +RenameCols
+                                                "__AQL_TMP_COL_8" => "__AQL_GROUP_0"
+                                            +ApplyFunc
+                                                +FuncName
+                                                    CombineSpans
+                                                +Args
+                                                    +Column
+                                                        '__AQL_TMP_COL_7'
+                                                    +Column
+                                                        '__AQL_GROUP_5'
+                                                +NewColName
+                                                    __AQL_TMP_COL_8
+                                                +Join
+                                                    +Conditions
+                                                        +[1]
+                                                            +FuncName
+                                                                FollowTok
+                                                            +Args
+                                                                +Column
+                                                                    '__AQL_TMP_COL_7'
+                                                                +Column
+                                                                    '__AQL_GROUP_5'
+                                                                +NUM
+                                                                    0
+                                                                +NUM
+                                                                    5
+                                                    +ApplyFunc
+                                                        +FuncName
+                                                            CombineSpans
+                                                        +Args
+                                                            +Column
+                                                                '__AQL_TMP_COL_6'
+                                                            +Column
+                                                                '__AQL_GROUP_4'
+                                                        +NewColName
+                                                            __AQL_TMP_COL_7
+                                                        +Join
+                                                            +Conditions
+                                                                +[1]
+                                                                    +FuncName
+                                                                        FollowTok
+                                                                    +Args
+                                                                        +Column
+                                                                            '__AQL_TMP_COL_6'
+                                                                        +Column
+                                                                            '__AQL_GROUP_4'
+                                                                        +NUM
+                                                                            0
+                                                                        +NUM
+                                                                            10
+                                                            +ApplyFunc
+                                                                +FuncName
+                                                                    CombineSpans
+                                                                +Args
+                                                                    +Column
+                                                                        '__AQL_TMP_COL_5'
+                                                                    +Column
+                                                                        '__AQL_GROUP_3'
+                                                                +NewColName
+                                                                    __AQL_TMP_COL_6
+                                                                +Join
+                                                                    +Conditions
+                                                                        +[1]
+                                                                            +FuncName
+                                                                                FollowTok
+                                                                            +Args
+                                                                                +Column
+                                                                                    '__AQL_TMP_COL_5'
+                                                                                +Column
+                                                                                    '__AQL_GROUP_3'
+                                                                                +NUM
+                                                                                    0
+                                                                                +NUM
+                                                                                    10
+                                                                    +ApplyFunc
+                                                                        +FuncName
+                                                                            CombineSpans
+                                                                        +Args
+                                                                            +Column
+                                                                                '__AQL_GROUP_1'
+                                                                            +Column
+                                                                                '__AQL_GROUP_2'
+                                                                        +NewColName
+                                                                            __AQL_TMP_COL_5
+                                                                        +Join
+                                                                            +Conditions
+                                                                                +[1]
+                                                                                    +FuncName
+                                                                                        FollowTok
+                                                                                    +Args
+                                                                                        +Column
+                                                                                            '__AQL_GROUP_1'
+                                                                                        +Column
+                                                                                            '__AQL_GROUP_2'
+                                                                                        +NUM
+                                                                                            0
+                                                                                        +NUM
+                                                                                            20
+                                                                            +Project
+                                                                                +CopyCols
+                                                                                    "T.text" => "__AQL_GROUP_1"
+                                                                                +Project
+                                                                                    +AddPrefix
+                                                                                        "T"
+                                                                                    +Scan
+                                                                                        +ViewName
+                                                                                            Time
+                                                                            +Project
+                                                                                +CopyCols
+                                                                                    "So1.teamName" => "__AQL_GROUP_2"
+                                                                                +Project
+                                                                                    +AddPrefix
+                                                                                        "So1"
+                                                                                    +Scan
+                                                                                        +ViewName
+                                                                                            SoccerTeam
+                                                                    +Project
+                                                                        +CopyCols
+                                                                            "S.vs" => "__AQL_GROUP_3"
+                                                                        +Project
+                                                                            +AddPrefix
+                                                                                "S"
+                                                                            +Scan
+                                                                                +ViewName
+                                                                                    Score
+                                                            +Project
+                                                                +CopyCols
+                                                                    "So2.teamName" => "__AQL_GROUP_4"
+                                                                +Project
+                                                                    +AddPrefix
+                                                                        "So2"
+                                                                    +Scan
+                                                                        +ViewName
+                                                                            SoccerTeam
+                                                    +Project
+                                                        +CopyCols
+                                                            "R.result" => "__AQL_GROUP_5"
+                                                        +Project
+                                                            +AddPrefix
+                                                                "R"
+                                                            +Scan
+                                                                +ViewName
+                                                                    Result
+                    +Project
+                        +SelectCols
+                            "competition"
+                            "time"
+                            "team1"
+                            "team2"
+                            "vs"
+                            "result"
+                            "rule_no"
+                            "rule_name"
+                        +Project
+                            +NewStringColumn
+                                STRING(Time-SoccerTeam-SoccerTeam-VS-Result) => "rule_name"
+                            +Project
+                                +NewNumColumn
+                                    NUM(3) => "rule_no"
+                                +Project
+                                    +RenameCols
+                                        "__AQL_GROUP_0" => "competition"
+                                        "__AQL_GROUP_1" => "time"
+                                        "__AQL_GROUP_2" => "team1"
+                                        "__AQL_GROUP_3" => "team2"
+                                        "__AQL_GROUP_4" => "vs"
+                                        "__AQL_GROUP_5" => "result"
+                                    +Project
+                                        +RenameCols
+                                            "__AQL_TMP_COL_12" => "__AQL_GROUP_0"
+                                        +ApplyFunc
+                                            +FuncName
+                                                CombineSpans
+                                            +Args
+                                                +Column
+                                                    '__AQL_TMP_COL_11'
+                                                +Column
+                                                    '__AQL_GROUP_5'
+                                            +NewColName
+                                                __AQL_TMP_COL_12
+                                            +Join
+                                                +Conditions
+                                                    +[1]
+                                                        +FuncName
+                                                            FollowTok
+                                                        +Args
+                                                            +Column
+                                                                '__AQL_TMP_COL_11'
+                                                            +Column
+                                                                '__AQL_GROUP_5'
+                                                            +NUM
+                                                                0
+                                                            +NUM
+                                                                10
+                                                +ApplyFunc
+                                                    +FuncName
+                                                        CombineSpans
+                                                    +Args
+                                                        +Column
+                                                            '__AQL_TMP_COL_10'
+                                                        +Column
+                                                            '__AQL_GROUP_4'
+                                                    +NewColName
+                                                        __AQL_TMP_COL_11
+                                                    +Join
+                                                        +Conditions
+                                                            +[1]
+                                                                +FuncName
+                                                                    FollowTok
+                                                                +Args
+                                                                    +Column
+                                                                        '__AQL_TMP_COL_10'
+                                                                    +Column
+                                                                        '__AQL_GROUP_4'
+                                                                    +NUM
+                                                                        0
+                                                                    +NUM
+                                                                        10
+                                                        +ApplyFunc
+                                                            +FuncName
+                                                                CombineSpans
+                                                            +Args
+                                                                +Column
+                                                                    '__AQL_TMP_COL_9'
+                                                                +Column
+                                                                    '__AQL_GROUP_3'
+                                                            +NewColName
+                                                                __AQL_TMP_COL_10
+                                                            +Join
+                                                                +Conditions
+                                                                    +[1]
+                                                                        +FuncName
+                                                                            FollowTok
+                                                                        +Args
+                                                                            +Column
+                                                                                '__AQL_TMP_COL_9'
+                                                                            +Column
+                                                                                '__AQL_GROUP_3'
+                                                                            +NUM
+                                                                                0
+                                                                            +NUM
+                                                                                10
+                                                                +ApplyFunc
+                                                                    +FuncName
+                                                                        CombineSpans
+                                                                    +Args
+                                                                        +Column
+                                                                            '__AQL_GROUP_1'
+                                                                        +Column
+                                                                            '__AQL_GROUP_2'
+                                                                    +NewColName
+                                                                        __AQL_TMP_COL_9
+                                                                    +Join
+                                                                        +Conditions
+                                                                            +[1]
+                                                                                +FuncName
+                                                                                    FollowTok
+                                                                                +Args
+                                                                                    +Column
+                                                                                        '__AQL_GROUP_1'
+                                                                                    +Column
+                                                                                        '__AQL_GROUP_2'
+                                                                                    +NUM
+                                                                                        0
+                                                                                    +NUM
+                                                                                        20
+                                                                        +Project
+                                                                            +CopyCols
+                                                                                "T.text" => "__AQL_GROUP_1"
+                                                                            +Project
+                                                                                +AddPrefix
+                                                                                    "T"
+                                                                                +Scan
+                                                                                    +ViewName
+                                                                                        Time
+                                                                        +Project
+                                                                            +CopyCols
+                                                                                "So1.teamName" => "__AQL_GROUP_2"
+                                                                            +Project
+                                                                                +AddPrefix
+                                                                                    "So1"
+                                                                                +Scan
+                                                                                    +ViewName
+                                                                                        SoccerTeam
+                                                                +Project
+                                                                    +CopyCols
+                                                                        "So2.teamName" => "__AQL_GROUP_3"
+                                                                    +Project
+                                                                        +AddPrefix
+                                                                            "So2"
+                                                                        +Scan
+                                                                            +ViewName
+                                                                                SoccerTeam
+                                                        +Project
+                                                            +CopyCols
+                                                                "S.vs" => "__AQL_GROUP_4"
+                                                            +Project
+                                                                +AddPrefix
+                                                                    "S"
+                                                                +Scan
+                                                                    +ViewName
+                                                                        Score
+                                                +Project
+                                                    +CopyCols
+                                                        "R.result" => "__AQL_GROUP_5"
+                                                    +Project
+                                                        +AddPrefix
+                                                            "R"
+                                                        +Scan
+                                                            +ViewName
+                                                                Result
+                +Project
+                    +SelectCols
+                        "competition"
+                        "time"
+                        "team1"
+                        "team2"
+                        "result"
+                        "vs"
+                        "rule_no"
+                        "rule_name"
+                    +Project
+                        +NewStringColumn
+                            STRING(Time-SoccerTeam-SoccerTeam-Result-VS) => "rule_name"
+                        +Project
+                            +NewNumColumn
+                                NUM(4) => "rule_no"
+                            +Project
+                                +RenameCols
+                                    "__AQL_GROUP_0" => "competition"
+                                    "__AQL_GROUP_1" => "time"
+                                    "__AQL_GROUP_2" => "team1"
+                                    "__AQL_GROUP_3" => "team2"
+                                    "__AQL_GROUP_4" => "result"
+                                    "__AQL_GROUP_5" => "vs"
+                                +Project
+                                    +RenameCols
+                                        "__AQL_TMP_COL_16" => "__AQL_GROUP_0"
+                                    +ApplyFunc
+                                        +FuncName
+                                            CombineSpans
+                                        +Args
+                                            +Column
+                                                '__AQL_TMP_COL_15'
+                                            +Column
+                                                '__AQL_GROUP_5'
+                                        +NewColName
+                                            __AQL_TMP_COL_16
+                                        +Join
+                                            +Conditions
+                                                +[1]
+                                                    +FuncName
+                                                        FollowTok
+                                                    +Args
+                                                        +Column
+                                                            '__AQL_TMP_COL_15'
+                                                        +Column
+                                                            '__AQL_GROUP_5'
+                                                        +NUM
+                                                            0
+                                                        +NUM
+                                                            10
+                                            +ApplyFunc
+                                                +FuncName
+                                                    CombineSpans
+                                                +Args
+                                                    +Column
+                                                        '__AQL_TMP_COL_14'
+                                                    +Column
+                                                        '__AQL_GROUP_4'
+                                                +NewColName
+                                                    __AQL_TMP_COL_15
+                                                +Join
+                                                    +Conditions
+                                                        +[1]
+                                                            +FuncName
+                                                                FollowTok
+                                                            +Args
+                                                                +Column
+                                                                    '__AQL_TMP_COL_14'
+                                                                +Column
+                                                                    '__AQL_GROUP_4'
+                                                                +NUM
+                                                                    0
+                                                                +NUM
+                                                                    10
+                                                    +ApplyFunc
+                                                        +FuncName
+                                                            CombineSpans
+                                                        +Args
+                                                            +Column
+                                                                '__AQL_TMP_COL_13'
+                                                            +Column
+                                                                '__AQL_GROUP_3'
+                                                        +NewColName
+                                                            __AQL_TMP_COL_14
+                                                        +Join
+                                                            +Conditions
+                                                                +[1]
+                                                                    +FuncName
+                                                                        FollowTok
+                                                                    +Args
+                                                                        +Column
+                                                                            '__AQL_TMP_COL_13'
+                                                                        +Column
+                                                                            '__AQL_GROUP_3'
+                                                                        +NUM
+                                                                            0
+                                                                        +NUM
+                                                                            10
+                                                            +ApplyFunc
+                                                                +FuncName
+                                                                    CombineSpans
+                                                                +Args
+                                                                    +Column
+                                                                        '__AQL_GROUP_1'
+                                                                    +Column
+                                                                        '__AQL_GROUP_2'
+                                                                +NewColName
+                                                                    __AQL_TMP_COL_13
+                                                                +Join
+                                                                    +Conditions
+                                                                        +[1]
+                                                                            +FuncName
+                                                                                FollowTok
+                                                                            +Args
+                                                                                +Column
+                                                                                    '__AQL_GROUP_1'
+                                                                                +Column
+                                                                                    '__AQL_GROUP_2'
+                                                                                +NUM
+                                                                                    0
+                                                                                +NUM
+                                                                                    20
+                                                                    +Project
+                                                                        +CopyCols
+                                                                            "T.text" => "__AQL_GROUP_1"
+                                                                        +Project
+                                                                            +AddPrefix
+                                                                                "T"
+                                                                            +Scan
+                                                                                +ViewName
+                                                                                    Time
+                                                                    +Project
+                                                                        +CopyCols
+                                                                            "So1.teamName" => "__AQL_GROUP_2"
+                                                                        +Project
+                                                                            +AddPrefix
+                                                                                "So1"
+                                                                            +Scan
+                                                                                +ViewName
+                                                                                    SoccerTeam
+                                                            +Project
+                                                                +CopyCols
+                                                                    "So2.teamName" => "__AQL_GROUP_3"
+                                                                +Project
+                                                                    +AddPrefix
+                                                                        "So2"
+                                                                    +Scan
+                                                                        +ViewName
+                                                                            SoccerTeam
+                                                    +Project
+                                                        +CopyCols
+                                                            "R.result" => "__AQL_GROUP_4"
+                                                        +Project
+                                                            +AddPrefix
+                                                                "R"
+                                                            +Scan
+                                                                +ViewName
+                                                                    Result
+                                            +Project
+                                                +CopyCols
+                                                    "S.vs" => "__AQL_GROUP_5"
+                                                +Project
+                                                    +AddPrefix
+                                                        "S"
+                                                    +Scan
+                                                        +ViewName
+                                                            Score
+    +[11] Stmt
+        +Output
+            +ViewName
+                Person
+    +[12] Stmt
+        +Output
+            +ViewName
+                Location
+    +[13] Stmt
+        +Output
+            +ViewName
+                Organization
+    +[14] Stmt
+        +Output
+            +ViewName
+                Time
+    +[15] Stmt
+        +Output
+            +ViewName
+                SoccerTeam
+    +[16] Stmt
+        +Output
+            +ViewName
+                Result
+    +[17] Stmt
+        +Output
+            +ViewName
+                Match
+    +[18] Stmt
+        +Output
+            +ViewName
+                Level
+    +[19] Stmt
+        +Output
+            +ViewName
+                Score
+    +[20] Stmt
+        +Output
+            +ViewName
+                Competition
+
+Processing ../input/news-0-0
+View: Person
++------------------------+
+| text                   |
++------------------------+
+| 潘金:(216,218)           |
+| 安南:(271,273)           |
+| 努里:(441,443)           |
+| 阿拉巴尔:(444,448)         |
+| 菅直人:(1086,1089)        |
+| 野幸男:(1106,1109)        |
+| 菅直人:(1314,1317)        |
+| 蒋:(1469,1470)          |
+| 戴维:(1815,1817)         |
+| 景海鹏:(2125,2128)        |
+| 杨利伟:(2193,2196)        |
+| 杨利伟:(2265,2268)        |
+| 景海鹏:(2288,2291)        |
+| 刘旺:(2292,2294)         |
+| 景海鹏:(2341,2344)        |
+| 刘旺:(2443,2445)         |
+| 刘洋:(2525,2527)         |
+| 杨利伟:(2660,2663)        |
+| 杨利伟:(2804,2807)        |
+| 捷列什科娃:(2818,2823)      |
+| 一波:(4944,4946)         |
+| 何平:(4977,4979)         |
+| 江德斌:(6082,6085)        |
+| 戴方:(6444,6446)         |
+| 罗大佑:(6485,6488)        |
+| 罗大佑:(6510,6513)        |
+| 谭咏麟:(6656,6659)        |
+| 罗大佑:(6660,6663)        |
+| 蔡健雅:(6664,6667)        |
+| 范晓萱:(6672,6675)        |
+| 陈冠希:(6676,6679)        |
+| 张震岳:(6680,6683)        |
+| 戴佩妮:(6684,6687)        |
+| 卢广仲:(6688,6691)        |
+| 杨宗纬:(6696,6699)        |
+| 齐秦:(6700,6702)         |
+| 胡德夫:(6703,6706)        |
+| 崔健:(6711,6713)         |
+| 汪峰:(6714,6716)         |
+| 韩庚:(6717,6719)         |
+| 朴树:(6720,6722)         |
+| 郑钧:(6723,6725)         |
+| 谢天:(6726,6728)         |
+| 乐谷:(7255,7257)         |
+| 胡某:(7888,7890)         |
+| 胡某:(7922,7924)         |
+| 胡佳:(7955,7957)         |
+| 杨某:(7969,7971)         |
+| 胡某:(7976,7978)         |
+| 杨某:(7995,7997)         |
+| 胡某:(8012,8014)         |
+| 杨某:(8037,8039)         |
+| 胡某:(8049,8051)         |
+| 杨某:(8059,8061)         |
+| 胡氏:(8066,8068)         |
+| 胡某:(8095,8097)         |
+| 张丽莉:(8435,8438)        |
+| 余书华:(8444,8447)        |
+| 曹爱文:(8453,8456)        |
+| 岫玉:(8761,8763)         |
+| 岫玉:(8849,8851)         |
+| 岫玉:(8875,8877)         |
+| 李茂成:(8964,8967)        |
+| 李茂成:(9007,9010)        |
+| 李茂:(9121,9123)         |
+| 李茂成:(9398,9401)        |
+| 李茂:(9770,9772)         |
+| 洪葆曾:(9895,9898)        |
+| 洪葆曾:(9907,9910)        |
+| 石鹏志:(10134,10137)      |
+| 袁致甲王冲:(10140,10145)    |
+| 胡延萍:(10161,10164)      |
+| 王延风:(10445,10448)      |
+| 王延风:(10540,10543)      |
+| 文为美:(11371,11374)      |
+| 百步亭:(11476,11479)      |
+| 百步亭:(11637,11640)      |
+| 楼栋:(11655,11657)       |
+| 楼栋长:(11668,11671)      |
+| 百步亭:(11730,11733)      |
+| 小楼:(11751,11753)       |
+| 栋长:(11753,11755)       |
+| 小楼:(11777,11779)       |
+| 栋长:(11779,11781)       |
+| 楼栋长:(11791,11794)      |
+| 小楼:(11798,11800)       |
+| 栋长:(11800,11802)       |
+| 杜拉拉:(12575,12578)      |
+| 励志:(12809,12811)       |
+| 贾春强:(12958,12961)      |
+| 袁贵仁:(13742,13745)      |
+| 老王:(14237,14239)       |
+| 老李:(14254,14256)       |
+| 张淑珍:(14432,14435)      |
+| 张淑珍:(14477,14480)      |
+| 张淑珍:(14597,14600)      |
+| 张淑珍:(14621,14624)      |
+| 李俊龙:(14901,14904)      |
+| 李俊龙:(14969,14972)      |
+| 李俊龙:(14999,15002)      |
+| 李东旭:(15005,15008)      |
+| 李俊龙:(15049,15052)      |
+| 沃德:(15324,15326)       |
+| 布拉特:(15514,15517)      |
+| 舍甫琴科:(15580,15584)     |
+| 沃德:(15616,15618)       |
+| 沃德:(15628,15630)       |
+| 舍甫琴科:(15698,15702)     |
+| 米列夫斯基:(15723,15728)    |
+| 妙传:(15728,15730)       |
+| 德维奇:(15731,15734)      |
+| 特里:(15736,15738)       |
+| 哈特:(15750,15752)       |
+| 特里:(15778,15780)       |
+| 德维奇:(15806,15809)      |
+| 沃德:(15823,15825)       |
+| 布洛欣:(15850,15853)      |
+| 布洛欣:(15897,15900)      |
+| 布洛欣:(15922,15925)      |
+| 布洛欣:(15939,15942)      |
+| 沃德:(15971,15973)       |
+| 霍奇森:(16016,16019)      |
+| 欧文:(16077,16079)       |
+| 布拉特:(16127,16130)      |
+| 布拉特:(16174,16177)      |
+| 切赫:(16336,16338)       |
+| 穆里尼奥:(16368,16372)     |
+| 兰帕德:(16396,16399)      |
+| 佩佩:(16552,16554)       |
+| 科里纳:(16607,16610)      |
+| 布拉特:(16653,16656)      |
+| 杨甫德:(16872,16875)      |
+| 惜福:(17951,17953)       |
+| 李默:(18693,18695)       |
+| 田华:(18724,18726)       |
+| 之星:(18923,18925)       |
+| 杨恩彪:(18925,18928)      |
+| 赵群霞:(18929,18932)      |
+| 星吴利军:(18936,18940)     |
+| 付会玲:(18941,18944)      |
+| 之星:(18949,18951)       |
+| 季仁芳:(18951,18954)      |
+| 孟金凤:(18955,18958)      |
+| 华隆:(19024,19026)       |
+| 勒布朗·詹姆斯:(19927,19934)  |
+| 凯文·杜兰特:(19935,19941)   |
+| 勒布朗·詹姆斯:(20005,20012)  |
+| 肯德里克·帕金斯:(20024,20032) |
+| 波尔斯特拉:(20061,20066)    |
+| 詹姆斯:(20069,20072)      |
+| 杜兰特:(20080,20083)      |
+| 杜兰特:(20095,20098)      |
+| 詹姆斯:(20106,20109)      |
+| 帕金斯:(20122,20125)      |
+| 帕金斯:(20185,20188)      |
+| 韦德:(20255,20257)       |
+| 詹姆斯:(20274,20277)      |
+| 詹姆斯:(20293,20296)      |
+| 杜兰特:(20310,20313)      |
+| 阿维兰热:(20555,20559)     |
+| 特谢拉:(20659,20662)      |
+| 阿维兰热:(20714,20718)     |
+| 布拉特:(21080,21083)      |
+| 阿维兰热:(21102,21106)     |
+| 罗马里奥:(21152,21156)     |
+| 周磊:(21176,21178)       |
+| 郭家富:(21405,21408)      |
+| 郭家富:(21527,21530)      |
+| 郭家富:(21614,21617)      |
+| 郭家富:(21683,21686)      |
+| 郭家富:(21718,21721)      |
+| 郭家富:(21750,21753)      |
+| 王子怡:(21816,21819)      |
+| 王子怡:(21876,21879)      |
+| 王子怡:(21916,21919)      |
+| 王子怡:(21945,21948)      |
+| 王子怡:(21958,21961)      |
+| 王子怡:(21982,21985)      |
+| 王子怡:(22011,22014)      |
+| 王子怡:(22088,22091)      |
+| 罗伟:(22349,22351)       |
+| 刘婷:(22352,22354)       |
+| 沙马格达利:(22371,22376)    |
+| 沙马格达利:(22422,22427)    |
+| 胡启恒:(22910,22913)      |
+| 张竞强:(22925,22928)      |
+| 高新民:(22942,22945)      |
+| 王远枝:(22956,22959)      |
+| 胡启恒:(23200,23203)      |
+| 张竞强:(23350,23353)      |
+| 朱晓光:(23837,23840)      |
+| 农医保:(24220,24223)      |
+| 张锦苏:(24274,24277)      |
+| 连胜文:(24620,24623)      |
+| 连战之子连胜:(24671,24677)   |
+| 连胜文:(24715,24718)      |
+| 林正伟:(24736,24739)      |
+| 黄运圣:(24761,24764)      |
+| 孙犁:(24930,24932)       |
+| 王小菊:(24980,24983)      |
+| 贾占安:(24984,24987)      |
+| 张东振:(24988,24991)      |
+| 孙犁:(25026,25028)       |
+| 孙犁:(25094,25096)       |
+| 孙犁:(25118,25120)       |
+| 孙犁:(25131,25133)       |
+| 孙犁:(25181,25183)       |
+| 孙犁:(25268,25270)       |
+| 孙犁:(25354,25356)       |
+| 孙犁:(25384,25386)       |
+| 孙犁:(25435,25437)       |
+| 孙犁:(25519,25521)       |
+| 孙犁:(25535,25537)       |
+| 孙犁:(25545,25547)       |
+| 孙犁:(25554,25556)       |
+| 孙犁:(25562,25564)       |
+| 孙犁:(25573,25575)       |
+| 巴克:(26310,26312)       |
+| 戴维·格林:(26324,26329)    |
+| 霍奇森:(26515,26518)      |
+| 霍奇森:(26571,26574)      |
+| 鲁尼:(26595,26597)       |
+| 科琳:(26608,26610)       |
+| 罗崇敏:(26804,26807)      |
+| 康奈尔:(27076,27079)      |
+| 第戎:(27112,27114)       |
+| 马云:(27163,27165)       |
+| 马化腾:(27166,27169)      |
+| 李彦宏:(27170,27173)      |
+| 李彦宏:(27189,27192)      |
+| 鲁迪·尤金:(27957,27962)    |
+| 尤金:(28032,28034)       |
+| 尤金:(28099,28101)       |
+| 雷傲可:(28258,28261)      |
+| 李卓:(28301,28303)       |
+| 雷诺:(28322,28324)       |
+| 科雷:(28431,28433)       |
+| 科雷:(28594,28596)       |
+| 博尔特:(28926,28929)      |
+| 尤赛恩·博尔特:(29014,29021)  |
+| 莫文蔚:(29226,29229)      |
+| 文蔚:(29276,29278)       |
+| 莫文蔚:(29329,29332)      |
+| 潘蔚:(30038,30040)       |
+| 孙楠:(30042,30044)       |
+| 孙楠:(30085,30087)       |
+| 潘蔚:(30089,30091)       |
+| 潘蔚:(30120,30122)       |
+| 孙楠:(30141,30143)       |
+| 黄津:(30787,30789)       |
+| 唐志荣:(30796,30799)      |
+| 戴金绍卢志满:(30800,30806)   |
+| 李某:(30989,30991)       |
+| 李某:(30993,30995)       |
+| 李某:(30997,30999)       |
+| 朱明国:(31245,31248)      |
+| 维稳:(31368,31370)       |
+| 朱明:(31427,31429)       |
+| 维稳:(31714,31716)       |
+| 李宏:(32248,32250)       |
+| 李华:(32255,32257)       |
+| 韦秀长:(32268,32271)      |
+| 齐石光:(32280,32283)      |
+| 聂印书:(32296,32299)      |
+| 戈亮禄:(32307,32310)      |
+| 韦秀长:(32359,32362)      |
+| 韦总:(32442,32444)       |
+| 赵云明:(32480,32483)      |
+| 戈亮禄:(32765,32768)      |
+| 李莹:(33273,33275)       |
+| 李莹:(33420,33422)       |
+| 天基:(33650,33652)       |
+| 孙波:(34466,34468)       |
+| 张斐斐:(34474,34477)      |
+| 陈玉兵:(34845,34848)      |
+| 陈玉兵:(34860,34863)      |
+| 仇彩萍:(35049,35052)      |
+| 仇彩萍:(35055,35058)      |
+| 仇彩萍:(35330,35333)      |
+| 陈玉兵:(35425,35428)      |
+| 仇彩萍:(35464,35467)      |
+| 仇彩萍:(35504,35507)      |
+| 陈冕:(35957,35959)       |
+| 王光营:(35993,35996)      |
+| 赵丽:(35997,35999)       |
+| 老舍:(36548,36550)       |
+| 徐永刚:(36588,36591)      |
+| 老舍:(36596,36598)       |
+| 徐永刚:(36651,36654)      |
+| 容兆安:(37097,37100)      |
+| 容兆安:(37250,37253)      |
+| 容兆安:(37370,37373)      |
+| 容兆安:(37516,37519)      |
+| 容兆安:(37781,37784)      |
+| 容兆安:(38001,38004)      |
+| 余程万:(38025,38028)      |
+| 孙中山:(38036,38039)      |
+| 容兆安:(38348,38351)      |
+| 尼德汉姆:(38871,38875)     |
+| 查理·沃尔夫:(38882,38888)   |
+| 沃尔夫:(38938,38941)      |
+| 沃尔夫:(39040,39043)      |
+| 徐和平:(39648,39651)      |
+| 杨松:(39662,39664)       |
+| 杨松:(39731,39733)       |
+| 杨松:(39935,39937)       |
+| 比巴菲:(40285,40288)      |
+| 巴菲特:(40300,40303)      |
+| 胡汝银:(40352,40355)      |
+| 胡汝银:(40364,40367)      |
+| 胡汝银:(40524,40527)      |
+| 水焯:(41817,41819)       |
+| 刘业远:(41936,41939)      |
+| 王锡芬:(42147,42150)      |
+| 刘增祥:(42273,42276)      |
+| 刘增祥:(42368,42371)      |
+| 老宋:(42528,42530)       |
+| 刘增祥:(42663,42666)      |
+| 刘增祥:(42671,42674)      |
+| 杨万卿付志锦:(42940,42946)   |
+| 在佳乐:(43157,43160)      |
+| 黎蘅:(43649,43651)       |
+| 乔继红:(43969,43972)      |
+| 布伦特:(44114,44117)      |
+| 张贵涛:(44622,44625)      |
+| 张贵涛:(44664,44667)      |
+| 张贵涛:(44749,44752)      |
+| 张贵涛:(44819,44822)      |
+| 宣胜:(45044,45046)       |
+| 沙菲克:(45047,45050)      |
+| 穆罕默德·穆尔西:(45121,45129) |
+| 艾哈迈德·沙菲克:(45145,45153) |
+| 沙菲克:(45177,45180)      |
+| 穆尔西:(45219,45222)      |
+| 穆罕默德·穆尔西:(45257,45265) |
+| 沙菲克:(45277,45280)      |
+| 沙菲克:(45340,45343)      |
+| 沙菲克:(45395,45398)      |
+| 马哈茂德·巴拉卡:(45408,45416) |
+| 贾肖明:(45742,45745)      |
+| 陈萌:(46612,46614)       |
+| 陈萌:(46765,46767)       |
+| 费颖:(46930,46932)       |
+| 费颖:(46980,46982)       |
+| 王宇:(47035,47037)       |
+| 陈萌:(47085,47087)       |
+| 陈萌:(47091,47093)       |
+| 费颖:(47153,47155)       |
+| 费颖:(47316,47318)       |
+| 王璐:(47321,47323)       |
+| 陈萌:(47341,47343)       |
+| 王璐:(47360,47362)       |
+| 陈萌:(47477,47479)       |
+| 费颖:(47515,47517)       |
+| 陈萌:(47519,47521)       |
+| 陈萌:(47723,47725)       |
+| 费颖:(47773,47775)       |
+| 陈萌:(47798,47800)       |
+| 陈萌:(47823,47825)       |
+| 费颖:(47874,47876)       |
+| 陈萌:(47911,47913)       |
+| 陈萌:(47941,47943)       |
+| 费颖:(48004,48006)       |
+| 赵姐:(48099,48101)       |
+| 费颖:(48154,48156)       |
+| 陈萌:(48182,48184)       |
+| 陈萌:(48203,48205)       |
+| 陈萌:(48210,48212)       |
+| 梁明远:(48637,48640)      |
+| 朱婕:(48678,48680)       |
+| 梁明远:(48787,48790)      |
+| 单霁翔:(49736,49739)      |
+| 赵雯:(50285,50287)       |
+| 小泽一郎:(50514,50518)     |
+| 小泽一郎:(50589,50593)     |
+| 小泽:(50611,50613)       |
+| 东祥三:(50639,50642)      |
+| 牧义夫:(50685,50688)      |
+| 佐藤公治:(50706,50710)     |
+| 小泽:(50722,50724)       |
+| 广野允士:(50743,50747)     |
+| 森裕子:(50751,50754)      |
+| 中村哲治:(50774,50778)     |
+| 传林:(50924,50926)       |
+| 霍建华:(50996,50999)      |
+| 林心如:(51046,51049)      |
+| 霍建华:(51055,51058)      |
+| 张柏芝:(51075,51078)      |
+| 林心如:(51139,51142)      |
+| 霍建华:(51155,51158)      |
+| 张柏芝:(51212,51215)      |
+| 舒淇:(51265,51267)       |
+| 霍建华:(51314,51317)      |
+| 霍建华:(51339,51342)      |
+| 金城:(51437,51439)       |
+| 林志颖:(51443,51446)      |
+| 唐季礼:(51467,51470)      |
+| 林心如:(51484,51487)      |
+| 王小:(51488,51490)       |
+| 任泉:(51492,51494)       |
+| 林心如:(51531,51534)      |
+| 林心如:(51631,51634)      |
+| 霍建华:(51640,51643)      |
+| 马华:(51993,51995)       |
+| 斯里:(52000,52002)       |
+| 蔡细历:(52002,52005)      |
+| 董总:(52041,52043)       |
+| 蔡细历:(52073,52076)      |
+| 朱某:(52404,52406)       |
+| 朱某:(52473,52475)       |
+| 朱某:(52515,52517)       |
+| 朱某:(52529,52531)       |
+| 朱某:(52651,52653)       |
+| 朱某:(52714,52716)       |
+| 朱某:(52776,52778)       |
+| 克罗格:(54242,54245)      |
+| 沃尔格:(54254,54257)      |
+| 央广:(55561,55563)       |
+| 周维平:(55763,55766)      |
+| 周维平:(55782,55785)      |
+| 王蔚:(56106,56108)       |
+| 王蕾:(56109,56111)       |
+| 里古镇:(56239,56242)      |
+| 刘嘉:(56259,56261)       |
+| 刘嘉:(56475,56477)       |
+| 任苏俊:(56613,56616)      |
+| 松杨:(56695,56697)       |
+| 古镇一:(57015,57018)      |
+| 任苏俊:(57052,57055)      |
+| 任苏俊:(57154,57157)      |
+| 任苏俊:(57317,57320)      |
+| 阮仪:(57423,57425)       |
+| 涂铭:(59099,59101)       |
+| 李新生:(59200,59203)      |
+| 葛慧君:(59555,59558)      |
+| 葛慧君:(59620,59623)      |
+| 黎健:(59635,59637)       |
+| 佰利:(60251,60253)       |
+| 太好:(60255,60257)       |
+| 冯耀华:(61261,61264)      |
+| 李敏:(61269,61271)       |
+| 吕晓梅:(61272,61275)      |
+| 何学俏:(61281,61284)      |
+| 王路得:(62180,62183)      |
+| 张祥:(62372,62374)       |
+| 张祥:(62971,62973)       |
+| 李玉涛:(63441,63444)      |
+| 山海天:(63755,63758)      |
+| 李阳阳:(64036,64039)      |
+| 裘飞涛:(64045,64048)      |
+| 朗逸:(64123,64125)       |
+| 朗逸:(64259,64261)       |
+| 巴罗佐:(65530,65533)      |
+| 布尔加斯:(65857,65861)     |
+| 内塔尼亚胡:(65958,65963)    |
+| 布尔加斯:(66026,66030)     |
+| 瓦尔纳:(66141,66144)      |
+| 勒卡:(66192,66194)       |
+| 索菲:(66399,66401)       |
+| 茨韦塔诺夫:(66415,66420)    |
+| 保方:(66440,66442)       |
+| 茨韦塔诺夫:(66482,66487)    |
+| 茨韦塔诺夫:(66696,66701)    |
+| 内塔尼亚胡:(66836,66841)    |
+| 内塔尼亚胡:(66946,66951)    |
+| 巴拉克:(67234,67237)      |
+| 穆格尼耶:(67292,67296)     |
+| 穆格尼耶:(67363,67367)     |
+| 张宁王宏彬:(67576,67581)    |
+| 迪亚:(67646,67648)       |
+| 什叶派:(67674,67677)      |
+| 什叶:(67695,67697)       |
+| 海达尔·穆斯利希:(67973,67981) |
+| 邢世伟:(68277,68280)      |
+| 张程:(69545,69547)       |
+| 张大鹏:(69552,69555)      |
+| 王某:(69605,69607)       |
+| 李某:(69608,69610)       |
+| 阿尔瓦:(69937,69940)      |
+| 艾华雪雨:(70438,70442)     |
+| 艾华雪雨:(70523,70527)     |
+| 艾华雪雨:(70628,70632)     |
+| 艾华雪雨:(70748,70752)     |
+| 艾华雪雨:(70886,70890)     |
+| 艾华雪雨:(71034,71038)     |
+| 朱朝群:(71041,71044)      |
+| 艾华雪雨:(71074,71078)     |
+| 容自威:(71315,71318)      |
+| 魏国公韩琦:(71409,71414)    |
+| 韩琦:(71453,71455)       |
+| 韩琦:(71480,71482)       |
+| 韩琦:(71532,71534)       |
+| 官爱兵:(71701,71704)      |
+| 陈乐伟:(72153,72156)      |
+| 唐博:(72161,72163)       |
+| 黄渤:(72172,72174)       |
+| 金山:(72967,72969)       |
+| 金山:(73032,73034)       |
+| 金山:(73151,73153)       |
+| 金山:(73194,73196)       |
+| 傅盛:(73242,73244)       |
+| 金山:(73751,73753)       |
+| 金山:(73952,73954)       |
+| 金山:(74091,74093)       |
+| 金山:(74156,74158)       |
+| 金山:(74218,74220)       |
+| 金山:(74332,74334)       |
+| 信维:(74895,74897)       |
+| 沙隆达:(75050,75053)      |
+| 江山:(75060,75062)       |
++------------------------+
+510 rows in set
+
+View: Location
++--------------------------+
+| text                     |
++--------------------------+
+| 美国:(134,136)             |
+| 巴马:(144,146)             |
+| 北京:(176,178)             |
+| 俄罗斯:(191,194)            |
+| 叙利亚:(198,201)            |
+| 俄罗斯:(205,208)            |
+| 纽约:(222,224)             |
+| 俄罗斯:(231,234)            |
+| 叙利亚:(244,247)            |
+| 叙利亚:(262,265)            |
+| 叙利亚:(281,284)            |
+| 日内瓦:(294,297)            |
+| 美国:(314,316)             |
+| 巴马:(324,326)             |
+| 美国:(328,330)             |
+| 巴马:(363,365)             |
+| 利比亚:(412,415)            |
+| 利比亚:(429,432)            |
+| 东京:(717,719)             |
+| 日本:(835,837)             |
+| 东京:(1032,1034)           |
+| 日本:(1509,1511)           |
+| 香港:(1737,1739)           |
+| 香港:(1787,1789)           |
+| 中国:(2180,2182)           |
+| 中国:(2220,2222)           |
+| 日本:(2835,2837)           |
+| 韩国:(2843,2845)           |
+| 中国:(3078,3080)           |
+| 中国:(3369,3371)           |
+| 中国:(3455,3457)           |
+| 中国:(3475,3477)           |
+| 中国:(3510,3512)           |
+| 中国:(3558,3560)           |
+| 中国:(3631,3633)           |
+| 中国:(3690,3692)           |
+| 中国:(3948,3950)           |
+| 中国:(3968,3970)           |
+| 中国:(4172,4174)           |
+| 中国:(4182,4184)           |
+| 中国:(4264,4266)           |
+| 中国:(4426,4428)           |
+| 上海:(5714,5716)           |
+| 中国:(6537,6539)           |
+| 成都:(6860,6862)           |
+| 张北:(7258,7260)           |
+| 甘肃省:(7877,7880)          |
+| 朝阳区:(7931,7934)          |
+| 北京:(7965,7967)           |
+| 北京:(7988,7990)           |
+| 北京:(8025,8027)           |
+| 北京:(8110,8112)           |
+| 重庆:(8282,8284)           |
+| 重庆:(8373,8375)           |
+| 重庆:(8383,8385)           |
+| 岫岩满族自治县:(8834,8841)      |
+| 岫岩:(9881,9883)           |
+| 辽宁:(9889,9891)           |
+| 章丘:(10086,10088)         |
+| 章丘:(10128,10130)         |
+| 章丘:(10153,10155)         |
+| 章丘:(10251,10253)         |
+| 章丘:(10285,10287)         |
+| 章丘:(10544,10546)         |
+| 湖北:(10780,10782)         |
+| 湖北:(10830,10832)         |
+| 武汉:(10903,10905)         |
+| 深圳南山区:(13005,13010)      |
+| 南山区:(13021,13024)        |
+| 南山区:(13069,13072)        |
+| 深圳南山区:(13168,13173)      |
+| 南山区:(13580,13583)        |
+| 河北省唐山市:(14146,14152)     |
+| 吉林省通化市二道江区:(14444,14454) |
+| 二道江区:(14486,14490)       |
+| 通化:(14568,14570)         |
+| 河北省兴隆县:(14875,14881)     |
+| 钓鱼台:(14885,14888)        |
+| 英格兰:(15303,15306)        |
+| 乌克兰:(15310,15313)        |
+| 乌克兰:(15344,15347)        |
+| 英格兰:(15390,15393)        |
+| 乌克兰:(15402,15405)        |
+| 乌克兰:(15563,15566)        |
+| 英格兰:(15567,15570)        |
+| 乌克兰:(15712,15715)        |
+| 乌克兰:(15793,15796)        |
+| 乌克兰:(15845,15848)        |
+| 英格兰:(16248,16251)        |
+| 加西亚:(16322,16325)        |
+| 切尔西:(16331,16334)        |
+| 切尔西:(16363,16366)        |
+| 南非:(16390,16392)         |
+| 乌克兰:(16429,16432)        |
+| 欧洲:(16463,16465)         |
+| 葡萄牙:(16529,16532)        |
+| 德国:(16533,16535)         |
+| 北京:(16865,16867)         |
+| 绍兴:(17983,17985)         |
+| 美国:(18228,18230)         |
+| 美国:(18286,18288)         |
+| 美国:(18300,18302)         |
+| 美国:(18337,18339)         |
+| 美国:(18350,18352)         |
+| 美国:(18385,18387)         |
+| 美国:(18459,18461)         |
+| 华北:(18721,18723)         |
+| 华北:(19697,19699)         |
+| 巴西:(20567,20569)         |
+| 瑞士:(20609,20611)         |
+| 巴西:(20653,20655)         |
+| 瑞士:(20685,20687)         |
+| 瑞士:(20760,20762)         |
+| 巴西:(20769,20771)         |
+| 瑞士:(20806,20808)         |
+| 瑞士:(20853,20855)         |
+| 瑞士:(20936,20938)         |
+| 巴西:(21127,21129)         |
+| 巴西:(21161,21163)         |
+| 吉林市:(21400,21403)        |
+| 吉林市:(21519,21522)        |
+| 吉林市中东:(21626,21631)      |
+| 吉林市丰满区:(21725,21731)     |
+| 丰满区:(21759,21762)        |
+| 吉林市丰满区:(21828,21834)     |
+| 吉林市:(21839,21842)        |
+| 吉林市丰满区:(22022,22028)     |
+| 吉林:(22033,22035)         |
+| 伊朗:(22292,22294)         |
+| 中国:(22302,22304)         |
+| 　:(22351,22352)          |
+| 伊朗:(22356,22358)         |
+| 上海:(22380,22382)         |
+| 伊朗:(22385,22387)         |
+| 中国:(22388,22390)         |
+| 上海:(22434,22436)         |
+| 上海:(22454,22456)         |
+| 伊朗:(22512,22514)         |
+| 中国:(22839,22841)         |
+| 北京:(22862,22864)         |
+| 中国:(22879,22881)         |
+| 中国:(22888,22890)         |
+| 中国:(22900,22902)         |
+| 中国:(22929,22931)         |
+| 中国:(23190,23192)         |
+| 中国:(23400,23402)         |
+| 上海:(23460,23462)         |
+| 仙居县:(24215,24218)        |
+| 仙居县:(24265,24268)        |
+| 仙居县:(24367,24370)        |
+| 中国:(24662,24664)         |
+| 北市:(24720,24722)         |
+| 安平县:(24919,24922)        |
+| 衡水:(24971,24973)         |
+| 安平县:(24995,24998)        |
+| 白洋淀:(25194,25197)        |
+| 中华人民共和国:(25282,25289)    |
+| 冀中:(25294,25296)         |
+| 冀西:(25299,25301)         |
+| 英国:(26220,26222)         |
+| 英国:(26269,26271)         |
+| 伦敦:(26288,26290)         |
+| 英国:(26308,26310)         |
+| 伦敦:(26345,26347)         |
+| 英格兰:(26552,26555)        |
+| 瑞典:(26557,26559)         |
+| 克拉科夫:(26585,26589)       |
+| 云南省:(26796,26799)        |
+| 南京:(27003,27005)         |
+| 武汉:(27023,27025)         |
+| 美国纽约:(27056,27060)       |
+| 美国长岛:(27067,27071)       |
+| 加州:(27088,27090)         |
+| 瑞士日内瓦:(27100,27105)      |
+| 法国:(27110,27112)         |
+| 山西省阳泉市:(27209,27215)     |
+| 美国哥伦比亚:(27894,27900)     |
+| 美国佛罗里达州迈阿密:(27912,27922) |
+| 法国:(28307,28309)         |
+| 湖南:(28311,28313)         |
+| 中国:(28324,28326)         |
+| 中国:(28485,28487)         |
+| 伦敦:(28941,28943)         |
+| 英国:(28984,28986)         |
+| 牙买加:(29006,29009)        |
+| 伦敦:(29042,29044)         |
+| 香港:(29281,29283)         |
+| 中国:(29623,29625)         |
+| 北京:(29702,29704)         |
+| 中国:(29737,29739)         |
+| 中国:(29851,29853)         |
+| 京东:(30307,30309)         |
+| 长沙:(30353,30355)         |
+| 长沙:(30379,30381)         |
+| 北京:(30390,30392)         |
+| 京东:(30406,30408)         |
+| 京东:(30423,30425)         |
+| 韩国:(30429,30431)         |
+| 京东:(30522,30524)         |
+| 京东:(30573,30575)         |
+| 广东阳山县:(30730,30735)      |
+| 阳山县:(30811,30814)        |
+| 阳山:(30911,30913)         |
+| 佛山:(30943,30945)         |
+| 广东:(31414,31416)         |
+| 广东:(31451,31453)         |
+| 广东:(31512,31514)         |
+| 广东:(31523,31525)         |
+| 河北:(32188,32190)         |
+| 张家口:(32196,32199)        |
+| 张家口:(32238,32241)        |
+| 河北省:(32261,32264)        |
+| 张家口市:(32289,32293)       |
+| 怀安县:(32303,32306)        |
+| 河北省:(32329,32332)        |
+| 张家口市怀安县:(32345,32352)    |
+| 河北省:(32452,32455)        |
+| 怀安县:(32498,32501)        |
+| 河北省:(32695,32698)        |
+| 怀安县:(32759,32762)        |
+| 怀安县:(32780,32783)        |
+| 中国:(33244,33246)         |
+| 北京:(33298,33300)         |
+| 中国:(33379,33381)         |
+| 烟台:(34400,34402)         |
+| 烟台:(34452,34454)         |
+| 山东:(34461,34463)         |
+| 烟台:(34469,34471)         |
+| 中国:(34479,34481)         |
+| 山东烟台:(34501,34505)       |
+| 通州:(34606,34608)         |
+| 山东烟台:(34612,34616)       |
+| 烟台:(34621,34623)         |
+| 烟台:(35614,35616)         |
+| 苏州:(35627,35629)         |
+| 济南:(35906,35908)         |
+| 济南:(36006,36008)         |
+| 济南:(36020,36022)         |
+| 济南市:(36313,36316)        |
+| 济南市:(36699,36702)        |
+| 尚义:(36792,36794)         |
+| 尚义:(36801,36803)         |
+| 尚义:(36891,36893)         |
+| 白沙:(37057,37059)         |
+| 白沙:(37090,37092)         |
+| 白沙:(37108,37110)         |
+| 台山市:(37113,37116)        |
+| 开平市赤水:(37121,37126)      |
+| 赤坎:(37127,37129)         |
+| 白沙:(37226,37228)         |
+| 白沙:(37274,37276)         |
+| 台山市:(37279,37282)        |
+| 白沙:(37354,37356)         |
+| 白沙:(37960,37962)         |
+| 白沙:(38005,38007)         |
+| 白沙:(38063,38065)         |
+| 开平:(38099,38101)         |
+| 白沙:(38245,38247)         |
+| 白沙:(38275,38277)         |
+| 白沙:(38283,38285)         |
+| 台山:(38287,38289)         |
+| 白沙:(38448,38450)         |
+| 白沙:(38470,38472)         |
+| 白沙:(38652,38654)         |
+| 　:(38896,38897)          |
+| 中国:(39409,39411)         |
+| 武汉市武昌区:(39677,39683)     |
+| 黄陂区:(39684,39687)        |
+| 湖北:(39707,39709)         |
+| 武昌区:(39737,39740)        |
+| 黄陂区:(39751,39754)        |
+| 武汉市:(39911,39914)        |
+| 黄陂区:(39918,39921)        |
+| 武汉市:(39939,39942)        |
+| 上海:(40323,40325)         |
+| 中国:(40372,40374)         |
+| 中国:(40531,40533)         |
+| 华阳:(41208,41210)         |
+| 青岛:(41239,41241)         |
+| 华阳:(41308,41310)         |
+| 青岛:(41879,41881)         |
+| 青岛市:(42135,42138)        |
+| 青岛市:(42258,42261)        |
+| 潍坊市:(42978,42981)        |
+| 广州:(43596,43598)         |
+| 广州市:(43657,43660)        |
+| 广州:(43672,43674)         |
+| 纽约:(43960,43962)         |
+| 欧洲:(44073,44075)         |
+| 纽约:(44087,44089)         |
+| 伦敦:(44112,44114)         |
+| 纽约:(44168,44170)         |
+| 伦敦:(44171,44173)         |
+| 伊朗:(44233,44235)         |
+| 美国:(44247,44249)         |
+| 伊朗:(44288,44290)         |
+| 欧洲:(44295,44297)         |
+| 美国:(44304,44306)         |
+| 美国:(44317,44319)         |
+| 中国:(44320,44322)         |
+| 南京:(44628,44630)         |
+| 山西省朔州市:(44632,44638)     |
+| 埃及:(45080,45082)         |
+| 广州:(45755,45757)         |
+| 深圳:(45758,45760)         |
+| 广东省:(45828,45831)        |
+| 广东省:(45837,45840)        |
+| 高雄:(45886,45888)         |
+| 广东:(45932,45934)         |
+| 梅州市:(46024,46027)        |
+| 湛江市:(46051,46054)        |
+| 广东:(46083,46085)         |
+| 广东省:(46183,46186)        |
+| 沈河区:(46918,46921)        |
+| 兰州:(48671,48673)         |
+| 中国:(49240,49242)         |
+| 东南亚:(49323,49326)        |
+| 中国:(49381,49383)         |
+| 中国:(49440,49442)         |
+| 故宫:(49662,49664)         |
+| 故宫:(49667,49669)         |
+| 故宫:(49717,49719)         |
+| 故宫:(49742,49744)         |
+| 故宫:(49786,49788)         |
+| 故宫:(49830,49832)         |
+| 午门:(49931,49933)         |
+| 故宫:(49980,49982)         |
+| 东华门:(50010,50013)        |
+| 东华门:(50020,50023)        |
+| 故宫:(50028,50030)         |
+| 午门:(50061,50063)         |
+| 日本:(50570,50572)         |
+| 日本:(50579,50581)         |
+| 冈:(50711,50712)          |
+| 台湾:(50992,50994)         |
+| 上海:(51274,51276)         |
+| 横店:(51282,51284)         |
+| 上海:(51706,51708)         |
+| 马来西亚:(51968,51972)       |
+| 黄岛:(52452,52454)         |
+| 青岛:(52486,52488)         |
+| 黄岛:(52621,52623)         |
+| 兰州市:(53033,53036)        |
+| 兰州市:(53128,53131)        |
+| 甘肃:(53151,53153)         |
+| 兰州市:(53261,53264)        |
+| 中国:(53779,53781)         |
+| 美国:(53885,53887)         |
+| 达卡:(53912,53914)         |
+| 美国:(53923,53925)         |
+| 美国:(54073,54075)         |
+| 美国:(54091,54093)         |
+| 中国:(54161,54163)         |
+| 美国:(54193,54195)         |
+| 达卡:(54272,54274)         |
+| 美国:(54448,54450)         |
+| 中国:(54488,54490)         |
+| 美国:(54574,54576)         |
+| 上海市:(54640,54643)        |
+| 中国:(54702,54704)         |
+| 上海浦东:(55106,55110)       |
+| 中国:(55508,55510)         |
+| 中国:(55556,55558)         |
+| 北京:(55583,55585)         |
+| 北京:(55751,55753)         |
+| 上海:(56095,56097)         |
+| 江苏:(56236,56238)         |
+| 北京:(56244,56246)         |
+| 苏州:(56596,56598)         |
+| 南京:(56690,56692)         |
+| 周庄:(56841,56843)         |
+| 乌镇:(56844,56846)         |
+| 福建:(57010,57012)         |
+| 吴江市:(57074,57077)        |
+| 中国:(57267,57269)         |
+| 北京:(59087,59089)         |
+| 北京市:(59111,59114)        |
+| 北京市:(59152,59155)        |
+| 北京市:(59188,59191)        |
+| 北京市:(59213,59216)        |
+| 北京市:(59254,59257)        |
+| 北京市:(59368,59371)        |
+| 浙江:(59546,59548)         |
+| 浙江:(59611,59613)         |
+| 浙江省:(59627,59630)        |
+| 番禺华南:(59912,59916)       |
+| 剑桥郡:(59922,59925)        |
+| 浙江:(60864,60866)         |
+| 新昌:(60991,60993)         |
+| 绍兴:(60997,60999)         |
+| 南宁市南湖:(61306,61311)      |
+| 南湖:(61818,61820)         |
+| 南宁:(61823,61825)         |
+| 南宁市:(61917,61920)        |
+| 广西:(62168,62170)         |
+| 广西:(62335,62337)         |
+| 南宁市:(62643,62646)        |
+| 南宁市:(62820,62823)        |
+| 广西:(62955,62957)         |
+| 日照市:(63495,63498)        |
+| 卧龙:(63523,63525)         |
+| 新市区:(63580,63583)        |
+| 日照市:(63600,63603)        |
+| 城北卧龙:(63642,63646)       |
+| 新市区:(63673,63676)        |
+| 卧龙:(63690,63692)         |
+| 凌云:(63713,63715)         |
+| 老城区:(63739,63742)        |
+| 杭州:(64058,64060)         |
+| 东大桥:(64061,64064)        |
+| 钱江:(64066,64068)         |
+| 杭州:(64382,64384)         |
+| 东大桥:(64700,64703)        |
+| 中国:(65349,65351)         |
+| 巴西:(65352,65354)         |
+| 俄罗斯:(65355,65358)        |
+| 印度:(65359,65361)         |
+| 南非:(65362,65364)         |
+| 欧洲:(65501,65503)         |
+| 德国:(65566,65568)         |
+| 中国:(65632,65634)         |
+| 印度:(65635,65637)         |
+| 巴西:(65638,65640)         |
+| 俄罗斯:(65641,65644)        |
+| 以色列:(65795,65798)        |
+| 保加利亚:(65847,65851)       |
+| 以色列:(65892,65895)        |
+| 保加利亚:(65897,65901)       |
+| 以色列:(65942,65945)        |
+| 以色列:(65953,65956)        |
+| 伊朗:(65965,65967)         |
+| 黑海:(65978,65980)         |
+| 保加利亚:(65984,65988)       |
+| 北京:(66002,66004)         |
+| 黑海:(66052,66054)         |
+| 保加利亚:(66147,66151)       |
+| 以色列:(66186,66189)        |
+| 以色列:(66243,66246)        |
+| 保加利亚:(66333,66337)       |
+| 以色列:(66357,66360)        |
+| 以色列:(66371,66374)        |
+| 保加利亚:(66393,66397)       |
+| 保加利亚:(66407,66411)       |
+| 以色列:(66457,66460)        |
+| 保加利亚:(66464,66468)       |
+| 以色列:(66505,66508)        |
+| 保加利亚:(66538,66542)       |
+| 美国:(66619,66621)         |
+| 保加利亚:(66648,66652)       |
+| 以色列:(66679,66682)        |
+| 美国:(66735,66737)         |
+| 美国密歇根州:(66750,66756)     |
+| 伊朗:(66804,66806)         |
+| 黎巴嫩:(66807,66810)        |
+| 以色列:(66831,66834)        |
+| 伊朗:(66859,66861)         |
+| 伊朗:(66878,66880)         |
+| 泰国:(66883,66885)         |
+| 印度:(66886,66888)         |
+| 格鲁吉亚:(66889,66893)       |
+| 肯尼亚:(66894,66897)        |
+| 塞浦路斯:(66898,66902)       |
+| 以色列:(66915,66918)        |
+| 伊朗:(66926,66928)         |
+| 以色列:(66954,66957)        |
+| 以色列:(66974,66977)        |
+| 伊朗:(66978,66980)         |
+| 以色列:(66995,66998)        |
+| 伊朗:(66999,67001)         |
+| 伊朗:(67012,67014)         |
+| 伊朗:(67028,67030)         |
+| 以色列:(67032,67035)        |
+| 伊朗:(67046,67048)         |
+| 美国:(67069,67071)         |
+| 以色列:(67072,67075)        |
+| 以色列:(67080,67083)        |
+| 阿根廷:(67156,67159)        |
+| 布宜诺斯艾利斯:(67161,67168)    |
+| 阿根廷:(67207,67210)        |
+| 伊朗:(67212,67214)         |
+| 伊朗:(67222,67224)         |
+| 以色列:(67227,67230)        |
+| 伊朗:(67244,67246)         |
+| 黎巴嫩:(67251,67254)        |
+| 以色列:(67268,67271)        |
+| 叙利亚:(67297,67300)        |
+| 大马士革:(67302,67306)       |
+| 以色列:(67323,67326)        |
+| 伊朗:(67345,67347)         |
+| 以色列:(67352,67355)        |
+| 伊拉克:(67532,67535)        |
+| 伊拉克:(67582,67585)        |
+| 伊朗:(67920,67922)         |
+| 伊朗:(67967,67969)         |
+| 伊朗:(67986,67988)         |
+| 平度市:(69563,69566)        |
+| 玻利维亚:(69769,69773)       |
+| 瑞士:(69776,69778)         |
+| 利马:(69815,69817)         |
+| 安平:(69827,69829)         |
+| 拉巴斯:(69830,69833)        |
+| 玻利维亚:(69836,69840)       |
+| 瑞士:(69854,69856)         |
+| 玻利维亚:(69880,69884)       |
+| 西班牙:(69910,69913)        |
+| 加西亚:(69942,69945)        |
+| 加西亚:(70025,70028)        |
+| 玻利维亚:(70069,70073)       |
+| 拉巴斯:(70136,70139)        |
+| 息烽县:(70480,70483)        |
+| 文化路:(70558,70561)        |
+| 息烽县:(70893,70896)        |
+| 龙岗:(72209,72211)         |
+| 龙岗:(72284,72286)         |
+| 龙岗:(72427,72429)         |
+| 中国:(72889,72891)         |
+| 中国:(72973,72975)         |
+| 中国:(73197,73199)         |
+| 中国:(73474,73476)         |
+| 朝阳区:(73835,73838)        |
+| 中国:(73849,73851)         |
+| 中国:(74025,74027)         |
+| 中国:(74335,74337)         |
+| 峨眉山:(74764,74767)        |
+| 广州:(74954,74956)         |
+| 广州:(74997,74999)         |
+| 新安:(75055,75057)         |
++--------------------------+
+527 rows in set
+
+View: Organization
++------------------------+
+| text                   |
++------------------------+
+| 联合国:(210,213)          |
+| 联合国:(224,227)          |
+| 联合国:(241,244)          |
+| 林业局:(7882,7885)        |
+| 卫生部:(12140,12143)      |
+| 教育部:(13737,13740)      |
+| 德国队:(16270,16273)      |
+| 财政部:(25785,25788)      |
+| 北京大学:(27221,27225)     |
+| 中国移动:(29579,29583)     |
+| 中国联通:(32448,32452)     |
+| 中国联通:(32691,32695)     |
+| 旅游局:(38169,38172)      |
+| 逄:(41631,41632)        |
+| 国务院:(45906,45909)      |
+| 中国人民银行:(45913,45919)   |
+| 淘宝:(47044,47046)       |
+| 最高人民法院:(48684,48690)   |
+| 文化部:(50277,50280)      |
+| 文化部:(50290,50293)      |
+| 最高人民法院:(55673,55679)   |
+| 旅游局:(57085,57088)      |
+| 人民检察院:(59114,59119)    |
+| 人民检察院:(59191,59196)    |
+| 铁道部:(59359,59362)      |
+| 铁道部:(59381,59384)      |
+| 气象局:(59630,59633)      |
+| 气象局:(62646,62649)      |
+| 气象局:(62728,62731)      |
+| 联合国:(65048,65051)      |
+| 国际货币基金组织:(65381,65389) |
+| 卫生部:(68291,68294)      |
+| 全国总工会:(68299,68304)    |
+| 艾瑞:(73460,73462)       |
++------------------------+
+34 rows in set
+
+View: Time
++-----------------------------------+
+| text                              |
++-----------------------------------+
+| 7月12日:(178,183)                   |
+| 11日:(218,221)                     |
+| 6月30日:(276,281)                   |
+| 11日:(335,338)                     |
+| 2010年:(366,371)                   |
+| 11日:(448,451)                     |
+| 11日:(463,466)                     |
+| 13日:(486,489)                     |
+| 14日:(490,493)                     |
+| 当天:(496,498)                      |
+| 3月11日:(809,814)                   |
+| 5日:(853,855)                      |
+| 3月11日那天:(971,978)                 |
+| 去年12月:(1060,1065)                 |
+| 3月11日:(1253,1258)                 |
+| 以往:(1454,1456)                    |
+| 现在:(2313,2315)                    |
+| 后来:(2719,2721)                    |
+| 1963年:(2823,2828)                 |
+| 今后:(2943,2945)                    |
+| 目前:(3037,3039)                    |
+| 未来:(3180,3182)                    |
+| 7月上旬:(3425,3429)                  |
+| 以往:(3435,3437)                    |
+| 2020年:(3470,3475)                 |
+| 2011年:(3626,3631)                 |
+| 当下:(4702,4704)                    |
+| 7月:(4958,4960)                    |
+| 目前:(5047,5049)                    |
+| 当前:(5398,5400)                    |
+| 未来:(5511,5513)                    |
+| 当前:(5773,5775)                    |
+| 昨日:(6447,6449)                    |
+| 昨日:(6482,6484)                    |
+| 近年:(6733,6735)                    |
+| 四日:(7580,7582)                    |
+| 晚上:(7617,7619)                    |
+| 近日:(7919,7921)                    |
+| 2008年3月:(7942,7949)               |
+| 2010年:(8078,8083)                 |
+| 2011年9月:(8085,8092)               |
+| 7月12日:(8361,8366)                 |
+| 近年:(8424,8426)                    |
+| 13日:(8826,8829)                   |
+| 13日10时:(8892,8898)                |
+| 当日:(8987,8989)                    |
+| 目前:(9281,9283)                    |
+| 8时:(9322,9324)                    |
+| 16时:(9325,9328)                   |
+| 晚间:(9342,9344)                    |
+| 现在:(9817,9819)                    |
+| 今年3月份:(10146,10151)               |
+| 日前:(10197,10199)                  |
+| 今年初:(10281,10284)                 |
+| 如今:(10514,10516)                  |
+| 6月19日:(10887,10892)               |
+| 目前:(11756,11758)                  |
+| 15日:(12143,12146)                 |
+| 后来:(12465,12467)                  |
+| 目前:(12705,12707)                  |
+| 当前:(12746,12748)                  |
+| 14日:(13001,13004)                 |
+| 6月17日:(13117,13122)               |
+| 目前:(13834,13836)                  |
+| 1998年:(14301,14306)               |
+| 2010年:(14381,14386)               |
+| 2002年:(14409,14414)               |
+| 2010年9月:(14465,14472)             |
+| 当时:(14537,14539)                  |
+| 冬天:(14551,14553)                  |
+| 年初:(14566,14568)                  |
+| 如今:(14594,14596)                  |
+| 2007年:(14717,14722)               |
+| 2002年:(14844,14849)               |
+| 2010年:(14860,14865)               |
+| 平时:(14938,14940)                  |
+| 2010年:(14963,14968)               |
+| 如今:(15026,15028)                  |
+| 1966年:(15380,15385)               |
+| 一瞬间:(15434,15437)                 |
+| 眼下:(15504,15506)                  |
+| 当时:(15710,15712)                  |
+| 赛后:(15915,15917)                  |
+| 一瞬间:(15967,15970)                 |
+| 赛后:(16012,16014)                  |
+| 眼下:(16154,16156)                  |
+| 当年:(16194,16196)                  |
+| 1966年:(16237,16242)               |
+| 今天:(16357,16359)                  |
+| 当时:(16360,16362)                  |
+| 2010年:(16385,16390)               |
+| 今年:(16410,16412)                  |
+| 此前:(16485,16487)                  |
+| 现在:(16906,16908)                  |
+| 小时候:(16987,16990)                 |
+| 晚年:(17043,17045)                  |
+| 今年:(17492,17494)                  |
+| 7月:(17527,17529)                  |
+| 去年3月:(17581,17585)                |
+| 2008年:(17623,17628)               |
+| 07月19日:(17836,17842)              |
+| 昨天上午:(17843,17847)                |
+| 如今:(17981,17983)                  |
+| 暑假:(18237,18239)                  |
+| 6月14日:(18278,18283)               |
+| 13日:(18294,18297)                 |
+| 暑假:(18302,18304)                  |
+| 暑假:(18343,18345)                  |
+| 现在:(18363,18365)                  |
+| 今年:(18376,18378)                  |
+| 目前:(18391,18393)                  |
+| 6月:(18396,18398)                  |
+| 8月:(18399,18401)                  |
+| 2000年:(18419,18424)               |
+| 暑期:(18427,18429)                  |
+| 7月16日:(18686,18691)               |
+| 赛后:(20058,20060)                  |
+| 赛前:(20137,20139)                  |
+| 赛前:(20257,20259)                  |
+| 1985年:(20348,20353)               |
+| 11日:(20615,20618)                 |
+| 1997年:(20742,20747)               |
+| 2001年:(20896,20901)               |
+| 如今:(20953,20955)                  |
+| 今年初:(21110,21113)                 |
+| 当时:(21148,21150)                  |
+| 27日21时30分:(21389,21398)           |
+| 次日:(21460,21462)                  |
+| 昨天晚上:(21480,21484)                |
+| 当晚:(21533,21535)                  |
+| 当时:(21659,21661)                  |
+| 今年:(21820,21822)                  |
+| 目前:(21856,21858)                  |
+| 当天:(21939,21941)                  |
+| 当天:(21989,21991)                  |
+| 28日9时:(22081,22086)               |
+| 17日:(22376,22379)                 |
+| 电影节:(22527,22530)                 |
+| 6月26日:(22856,22861)               |
+| 去年:(23434,23436)                  |
+| 未来:(23600,23602)                  |
+| 2008年:(23674,23679)               |
+| 今年:(23912,23914)                  |
+| 未来:(23973,23975)                  |
+| 07月09日:(24202,24208)              |
+| 昨天:(24262,24264)                  |
+| 15日:(24689,24692)                 |
+| 2010年11月26日:(24702,24713)         |
+| 7月11日:(24973,24978)               |
+| 今日:(24992,24994)                  |
+| 今日:(25046,25048)                  |
+| 1913年4月6日2002年7月11日:(25134,25153) |
+| 现代:(25155,25157)                  |
+| 现代:(25233,25235)                  |
+| 会上:(25330,25332)                  |
+| 现代:(25414,25416)                  |
+| 当代:(25455,25457)                  |
+| 7月24日:(25779,25784)               |
+| 上次:(25891,25893)                  |
+| 6月19日:(25906,25911)               |
+| 6月19日:(25978,25983)               |
+| 7月24日:(26004,26009)               |
+| 6日:(26279,26281)                  |
+| 6日:(26329,26331)                  |
+| 1977年:(26810,26815)               |
+| 2009年:(26816,26821)               |
+| 6月28日:(26862,26867)               |
+| 1987年:(27201,27206)               |
+| 昔日:(27434,27436)                  |
+| 6月27日:(27904,27909)               |
+| 日前:(27948,27950)                  |
+| 　:(27967,27968)                   |
+| 6月:(28254,28256)                  |
+| 今年6月:(28342,28346)                |
+| 2009年:(28421,28426)               |
+| 去年10月:(28456,28461)               |
+| 7月28日:(28990,28995)               |
+| 日前:(29033,29035)                  |
+| 目前:(29053,29055)                  |
+| 目前:(29327,29329)                  |
+| 近日:(29569,29571)                  |
+| 上半年:(29620,29623)                 |
+| 2009年:(29759,29764)               |
+| 近日:(30091,30093)                  |
+| 此前:(30118,30120)                  |
+| 产后:(30129,30131)                  |
+| 7月10日:(30355,30360)               |
+| 9日:(30376,30378)                  |
+| 12日:(30807,30810)                 |
+| 12日下午18时:(30875,30883)            |
+| 12日上午8时34分:(30900,30910)          |
+| 日前:(31430,31432)                  |
+| 一时:(31998,32000)                  |
+| 6月15日:(32241,32246)               |
+| 近日:(32258,32260)                  |
+| 今天:(32533,32535)                  |
+| 7月4日:(34454,34458)                |
+| 7月2日凌晨:(34492,34498)              |
+| 凌晨:(34591,34593)                  |
+| 如今:(34642,34644)                  |
+| 2日凌晨:(34647,34651)                |
+| 过后:(34721,34723)                  |
+| 7月2日凌晨零点40分:(34739,34750)         |
+| 当时:(34890,34892)                  |
+| 一时:(34940,34942)                  |
+| 1点:(35059,35061)                  |
+| 零点51分:(35280,35285)               |
+| 现在:(35433,35435)                  |
+| 后来:(35467,35469)                  |
+| 后来:(35525,35527)                  |
+| 当时:(35531,35533)                  |
+| 今年:(35585,35587)                  |
+| 近年:(35607,35609)                  |
+| 平时:(35720,35722)                  |
+| 平日:(35742,35744)                  |
+| 清代:(35908,35910)                  |
+| 当年:(36160,36162)                  |
+| 如今:(36166,36168)                  |
+| 清代:(36203,36205)                  |
+| 1954年:(36339,36344)               |
+| 现在:(36433,36435)                  |
+| 如今:(36440,36442)                  |
+| 当年:(36503,36505)                  |
+| 7月6日下午:(36528,36534)              |
+| 黄金时代:(36646,36650)                |
+| 1864年:(36661,36666)               |
+| 现在:(36672,36674)                  |
+| 1999年3月:(36688,36695)             |
+| 8日上午:(36723,36727)                |
+| 现在:(36777,36779)                  |
+| 今年:(36786,36788)                  |
+| 2011年:(37204,37209)               |
+| 未来:(37229,37231)                  |
+| 目前:(37311,37313)                  |
+| 未来:(37356,37358)                  |
+| 未来:(37374,37376)                  |
+| 今后:(37617,37619)                  |
+| 目前:(37829,37831)                  |
+| 目前:(37897,37899)                  |
+| 平时:(38442,38444)                  |
+| 7月13日:(38855,38860)               |
+| 周四:(38902,38904)                  |
+| 去年:(38999,39001)                  |
+| 今年:(39017,39019)                  |
+| 昨日下午:(39652,39656)                |
+| 现在:(40214,40216)                  |
+| 现在:(40247,40249)                  |
+| 2012年:(40259,40264)               |
+| 当年:(40289,40291)                  |
+| 1990年:(40303,40308)               |
+| 昨日:(40367,40369)                  |
+| 去年:(40505,40507)                  |
+| 前年:(40508,40510)                  |
+| 日前:(40917,40919)                  |
+| 6月19日上午:(40939,40946)             |
+| 上午11点:(41054,41059)               |
+| 今年:(41110,41112)                  |
+| 现在:(41229,41231)                  |
+| 当日中午12点30分:(41291,41301)          |
+| 过后:(41594,41596)                  |
+| 当时:(41679,41681)                  |
+| 现在:(41842,41844)                  |
+| 现在:(42222,42224)                  |
+| 6月19日上午8点:(42238,42247)           |
+| 早晨6点:(42281,42285)                |
+| 20日:(42329,42332)                 |
+| 上午8点:(42481,42485)                |
+| 昨天:(42549,42551)                  |
+| 今天:(42559,42561)                  |
+| 上午8点:(42562,42566)                |
+| 6月25日:(42931,42936)               |
+| 端午节:(42947,42950)                 |
+| 25日:(42969,42972)                 |
+| 25日:(43030,43033)                 |
+| 25日上午:(43064,43069)               |
+| 今年:(43110,43112)                  |
+| 端午节:(43120,43123)                 |
+| 端午节过后:(43138,43143)               |
+| 端午节:(43167,43170)                 |
+| 节后:(43198,43200)                  |
+| 端午节:(43229,43232)                 |
+| 目前:(43240,43242)                  |
+| 端午节:(43255,43258)                 |
+| 端午节假期:(43291,43296)               |
+| 目前:(43312,43314)                  |
+| 端午节:(43373,43376)                 |
+| 端午节:(43415,43418)                 |
+| 端午节假期:(43428,43433)               |
+| 昨日:(43654,43656)                  |
+| 目前:(43669,43671)                  |
+| 今年:(43674,43676)                  |
+| 目前:(43741,43743)                  |
+| 上半年:(43919,43922)                 |
+| 7月1日:(43962,43966)                |
+| 上半年:(43976,43979)                 |
+| 上半年:(43996,43999)                 |
+| 下半年:(44026,44029)                 |
+| 上半年:(44050,44053)                 |
+| 6月29日:(44058,44063)               |
+| 上半年:(44140,44143)                 |
+| 2008年:(44188,44193)               |
+| 上半年:(44208,44211)                 |
+| 年初:(44229,44231)                  |
+| 3月1日:(44271,44275)                |
+| 如今:(44600,44602)                  |
+| 昔日:(44655,44657)                  |
+| 18日:(45108,45111)                 |
+| 21日:(45190,45193)                 |
+| 18日凌晨:(45204,45209)               |
+| 21日:(45317,45320)                 |
+| 眼下:(45450,45452)                  |
+| 上月:(45508,45510)                  |
+| 昨日:(45825,45827)                  |
+| 未来:(46181,46183)                  |
+| 今年夏天:(46532,46536)                |
+| 1990年:(46563,46568)               |
+| 1991年:(46759,46764)               |
+| 今年5月:(46769,46773)                |
+| 那天:(46871,46873)                  |
+| 91年:(46958,46961)                 |
+| 1984年:(47027,47032)               |
+| 中午:(47397,47399)                  |
+| 当时:(47611,47613)                  |
+| 5月下旬:(47677,47681)                |
+| 6月1日那天早上:(48009,48017)            |
+| 儿童节:(48058,48061)                 |
+| 近日:(48681,48683)                  |
+| 7月23日:(48983,48988)               |
+| 7月6日:(49709,49713)                |
+| 6日:(49722,49724)                  |
+| 会上:(49731,49733)                  |
+| 去年:(50237,50239)                  |
+| 昨日:(50287,50289)                  |
+| 2011年:(50359,50364)               |
+| 7月5日:(50563,50567)                |
+| 4日:(50595,50597)                  |
+| 前日:(50982,50984)                  |
+| 近年:(51005,51007)                  |
+| 昨日:(51298,51300)                  |
+| 2009年:(51376,51381)               |
+| 2008年:(51473,51478)               |
+| 其后:(51481,51483)                  |
+| 现在:(51544,51546)                  |
+| 今年下半年:(51600,51605)               |
+| 2005年:(51644,51649)               |
+| 当年:(51662,51664)                  |
+| 其后:(51672,51674)                  |
+| 2009年:(51693,51698)               |
+| 6月28日:(51960,51965)               |
+| 日前:(51985,51987)                  |
+| 6月24日:(52005,52010)               |
+| 今天:(52059,52061)                  |
+| 昨日:(52446,52448)                  |
+| 今年4月22日:(52507,52514)             |
+| 上午10时:(53060,53065)               |
+| 6月29日:(53122,53127)               |
+| 10时02分:(53162,53168)              |
+| 10时15分:(53271,53277)              |
+| 10时34分:(53463,53469)              |
+| 10时49分:(53518,53524)              |
+| 当前:(53832,53834)                  |
+| 日前:(53882,53884)                  |
+| 2005年:(54231,54236)               |
+| 当时:(54239,54241)                  |
+| 目前:(54676,54678)                  |
+| 目前:(54713,54715)                  |
+| 目前:(54846,54848)                  |
+| 目前:(54954,54956)                  |
+| 日前:(55097,55099)                  |
+| 过去:(55210,55212)                  |
+| 现在:(55248,55250)                  |
+| 当前:(55520,55522)                  |
+| 6月26日:(55570,55575)               |
+| 2011年:(55691,55696)               |
+| 千年:(56043,56045)                  |
+| 现代:(56049,56051)                  |
+| 6月24日:(56097,56102)               |
+| 端午:(56112,56114)                  |
+| 如今:(56171,56173)                  |
+| 现在:(56292,56294)                  |
+| 现在:(56323,56325)                  |
+| 最近:(56338,56340)                  |
+| 今年5月:(56355,56359)                |
+| 目前:(56636,56638)                  |
+| 七分:(56640,56642)                  |
+| 今年:(56660,56662)                  |
+| 后来:(56760,56762)                  |
+| 目前:(56839,56841)                  |
+| 今天:(56936,56938)                  |
+| 前不久:(57004,57007)                 |
+| 今年年初:(57233,57237)                |
+| 现代:(57390,57392)                  |
+| 千年:(57429,57431)                  |
+| 现代:(57435,57437)                  |
+| 现代:(57450,57452)                  |
+| 过去:(57458,57460)                  |
+| 现在:(57476,57478)                  |
+| 现代:(57504,57506)                  |
+| 2012年07月01日:(57679,57690)         |
+| 2012年7月2日:(57808,57817)           |
+| 7月24日:(58474,58479)               |
+| 6月:(58495,58497)                  |
+| 今年4月份:(58515,58520)               |
+| 年内:(58523,58525)                  |
+| 近期:(58540,58542)                  |
+| 6月份:(58568,58571)                 |
+| 2012年:(58651,58656)               |
+| 6月25日:(59089,59094)               |
+| 25日:(59105,59108)                 |
+| 2012年:(59119,59124)               |
+| 2008年:(59140,59145)               |
+| 2011年:(59146,59151)               |
+| 2008年:(59242,59247)               |
+| 2011年:(59248,59253)               |
+| 6月12日:(59605,59610)               |
+| 端午节:(59925,59928)                 |
+| 当天:(59981,59983)                  |
+| 昨晚:(60017,60019)                  |
+| 端午节:(60069,60072)                 |
+| 当天上午10时:(60192,60199)             |
+| 此前:(60236,60238)                  |
+| 当天中午12时:(60290,60297)             |
+| 8月:(60978,60980)                  |
+| 16日下午:(61286,61291)               |
+| 现在:(61385,61387)                  |
+| 7月17日:(61410,61415)               |
+| 18日:(61416,61419)                 |
+| 暑假:(61478,61480)                  |
+| 17日下午:(61516,61521)               |
+| 今天:(61646,61648)                  |
+| 周末:(61650,61652)                  |
+| 节假日:(61669,61672)                 |
+| 现在:(61844,61846)                  |
+| 目前:(62989,62991)                  |
+| 瞬间:(63196,63198)                  |
+| 瞬间:(63221,63223)                  |
+| 昨日:(63390,63392)                  |
+| 7月12日:(63432,63437)               |
+| 12日下午5点40分:(63445,63455)          |
+| 12日下午:(63507,63512)               |
+| 12日:(63565,63568)                 |
+| 7点30分:(63569,63574)               |
+| 12日下午4点:(63619,63626)             |
+| 夏季:(64006,64008)                  |
+| 前天晚上11点:(64048,64055)             |
+| 瞬间:(64104,64106)                  |
+| 当时:(64333,64335)                  |
+| 11点04分:(64375,64381)              |
+| 11点15分:(64460,64466)              |
+| 昨天凌晨1点:(64689,64695)              |
+| 昨天下午:(64710,64714)                |
+| 去年:(64755,64757)                  |
+| 去年:(64811,64813)                  |
+| 今晨:(65006,65008)                  |
+| 18日:(65373,65376)                 |
+| 当天:(65422,65424)                  |
+| 18日下午:(65841,65846)               |
+| 19日:(65904,65907)                 |
+| 2004年:(65931,65936)               |
+| 18日:(65991,65994)                 |
+| 当天17时:(65996,66001)               |
+| 22时:(66006,66009)                 |
+| 当时:(66204,66206)                  |
+| 当时:(66251,66253)                  |
+| 19日下午:(66345,66350)               |
+| 19日:(66420,66423)                 |
+| 18日:(66841,66844)                 |
+| 过去:(66868,66870)                  |
+| 19日:(66933,66936)                 |
+| 今年5月:(67041,67045)                |
+| 18日:(67108,67111)                 |
+| 当天:(67113,67115)                  |
+| 1994年7月18日:(67134,67144)          |
+| 19日:(67237,67240)                 |
+| 2008年2月:(67277,67284)             |
+| 事后:(67315,67317)                  |
+| 18日:(67587,67590)                 |
+| 当晚:(67606,67608)                  |
+| 15日:(67981,67984)                 |
+| 日前:(67992,67994)                  |
+| 日前:(68281,68283)                  |
+| 1960年:(68305,68310)               |
+| 当日:(68495,68497)                  |
+| 当日:(69012,69014)                  |
+| 7月26日:(69557,69562)               |
+| 6月20日:(69817,69822)               |
+| 20日:(69842,69845)                 |
+| 今年:(69886,69888)                  |
+| 5月1日:(69899,69903)                |
+| 昨日:(70474,70476)                  |
+| 6月27日下午:(70508,70515)             |
+| 往常:(70528,70530)                  |
+| 中午:(70535,70537)                  |
+| 过去:(70716,70718)                  |
+| 当时:(70815,70817)                  |
+| 当时:(70926,70928)                  |
+| 当时:(70965,70967)                  |
+| 当时:(70982,70984)                  |
+| 平时:(71048,71050)                  |
+| 当时:(71078,71080)                  |
+| 当时:(71127,71129)                  |
+| 北宋:(71404,71406)                  |
+| 昨天凌晨:(72204,72208)                |
+| 夜里11时:(72309,72314)               |
+| 昨天凌晨2时:(72322,72328)              |
+| 当时:(72418,72420)                  |
+| 最近:(72424,72426)                  |
+| 近日:(72880,72882)                  |
+| 当晚:(73232,73234)                  |
+| 此前:(73299,73301)                  |
+| 2011年:(73469,73474)               |
+| 将来:(74044,74046)                  |
+| 如今:(74292,74294)                  |
+| 周五:(74648,74650)                  |
+| 近期:(74899,74901)                  |
+| 上半年:(74904,74907)                 |
+| 周五:(74965,74967)                  |
+| 近期:(75039,75041)                  |
++-----------------------------------+
+518 rows in set
+
+View: SoccerTeam
++-------------------+
+| teamName          |
++-------------------+
+| 年轻人:(4914,4917)   |
+| 年轻人:(5322,5325)   |
+| 利物浦:(16317,16320) |
+| 切尔西:(16331,16334) |
+| 切尔西:(16363,16366) |
+| 年轻人:(56548,56551) |
+| 年轻人:(56705,56708) |
+| 大力神:(66325,66328) |
++-------------------+
+8 rows in set
+
+View: Result
++------------------+
+| result           |
++------------------+
+| 平:(4947,4948)    |
+| 平:(7247,7248)    |
+| 平:(8537,8538)    |
+| 胜:(8949,8950)    |
+| 负于:(15301,15303) |
+| 平:(15372,15373)  |
+| 击败:(16266,16268) |
+| 淘汰:(16347,16349) |
+| 输:(17020,17021)  |
+| 输:(20320,20321)  |
+| 输:(20335,20336)  |
+| 输:(20381,20382)  |
+| 胜:(24750,24751)  |
+| 逆转:(26555,26557) |
+| 赢:(40275,40276)  |
+| 平:(42618,42619)  |
+| 领先:(45183,45185) |
+| 胜:(45334,45335)  |
+| 领先:(45442,45444) |
+| 平:(69539,69540)  |
+| 平:(73310,73311)  |
++------------------+
+21 rows in set
+
+View: Match
++-------------------+
+| match             |
++-------------------+
+| 世界杯:(15385,15388) |
+| 世界杯:(16242,16245) |
+| 欧冠:(16311,16313)  |
+| 世界杯:(16392,16395) |
+| 欧洲杯:(16463,16466) |
+| 欧冠:(16506,16508)  |
+| 联赛:(16508,16510)  |
+| 中超:(21181,21183)  |
+| 亚冠:(21189,21191)  |
++-------------------+
+9 rows in set
+
+View: Level
++-------------------+
+| level             |
++-------------------+
+| 决赛:(15388,15390)  |
+| 决赛:(16245,16247)  |
+| 半决赛:(16313,16316) |
+| 总决赛:(19998,20001) |
+| 决赛:(19999,20001)  |
+| 总决赛:(20322,20325) |
+| 决赛:(20323,20325)  |
+| 总决赛:(20339,20342) |
+| 决赛:(20340,20342)  |
+| 总决赛:(20356,20359) |
+| 决赛:(20357,20359)  |
++-------------------+
+11 rows in set
+
+View: Score
++---------------------+
+| vs                  |
++---------------------+
+| 0比1:(15298,15301)   |
+| 2-3:(20363,20366)   |
+| 92-20:(20667,20672) |
+| 92-19:(20789,20794) |
+| 11-20:(29528,29533) |
+| 11-20:(29613,29618) |
+| 50-20:(49038,49043) |
+| 49-20:(49076,49081) |
+| 23:27:(57690,57695) |
+| 00-88:(58061,58066) |
+| 7-95:(58066,58070)  |
+| 1-6:(58656,58659)   |
+| 13:40:(70515,70520) |
+| 2-3:(73791,73794)   |
++---------------------+
+14 rows in set
+
+View: Competition
+Empty set
+
